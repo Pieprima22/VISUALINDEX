@@ -1459,9 +1459,9 @@ const projects = [
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=79bc6026-a8b2-4c00-bbdc-fdd1a5bb822c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
-            paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-            paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-            paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+            paragraph1: "The DIFC Office Tower is a transformative addition to Dubai’s financial district, combining luxury, work, and leisure in a single architectural statement. Its defining V-cut design creates striking symmetry and dynamic stepped terraces that cascade toward the city, framing panoramic views of Gate Avenue and Dubai’s skyline. The tower integrates natural landscapes into its vertical form, with the V-cut terraces blending greenery into the structure while maintaining a clean, bold form.",
+            paragraph2: "At the top, the luxurious rooftop club provides an elevated leisure experience, offering stunning views and exclusive amenities. The stepped design of the club’s crown enhances the visual elegance of the tower, revealing intricate terraces that merge nature and urban sophistication. The podium, comprising five floors of F&B spaces includes outdoor seating areas surrounded by greenery that encourage relaxation and social interaction.",
+            paragraph3: "Anchored by a grand triple-height lobby and landscaped forecourt, the Immersive Tower creates a strong connection to its urban surroundings. The project prioritizes openness, with inviting spaces that integrate seamlessly with the street, creating dialogue between architecture and community"
         },
         teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -2590,7 +2590,7 @@ const projects = [
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=48cfce39-4ec4-4136-b806-95036d2c3696&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     imageUrl : 'https://aedasme.egnyte.com/opendocument.do?entryId=2598e5c9-2978-4dbc-ab07-5c8d5e32fb20&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2021, 
-    client: 'MODON',
+    client: 'ELLINGTON',
     program: 'RESIDENTIAL', 
     typology: ' RESIDENTIAL', 
     location: 'DUBAI, UAE',
@@ -2866,9 +2866,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=6670f076-f9a9-4fca-b0d2-e285ded67688&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The NEOM Hotel and Chandelier emerges as an innovative vertical landmark, seamlessly integrating architecture, time, and nature. Positioned as a visionary addition to The Line, the project celebrates a deep connection between the past, present, and future. Designed to symbolize continuity, the structure embodies three distinct treasuries: the Bio Treasury, Human Treasury, and NEOM Treasury. Together, these components reflect a transformative narrative of preservation, human experience, and progress.",
+        paragraph2: "The Bio Treasury serves as a vertical botanical garden, meticulously safeguarding biodiversity across millennia. From ancient ecosystems to future landscapes, this living archive reconnects humanity to nature’s beauty and resilience. The Human Treasury focuses on valuing humanity’s physical and physiological legacy, providing a repository of data that advances health and wellbeing.",
+        paragraph3: "Finally, the NEOM Treasury unveils a bold vision for the future. A platform for innovation, it showcases architectural breakthroughs and digital advancements that align with The Line’s ambitions. Inspired by the ideals of preserving nature, valuing human experience, and unveiling the future, the Line Treasury represents a groundbreaking convergence of natural preservation, human ingenuity, and sustainable design."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -2982,9 +2982,9 @@ const projects = [
     client: "FISHER MAN'S COVE HOTEL LIMITED",
     program: 'MASTERPLAN', 
     typology: 'MASTERPLAN', 
-    location: 'KSA, SAUDI ARABIA',
+    location: 'SEYCHELLES',
     scale: 'XL', 
-    epoch: 'PAST', 
+    epoch: 'PRESENT', 
     hoverImage: "./hover/SEY.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/87e9bef5-acf5-414d-ab07-474e2714b049',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/3623a2e6-bce4-4174-b119-40ff7e643d16',
@@ -4574,9 +4574,9 @@ function updateGrid(activeFilter) {
             if (epoch === 'PRESENT') {
                 epochSection.style.margin = '0 20px'; // Equal margin on both sides
             } else if (epoch === 'PAST') {
-                epochSection.style.margin = '0 10px 0 0'; // Right margin only
+                epochSection.style.margin = '0 25px 0 0'; // Right margin only
             } else if (epoch === 'FUTURE') {
-                epochSection.style.margin = '0 0 0 25px'; // Left margin only
+                epochSection.style.margin = '0 0 0 49px'; // Left margin only
             }
     
             // Create columns container
@@ -4589,13 +4589,14 @@ function updateGrid(activeFilter) {
     
             // Adjust gap for PRESENT epoch
             if (epoch === 'PRESENT') {
-                columnsContainer.style.gap = '28px';
+                columnsContainer.style.gap = '35px';
                 columnsContainer.style.justifyContent = 'center';
                 columnsContainer.style.padding = '0 8px';
+
             }
     
             // Determine number of columns based on epoch
-            const numColumns = epoch === 'PRESENT' ? 4 : 3;
+            const numColumns = epoch === 'PRESENT' ? 5 : 3;
     
             // Create columns
             const columns = [];
@@ -4612,7 +4613,7 @@ function updateGrid(activeFilter) {
                 
                 column.style.display = 'flex';
                 column.style.flexDirection = 'column-reverse';
-                column.style.gap = epoch === 'PRESENT' ? '9px' : '7px';
+                column.style.gap = epoch === 'PRESENT' ? '7px' : '7px';
     
                 columnsContainer.appendChild(column);
                 columns.push(column);
