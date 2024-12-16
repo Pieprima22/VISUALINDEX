@@ -5179,11 +5179,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabButtons = document.querySelectorAll('.tab-button');
     const tabContents = document.querySelectorAll('.tab-content');
     const resetTabs = () => {
-        // Remove active class from all buttons and contents
         tabButtons.forEach(btn => btn.classList.remove('active'));
-        tabContents.forEach(content => content.classList.remove('active'));
+        tabContents.forEach(content => {
+            content.classList.remove('active');
+            content.scrollTop = 0; // Reset scroll position when resetting tabs
+        });
         
-        // Set the first tab as active (assuming you want the first tab as default)
         if (tabButtons.length > 0 && tabContents.length > 0) {
             tabButtons[0].classList.add('active');
             const firstTabId = tabButtons[0].dataset.tab;
@@ -5192,14 +5193,17 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
-            // Remove active class from all buttons and contents
             tabButtons.forEach(btn => btn.classList.remove('active'));
-            tabContents.forEach(content => content.classList.remove('active'));
+            tabContents.forEach(content => {
+                content.classList.remove('active');
+                content.scrollTop = 0; // Reset scroll position for all tabs
+            });
 
-            // Add active class to clicked button and corresponding content
             button.classList.add('active');
             const tabId = button.dataset.tab;
-            document.getElementById(tabId).classList.add('active');
+            const activeContent = document.getElementById(tabId);
+            activeContent.classList.add('active');
+            activeContent.scrollTop = 0; // Ensure the new active tab is scrolled to top
         });
     });
 
