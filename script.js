@@ -5652,18 +5652,56 @@ function createGlobeVisualization() {
         const sphereGeometry = new THREE.SphereGeometry(GLOBE_RADIUS, 32, 32);
         const sphereMaterial = new THREE.MeshBasicMaterial({
             map: new THREE.TextureLoader().load('Map_lighten.png'),
-            transparent: true,
-            opacity: 0.9
+            transparent: false,
+            opacity: 1
         });
         const globe = new THREE.Mesh(sphereGeometry, sphereMaterial);
         scene.add(globe);
 
         camera.position.z = 12;
 
+            // Add zoom controls
+            const ZOOM_SPEED = 0.5;
+            const MIN_ZOOM = 10;
+            const MAX_ZOOM = 12;
+            let targetZoom = camera.position.z;
+            
+            // Smooth zoom function
+            function updateZoom() {
+                const zoomDiff = targetZoom - camera.position.z;
+                if (Math.abs(zoomDiff) > 0.01) {
+                    camera.position.z += zoomDiff * 0.1;
+                }
+            }
+
+            // Wheel event handler for zoom
+        container.addEventListener('wheel', (event) => {
+            event.preventDefault();
+            const delta = event.deltaY;
+            
+            // Calculate new target zoom
+            targetZoom += delta * 0.01 * ZOOM_SPEED;
+            
+            // Clamp zoom limits
+            targetZoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, targetZoom));
+        });
+
         // Raycaster for hover detection
         const raycaster = new THREE.Raycaster();
         const mouse = new THREE.Vector2();
-
+ // Helper function to check if a point is visible to the camera
+ function isPointVisible(point) {
+    const globePosition = globe.position;
+    const cameraPosition = camera.position;
+    
+    // Vector from globe center to point
+    const globeToPoint = new THREE.Vector3().subVectors(point, globePosition);
+    // Vector from globe center to camera
+    const globeToCamera = new THREE.Vector3().subVectors(cameraPosition, globePosition);
+    
+    // If the angle between these vectors is less than 90 degrees, the point is on the visible side
+    return globeToPoint.dot(globeToCamera) > 0;
+}
         // Modified marker creation function
         function createMarker(lat, lng, imagePath, label, size) {
             const phi = (90 - lat) * (Math.PI / 180);
@@ -5743,7 +5781,7 @@ function createGlobeVisualization() {
             raycaster.setFromCamera(mouse, camera);
             const intersects = raycaster.intersectObjects(globe.children);
 
-            // Reset markers
+            // Reset all markers first
             globe.children.forEach((child) => {
                 if (child instanceof THREE.Sprite && child.userData.isHovered) {
                     const { width, height } = child.userData.originalScale;
@@ -5751,7 +5789,6 @@ function createGlobeVisualization() {
                     child.userData.isHovered = false;
                 }
             });
-
             if (intersects.length > 0) {
                 const marker = intersects[0].object;
                 if (marker instanceof THREE.Sprite) {
@@ -5844,6 +5881,7 @@ function createGlobeVisualization() {
         // Animation functions remain the same...
         function animate() {
             requestAnimationFrame(animate);
+            updateZoom();
 
             if (!isDragging) {
                 rotationSpeed.x *= dampingFactor;
