@@ -1541,9 +1541,10 @@ const projects = [
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=571c862e-242e-4844-9d01-8fccd175ec81&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
-            paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-            paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-            paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+            paragraph1: "The proposed project reimagines the future of sports facilities in Dubai, addressing the underutilization of conventional stadiums, which often remain empty and operate at limited capacity. Designed as a multi-sport, multi-purpose venue, the project introduces an adaptable stadium that maximizes usage throughout the year.",
+            paragraph2: "The design takes on a radial configuration, symbolizing resilience, strength, and endurance. The form evokes the energy of a vortex—dynamic, ever-changing, and alive with activity. This vision is further amplified by its integration of greenery, creating a vortex of both adrenaline and nature.",
+            paragraph3: "The program extends beyond sports, offering outdoor facilities, extreme games arenas, retail spaces, residential components, and community areas, ensuring the space remains a vibrant hub for recreation, entertainment, and living. A defining feature of the design is the iconic roof, an architectural statement that unifies the space while providing shade and enhancing functionality.",
+            paragraph4: "This proposal not only addresses the evolving needs of sports infrastructure but also positions itself as a sustainable, year-round destination—a testament to Dubai’s innovative spirit and ambition to redefine urban experiences."
         },
         teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -5159,19 +5160,8 @@ function updateGrid(activeFilter) {
     });
 }
 document.addEventListener('DOMContentLoaded', () => {
-    const preloader = document.querySelector('.preloader');
     const content = document.querySelector('.content');
     
-    window.addEventListener('load', () => {
-        // First fade out the preloader
-        preloader.classList.add('fade-out');
-        
-        // Then fade in the content
-        setTimeout(() => {
-            content.classList.add('fade-in');
-            preloader.style.display = 'none';
-        }, 450);
-    });
 
     const filterButtons = document.querySelectorAll('.filter-btn');
     const projectGrid = document.getElementById('projectGrid');    
@@ -5863,44 +5853,43 @@ function createGlobeVisualization() {
         // Define markers with simplified values
         const markerDefinitions = [
             // Southeast Asia
-            { lat: 13, lng: 122, image: './PH.png', label: 'Philippines', size: 150 },
-            { lat: 15, lng: 101, image: './TH.png', label: 'Thailand', size: 120 },
+            { lat: 13, lng: 122, image: './PH.png', label: 'Philippines', size: 104 },
+            { lat: 15, lng: 101, image: './TH.png', label: 'Thailand', size: 3 },
             
             // Middle East & West Asia
-            { lat: 25.276987, lng: 55.296249, image: './UAE.png', label: 'UAE', size: 200 },
-            { lat: 15.369445, lng: 44.191006, image: './YEMEN.png', label: 'Yemen', size: 80 },
-            { lat: 24.713552, lng: 46.675296, image: './SAUDI.png', label: 'KSA', size: 180 },
-            { lat: 33.513807, lng: 42.276528, image: './SYRIA.png', label: 'Syria', size: 75 },
-            { lat: 33.888629, lng: 35.495479, image: './LEBANON.png', label: 'Lebanon', size: 90 },
-            { lat: 35.715298, lng: 51.404343, image: './IRAN.png', label: 'Iran', size: 160 },
-            { lat: 40.409264, lng: 49.867092, image: './AZBJ.png', label: 'Azerbaijan', size: 110 },
+            { lat: 25.276987, lng: 55.296249, image: './UAE.png', label: 'UAE', size: 0 },
+            { lat: 15.369445, lng: 44.191006, image: './YEMEN.png', label: 'Yemen', size: 1 },
+            { lat: 24.713552, lng: 46.675296, image: './SAUDI.png', label: 'KSA', size: 1 },
+            { lat: 33.513807, lng: 42.276528, image: './SYRIA.png', label: 'Syria', size: 5 },
+            { lat: 33.888629, lng: 35.495479, image: './LEBANON.png', label: 'Lebanon', size: 2 },
+            { lat: 35.715298, lng: 51.404343, image: './IRAN.png', label: 'Iran', size: 1 },
+            { lat: 40.409264, lng: 49.867092, image: './AZBJ.png', label: 'Azerbaijan', size: 1 },
             
             // South Asia
-            { lat: 28.613939, lng: 77.209021, image: './INDIA.png', label: 'India', size: 250 },
+            { lat: 28.613939, lng: 77.209021, image: './INDIA.png', label: 'India', size: 28 },
             
             // Europe
-            { lat: 51.507351, lng: -0.127758, image: './UK.png', label: 'UK', size: 180 },
-            { lat: 40.416775, lng: -3.703790, image: './SPAIN.png', label: 'Spain', size: 140 },
-            { lat: 38.722252, lng: -9.139337, image: './Portugal.png', label: 'Portugal', size: 95 },
-            { lat: 41.902784, lng: 12.496366, image: './ITALY.png', label: 'Italy', size: 170 },
-            { lat: 53.349805, lng: -6.260310, image: './IRELAND.png', label: 'Ireland', size: 85 },
-            { lat: 37.983810, lng: 23.727539, image: './GREECE.png', label: 'Greece', size: 100 },
+            { lat: 51.507351, lng: -0.127758, image: './UK.png', label: 'UK', size: 6 },
+            { lat: 40.416775, lng: -3.703790, image: './SPAIN.png', label: 'Spain', size: 6 },
+            { lat: 38.722252, lng: -9.139337, image: './Portugal.png', label: 'Portugal', size: 3 },
+            { lat: 41.902784, lng: 12.496366, image: './ITALY.png', label: 'Italy', size: 1 },
+            { lat: 37.983810, lng: 23.727539, image: './GREECE.png', label: 'Greece', size: 1 },
             
             // Africa
-            { lat: 30.033333, lng: 31.233334, image: './EGYPT.png', label: 'Egypt', size: 190 },
-            { lat: -25.746111, lng: 28.188056, image: './SOUNTHAFRI.png', label: 'South Africa', size: 160 },
+            { lat: 30.033333, lng: 31.233334, image: './EGYPT.png', label: 'Egypt', size: 17 },
+            { lat: -25.746111, lng: 28.188056, image: './SOUNTHAFRI.png', label: 'South Africa', size: 1 },
             
             // Oceania
-            { lat: -35.280937, lng: 149.130005, image: './AUS.png', label: 'Australia', size: 220 },
+            { lat: -35.280937, lng: 149.130005, image: './AUS.png', label: 'Australia', size: 1 },
             
             // North America
-            { lat: 38.907192, lng: -77.036871, image: './US.png', label: 'US', size: 300 },
-            { lat: 45.424721, lng: -75.695000, image: './CAN.png', label: 'Canada', size: 180 },
+            { lat: 38.907192, lng: -77.036871, image: './US.png', label: 'US', size: 1 },
+            { lat: 45.424721, lng: -75.695000, image: './CAN.png', label: 'Canada', size: 2 },
             
             // South America
-            { lat: -33.448890, lng: -70.669265, image: './CHILE.png', label: 'Chile', size: 130 },
-            { lat: -34.603684, lng: -58.381559, image: './AGTN.png', label: 'Argentina', size: 145 },
-            { lat: -15.826691, lng: -47.921822, image: './BRZ.png', label: 'Brazil', size: 210 }
+            { lat: -33.448890, lng: -70.669265, image: './CHILE.png', label: 'Chile', size: 1 },
+            { lat: -34.603684, lng: -58.381559, image: './AGTN.png', label: 'Argentina', size: 5 },
+            { lat: -15.826691, lng: -47.921822, image: './BRZ.png', label: 'Brazil', size: 2 }
         ];
         // Create and add markers
         Promise.all(markerDefinitions.map(def => 
