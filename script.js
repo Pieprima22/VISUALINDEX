@@ -5635,9 +5635,12 @@ mainSearchInput.addEventListener("input", function() {
     updateGrid('CHRONOLOGICAL');
 });
 function createGlobeVisualization() {
+    let currentGlobeCleanup = null; // Keep track of current globe cleanup function
+
     function createGlobe(containerId) {
         const container = document.getElementById(containerId);
         if (!container) return null;
+        let currentGlobeCleanup = null; // Keep track of current globe cleanup function
 
         // Create tooltip element with simplified style
         const tooltip = document.createElement('div');
@@ -5962,19 +5965,20 @@ function createGlobeVisualization() {
             container.style.marginBottom = '2rem';
             whoWeAreContent.insertBefore(container, whoWeAreContent.firstChild);
         }
-
+        function cleanupCurrentGlobe() {
+            if (currentGlobeCleanup) {
+                currentGlobeCleanup();
+                currentGlobeCleanup = null;
+            }
+        }
         whoWeAreTab.addEventListener('click', () => {
-            const globeCleanup = createGlobe('globe-container');
-            
-            document.querySelectorAll('.tab-button').forEach(button => {
-                if (button !== whoWeAreTab) {
-                    button.addEventListener('click', () => {
-                        if (globeCleanup) {
-                            globeCleanup();
-                        }
-                    });
-                }
-            });
+            cleanupCurrentGlobe();
+            currentGlobeCleanup = createGlobe('globe-container');
+        });
+        document.querySelectorAll('.tab-button').forEach(button => {
+            if (button !== whoWeAreTab) {
+                button.addEventListener('click', cleanupCurrentGlobe);
+            }
         });
     }
 
