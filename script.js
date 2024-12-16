@@ -5478,39 +5478,63 @@ function updateSearchResults(query) {
 
     const displayedResults = new Set();
     currentSearchResults.clear(); // Reset current search results
-        // First, add keyword suggestions
- // First, add keyword suggestions
- const matchingSuggestions = suggestions.filter(keyword => 
-    keyword.toLowerCase().includes(query.toLowerCase()) && 
-    !displayedResults.has(keyword)
-);
 
-matchingSuggestions.forEach(keyword => {
-    displayedResults.add(keyword);
-    const result = createSearchResult(null, keyword);
-    searchContent.appendChild(result);
-});
-
-    
-projects.forEach(project => {
-    const hasMatchingTag = project.tags && project.tags.some(tag => 
-        tag.toLowerCase().includes(query.toLowerCase())
+    // First, add keyword suggestions
+    const matchingSuggestions = suggestions.filter(keyword => 
+        keyword.toLowerCase().includes(query.toLowerCase()) && 
+        !displayedResults.has(keyword)
     );
 
-    if (project.title.toLowerCase().includes(query) ||
-        project.typology?.toLowerCase().includes(query) ||
-        project.program?.toLowerCase().includes(query) ||
-        project.location?.toLowerCase().includes(query) ||
-        hasMatchingTag) {
+    matchingSuggestions.forEach(keyword => {
+        displayedResults.add(keyword);
+        const result = createSearchResult(null, keyword);
+        searchContent.appendChild(result);
+    });
+// Separate projects into three categories:
+    // 1. Titles starting with the query
+    // 2. Titles containing the query but not starting with it
+    // 3. Other matches (location, typology, program, tags)
+    const startsWithQuery = [];
+    const containsQuery = [];
+    const otherMatches = [];
+    
+    projects.forEach(project => {
+        const projectTitle = project.title.toLowerCase();
+        const queryLower = query.toLowerCase();
+        const hasMatchingTag = project.tags && project.tags.some(tag => 
+            tag.toLowerCase().includes(queryLower)
+        );
 
-        currentSearchResults.add(project); // Add to current search results
-
-        if (!displayedResults.has(project.title)) {
-            displayedResults.add(project.title);
-            const result = createSearchResult(project);
-            searchContent.appendChild(result);
+        // Check if already displayed
+        if (displayedResults.has(project.title)) {
+            return;
         }
-    }
+
+        // Add to appropriate array based on match type
+        if (projectTitle.startsWith(queryLower)) {
+            startsWithQuery.push(project);
+        } else if (projectTitle.includes(queryLower)) {
+            containsQuery.push(project);
+        } else if (
+            project.typology?.toLowerCase().includes(queryLower) ||
+            project.program?.toLowerCase().includes(queryLower) ||
+            project.location?.toLowerCase().includes(queryLower) ||
+            hasMatchingTag
+        ) {
+            otherMatches.push(project);
+        }
+    });
+
+// Add all matches to currentSearchResults
+[...startsWithQuery, ...containsQuery, ...otherMatches].forEach(project => {
+    currentSearchResults.add(project);
+});
+
+// Display results in order: starts with, contains, other matches
+[...startsWithQuery, ...containsQuery, ...otherMatches].forEach(project => {
+    displayedResults.add(project.title);
+    const result = createSearchResult(project);
+    searchContent.appendChild(result);
 });
 
 updateVisibilityBasedOnCurrentFilter();
