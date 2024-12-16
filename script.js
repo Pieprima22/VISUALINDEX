@@ -4092,6 +4092,86 @@ const projects = [
         "https://aedasme.egnyte.com/opendocument.do?entryId=e6db641a-db61-410d-a16e-599f88f55407&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=07901d1f-896d-4575-9ef9-61093973377e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
     ]
+},
+{
+    id: 90, 
+    title: 'RETAIL MALL, MULTAN',  
+    abbr: 'MUL', 
+    image: "./ICON/MUL.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=bc767c44-e0cd-4dfa-9a39-3e08f4ad4161&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=539d4ff7-19ea-47fd-81a2-cf5ff907b6c8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2018,
+    client: "FAISAL ASGHAR ENTERPRISES (PVT) LIMITED",
+    program: 'OTHERS', 
+    typology: 'MALL', 
+    location: 'PAKISTAN',
+    scale: 'L', 
+    epoch: 'PRESENT', 
+    hoverImage: "./hover/MUL.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/64be8529-f7b3-40df-af37-b2c41ed9edf8',
+    visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/d986433f-575e-49e7-92af-0a374f98b99b',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=2b89f08f-b174-42d9-888f-be92f16b3b13&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [        
+        "https://aedasme.egnyte.com/opendocument.do?entryId=2c2720cb-6983-4e2c-b15f-3ac829ad187f&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=65a4b8f7-a27f-45f4-a558-5d6a25089b5e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=a1d5be8b-012e-4b90-a75a-e74fd17b4dbc&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=9a944003-6eae-4954-a284-687e12bcfd87&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+    ]
+},
+{
+    id: 91, 
+    title: 'MODON SCHOOL',  
+    abbr: 'SCH', 
+    image: "./ICON/SCH.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=a85a466c-ebd9-40cb-8790-cc985f74588e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=6091900c-0a55-4af9-9033-87de3cf94037&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2015,
+    client: "MODON",
+    program: 'OTHERS', 
+    typology: 'SCHOOL', 
+    location: 'KSA, SAUDI ARABIA',
+    scale: 'L', 
+    epoch: 'PRESENT', 
+    hoverImage: "./hover/SCH.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/MODON%20School/Presentation',
+    visualLink: 'https://aedasme.egnyte.com/navigate/file/efbf958e-c362-421d-b03f-cbfa6bcb893d',
+    threeDLink: 'https://aedasme.egnyte.com/navigate/file/90ffd3ab-5edb-450a-a9ac-72ccbb2bd9ef',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=b15fe66f-8eee-47c2-9d06-76aed0f28fbb&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [        
+        "https://aedasme.egnyte.com/opendocument.do?entryId=48a9bc7d-d86a-4428-8ed1-2ba3d8191468&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=4e1ec66a-63d7-4e11-9e31-85e55400ad18&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=91d6f527-6de1-4b15-b52f-6f132e897b71&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
 }
 
 ];
@@ -4194,14 +4274,17 @@ function createProjectIcon(project, filter) {
 
 function hideSearch() {
     const searchTab = document.querySelector('.search-tab');
-    searchTab.style.display = 'none';
+    if (searchTab) {
+        searchTab.style.display = 'none';
+    }
 }
 
 function showSearch() {
     const searchTab = document.querySelector('.search-tab');
-    searchTab.style.display = 'flex';
+    if (searchTab) {
+        searchTab.style.display = 'flex';
+    }
 }
-
 function openProjectModal(project) {
     const modal = document.getElementById('projectModal');
     hideSearch();
@@ -4323,25 +4406,37 @@ closeButton.innerHTML = `
     }
 
     const closeModalAndReset = () => {
-        modal.style.display = 'none';
-        modal.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'instant'
-        });
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'instant'
-        });
-        modal.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-        document.body.scrollTop = 0;
-        document.body.style.overflow = 'auto';
-        document.documentElement.style.scrollBehavior = 'auto';
-        showSearch();
+        const modal = document.getElementById('projectModal');
+        if (!modal) return;
+        
+        try {
+            // Restore search value from modal's dataset
+            if (modal.dataset.searchValue) {
+                mainSearchInput.value = modal.dataset.searchValue;
+                // Trigger search update
+                const event = new Event('input');
+                mainSearchInput.dispatchEvent(event);
+            }
+            
+            // Show search
+            showSearch();
+            
+            // Reset modal and scroll positions
+            modal.style.display = 'none';
+            modal.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+            window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+            document.body.style.overflow = 'auto';
+            
+            // Clear modal's stored data
+            delete modal.dataset.searchValue;
+            delete modal.dataset.currentProject;
+        } catch (error) {
+            console.error('Error closing modal:', error);
+            // Ensure modal is hidden and body scroll is restored
+            if (modal) modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
     };
-
     closeButton.onclick = closeModalAndReset;
     homeButton.onclick = closeModalAndReset;
 
@@ -5324,13 +5419,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const searchContent = document.getElementById("searchContent");
     const searchIcon = document.querySelector(".search-icon");
     const filterButtons = document.querySelectorAll('.filter-btn');
-    const projectGrid = document.getElementById('projectGrid');
     let globeInstance = null;
-    let activeHoverArea = null;
     let searchDebounceTimer = null;
+    let currentSearchResults = new Set(); // Store current search results globally
+
 
     // List of predefined keywords for auto-fill
-    const suggestions = ["HIGH-RISE", "AWARDED", "CULTURAL", "RESIDENTIAL", "HOSPITALITY", "INTERIOR", "BUILT"];
+    const suggestions = ["HIGH-RISE", "AWARDED", "INTERIOR", "BUILT"];
 
     // Toggle search input visibility when clicking the search icon
     searchIcon.addEventListener("click", function() {
@@ -5340,6 +5435,17 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             searchContent.style.display = "none";
         }
+    });
+    // Debounced search input handler
+    mainSearchInput.addEventListener("input", function() {
+        if (searchDebounceTimer) {
+            clearTimeout(searchDebounceTimer);
+        }
+
+        searchDebounceTimer = setTimeout(() => {
+            const query = mainSearchInput.value.toLowerCase().trim();
+            updateSearchResults(query);
+        }, 150);
     });
   // Cache DOM elements and project data
   const projectElements = new Map();
@@ -5360,91 +5466,122 @@ mainSearchInput.addEventListener("input", function() {
         updateSearchResults(query);
     }, 150); // 150ms delay
 });
-    function updateSearchResults(query) {
-        searchContent.innerHTML = "";
-        searchContent.style.display = query ? "block" : "none";
+function updateSearchResults(query) {
+    searchContent.innerHTML = "";
+    searchContent.style.display = query ? "block" : "none";
     
-        if (!query) {
-            const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
-            if (activeFilter === 'LOCATION' && globeInstance) {
-                globeInstance.resetAllMarkers();
-            } else {
-                showAllProjects();
-            }
-            return;
-        }
-    
-        const displayedResults = new Set();
-        const matchingProjects = new Set();
-        
+    if (!query) {
+        currentSearchResults.clear(); // Clear the search results
+        showAllProjects();
+        return;
+    }
+
+    const displayedResults = new Set();
+    currentSearchResults.clear(); // Reset current search results
         // First, add keyword suggestions
-        const matchingSuggestions = suggestions.filter(keyword => 
-            keyword.toLowerCase().includes(query.toLowerCase()) && 
-            !displayedResults.has(keyword)
-        );
-        
-        matchingSuggestions.forEach(keyword => {
-            displayedResults.add(keyword);
-            const result = createSearchResult(null, keyword);
+ // First, add keyword suggestions
+ const matchingSuggestions = suggestions.filter(keyword => 
+    keyword.toLowerCase().includes(query.toLowerCase()) && 
+    !displayedResults.has(keyword)
+);
+
+matchingSuggestions.forEach(keyword => {
+    displayedResults.add(keyword);
+    const result = createSearchResult(null, keyword);
+    searchContent.appendChild(result);
+});
+
+    
+projects.forEach(project => {
+    const hasMatchingTag = project.tags && project.tags.some(tag => 
+        tag.toLowerCase().includes(query.toLowerCase())
+    );
+
+    if (project.title.toLowerCase().includes(query) ||
+        project.typology?.toLowerCase().includes(query) ||
+        project.program?.toLowerCase().includes(query) ||
+        project.location?.toLowerCase().includes(query) ||
+        hasMatchingTag) {
+
+        currentSearchResults.add(project); // Add to current search results
+
+        if (!displayedResults.has(project.title)) {
+            displayedResults.add(project.title);
+            const result = createSearchResult(project);
             searchContent.appendChild(result);
-        });
-    
-        // Then, add project titles
-        projects.forEach(project => {
-            const hasMatchingTag = project.tags && project.tags.some(tag => 
-                tag.toLowerCase().includes(query.toLowerCase())
-            );
-    
-            if (project.title.toLowerCase().includes(query) ||
-                project.typology?.toLowerCase().includes(query) ||
-                project.program?.toLowerCase().includes(query) ||
-                project.location?.toLowerCase().includes(query) ||
-                hasMatchingTag) {
-    
-                matchingProjects.add(project);
-    
-                if (!displayedResults.has(project.title)) {
-                    displayedResults.add(project.title);
-                    const result = createSearchResult(project);
-                    searchContent.appendChild(result);
-                }
-            }
-        });
-    
-        const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
-        if (activeFilter === 'LOCATION' && globeInstance) {
-            updateGlobeMarkersVisibility(matchingProjects);
-        } else {
-            updateProjectVisibility(matchingProjects);
         }
     }
+});
 
-    function createSearchResult(project, keyword = null) {
-        const result = document.createElement("div");
-        result.classList.add("search-result");
+updateVisibilityBasedOnCurrentFilter();
+}
 
-        if (keyword) {
-            result.textContent = keyword;
-            result.addEventListener("click", () => {
-                mainSearchInput.value = keyword;
-                filterProjectsByKeyword(keyword);
-            });
-        } else {
-            result.textContent = project.title;
-            result.addEventListener("click", () => {
-                // Store the current search value
-                const currentValue = mainSearchInput.value;
-                
-                // Open the modal with the project
-                openProjectModal(project, currentValue);
-                
-                // Hide search dropdown but maintain input value
-                searchContent.style.display = "none";
-            });
-        }
-
-        return result;
+function updateVisibilityBasedOnCurrentFilter() {
+    const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
+    if (activeFilter === 'LOCATION' && globeInstance) {
+        updateGlobeMarkersVisibility(currentSearchResults);
+    } else {
+        updateProjectVisibility(currentSearchResults);
     }
+}
+
+function showAllProjects() {
+    const projectIcons = document.querySelectorAll('.project-icon');
+    projectIcons.forEach(icon => {
+        icon.style.display = "block";
+        icon.style.visibility = "visible";
+        icon.style.position = "relative";
+    });
+    
+    // If globe view is active, show all markers
+    const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
+    if (activeFilter === 'LOCATION' && globeInstance) {
+        globeInstance.resetAllMarkers();
+    }
+}
+
+function updateProjectVisibility(matchingProjects) {
+    const projectIcons = document.querySelectorAll('.project-icon');
+    
+    projectIcons.forEach(icon => {
+        const projectId = parseInt(icon.dataset.layoutId.split('-')[1]);
+        const project = projects.find(p => p.id === projectId);
+        
+        if (matchingProjects.size === 0 || matchingProjects.has(project)) {
+            icon.style.display = "block";
+            icon.style.visibility = "visible";
+            icon.style.position = "relative";
+        } else {
+            icon.style.display = "none";
+            icon.style.visibility = "hidden";
+            icon.style.position = "absolute";
+        }
+    });
+}
+function createSearchResult(project, keyword = null) {
+    const result = document.createElement("div");
+    result.classList.add("search-result");
+
+    if (keyword) {
+        result.textContent = keyword;
+        result.addEventListener("click", () => {
+            mainSearchInput.value = keyword;
+            filterProjectsByKeyword(keyword);
+        });
+    } else if (project) {
+        result.textContent = project.title;
+        result.addEventListener("click", () => {
+            // Add these debug logs
+            console.log("Project being passed to modal:", project);
+            console.log("Project properties:", Object.keys(project));
+            
+            const fullProject = projectsCache.get(project.id) || project;
+            openProjectModal(fullProject, mainSearchInput.value);
+        });
+    }
+
+    return result;
+}
 
     function showAllProjects() {
         const projectIcons = document.querySelectorAll('.project-icon');
@@ -5543,31 +5680,228 @@ mainSearchInput.addEventListener("input", function() {
     }
 
     function openProjectModal(project, searchValue = '') {
+        if (!project) {
+            console.error('No project provided to openProjectModal');
+            return;
+        }
+    
         const modal = document.getElementById('projectModal');
-        
-        // Store the search value in the modal's dataset
-        modal.dataset.searchValue = searchValue || mainSearchInput.value;
-        modal.dataset.currentProject = project.title;
-        
-        // Hide search
-        hideSearch();
-        
-        // Set up modal content
-        modal.style.display = 'block';
-        
-        // Set all your modal content
-        document.getElementById('projectCoverImage').src = project.coverImage;
-        document.getElementById('projectIconImage').src = project.imageUrl;
-        document.getElementById('projectTitle').textContent = project.title;
-        document.getElementById('projectLocation').textContent = project.location || 'N/A';
-        document.getElementById('projectDate').textContent = project.year || 'N/A';
-        document.getElementById('projectClientValue').textContent = project.client || 'N/A';
-        document.getElementById('projectTypologyValue').textContent = project.typology || 'N/A';
-        
-        // Reset scroll positions
-        modal.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-        document.body.style.overflow = 'hidden';
+        if (!modal) {
+            console.error('Modal element not found');
+            return;
+        }
+    
+        try {
+            // Store the search value and current project
+            modal.dataset.searchValue = searchValue || '';
+            modal.dataset.currentProject = project.title;
+            
+            // Hide search
+            hideSearch();
+            
+            // Set images
+            const coverImage = document.getElementById('projectCoverImage');
+            if (coverImage) {
+                coverImage.src = project.coverImage || '';
+                coverImage.alt = project.title;
+            }
+    
+            const iconImage = document.getElementById('projectIconImage');
+            if (iconImage) {
+                iconImage.src = project.imageUrl || '';
+                iconImage.alt = project.title;
+            }
+    
+            // Set basic project info
+            const elementMappings = {
+                'projectTitle': project.title,
+                'projectLocation': project.location,
+                'projectDate': project.year,
+                'projectClientValue': project.client,
+                'projectTypologyValue': project.typology
+            };
+    
+            Object.entries(elementMappings).forEach(([elementId, value]) => {
+                const element = document.getElementById(elementId);
+                if (element) {
+                    element.textContent = value || '';
+                }
+            });
+    
+            // Description image
+            const descriptionImage = document.getElementById('projectDescriptionImage');
+            if (descriptionImage) {
+                descriptionImage.src = project.descriptionImage || '';
+                descriptionImage.alt = `${project.title} Description`;
+            }
+    
+            // Description paragraphs
+            if (project.description) {
+                ['paragraph1', 'paragraph2', 'paragraph3', 'paragraph4'].forEach((key, index) => {
+                    const paragraphElement = document.getElementById(`descriptionParagraph${index + 1}`);
+                    if (paragraphElement && project.description[key]) {
+                        paragraphElement.textContent = project.description[key];
+                    }
+                });
+            }
+    
+            // Team members
+            const teamMembers = document.getElementById('teamMembers');
+            if (teamMembers && project.teamMembers) {
+                teamMembers.textContent = project.teamMembers;
+            }
+    
+            // Gallery
+            const galleryContainer = modal.querySelector('.gallery-container');
+            if (galleryContainer && project.galleryImages) {
+                galleryContainer.innerHTML = ''; // Clear existing images
+                project.galleryImages.forEach(imageUrl => {
+                    const imgContainer = document.createElement('div');
+                    imgContainer.className = 'gallery-image-container';
+                    
+                    const img = document.createElement('img');
+                    img.src = imageUrl;
+                    img.alt = `${project.title} Gallery Image`;
+                    img.className = 'gallery-image';
+                    
+                    imgContainer.appendChild(img);
+                    galleryContainer.appendChild(imgContainer);
+                });
+            }
+    
+            // Project links
+            const linksContainer = modal.querySelector('.project-links');
+            if (linksContainer) {
+                linksContainer.innerHTML = ''; // Clear existing links
+                
+                // Create links with only icons
+                const links = [
+                    { url: project.presentationLink, image: project.linkImages?.presentation },
+                    { url: project.visualLink, image: project.linkImages?.visual },
+                    { url: project.drawingLink, image: project.linkImages?.drawing },
+                    { url: project.threeDLink, image: project.linkImages?.threeD }
+                ];
+    
+                links.forEach(link => {
+                    if (link.url && link.image) {  // Only create if both URL and image exist
+                        const linkElement = document.createElement('a');
+                        linkElement.href = link.url;
+                        linkElement.className = 'project-link';
+                        linkElement.target = '_blank'; // Open in new tab
+    
+                        const linkImage = document.createElement('img');
+                        linkImage.src = link.image;
+                        linkImage.className = 'project-link-image';
+                        
+                        linkElement.appendChild(linkImage);
+                        linksContainer.appendChild(linkElement);
+                    }
+                });
+            }
+    
+            // Modal close handlers
+            const closeButton = modal.querySelector('.close-modal');
+            closeButton.innerHTML = `
+                <svg width="40" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter">
+                    <line x1="20" y1="6" x2="6" y2="20"></line>
+                    <line x1="6" y1="6" x2="20" y2="20"></line>
+                </svg>
+            `;
+            const homeButton = modal.querySelector('.home-modal');
+            
+            // Remove old event listener if exists
+            const oldKeydownHandler = modal.keydownHandler;
+            if (oldKeydownHandler) {
+                document.removeEventListener('keydown', oldKeydownHandler);
+            }
+    
+            const closeModalAndReset = () => {
+                if (!modal) return;
+                
+                try {
+                    // Restore search value from modal's dataset
+                    if (modal.dataset.searchValue) {
+                        mainSearchInput.value = modal.dataset.searchValue;
+                        // Trigger search update
+                        const event = new Event('input');
+                        mainSearchInput.dispatchEvent(event);
+                    }
+                    
+                    // Show search
+                    showSearch();
+                    
+                    // Reset modal and scroll positions
+                    modal.style.display = 'none';
+                    modal.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+                    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+                    document.body.style.overflow = 'auto';
+                    
+                    // Clear modal's stored data
+                    delete modal.dataset.searchValue;
+                    delete modal.dataset.currentProject;
+                } catch (error) {
+                    console.error('Error closing modal:', error);
+                    // Ensure modal is hidden and body scroll is restored
+                    if (modal) modal.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
+            };
+    
+            closeButton.onclick = closeModalAndReset;
+            homeButton.onclick = closeModalAndReset;
+    
+            // Add keyboard navigation for closing modal
+            const keydownHandler = function(event) {
+                if (event.key === 'Escape') {
+                    closeModalAndReset();
+                    document.removeEventListener('keydown', keydownHandler);
+                }
+            };
+            modal.keydownHandler = keydownHandler;
+            document.addEventListener('keydown', keydownHandler);
+    
+            // Show the modal and handle scrolling
+            modal.style.display = 'block';
+            modal.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+            document.body.style.overflow = 'hidden';
+            
+            // Force scroll to top
+            modal.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+    
+            // Add smooth scrolling after initial position is set
+            setTimeout(() => {
+                document.documentElement.style.scrollBehavior = 'smooth';
+            }, 100);
+    
+            // Force one final scroll to top after a slight delay
+            setTimeout(() => {
+                modal.scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: 'instant'
+                });
+            }, 50);
+    
+        } catch (error) {
+            console.error('Error opening project modal:', error, project);
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            showSearch();
+        }
     }
+    // Helper function to verify project data is complete
+function verifyProjectData(project) {
+    const requiredFields = ['title', 'location', 'year', 'client', 'typology', 'coverImage'];
+    const missingFields = requiredFields.filter(field => !project[field]);
+    
+    if (missingFields.length > 0) {
+        console.warn(`Project is missing required fields: ${missingFields.join(', ')}`);
+        return false;
+    }
+    return true;
+}
 
     const closeModalAndReset = () => {
         const modal = document.getElementById('projectModal');
@@ -5612,15 +5946,27 @@ mainSearchInput.addEventListener("input", function() {
         }
     });
 
-    // Filter button event listeners
     filterButtons.forEach(button => {
         button.addEventListener('click', () => {
             filterButtons.forEach(btn => btn.classList.remove('active'));
             button.classList.add('active');
             updateGrid(button.dataset.filter);
+            
+            // Maintain search filtering after changing views
+            if (currentSearchResults.size > 0) {
+                updateVisibilityBasedOnCurrentFilter();
+            }
         });
     });
 
+     // Function to update grid (your existing implementation)
+     function updateGrid(filterType) {
+        // Your existing grid update logic
+        // Make sure to respect currentSearchResults if there are any
+        if (currentSearchResults.size > 0) {
+            updateVisibilityBasedOnCurrentFilter();
+        }
+    }
     // Initialize with default view
     updateGrid('CHRONOLOGICAL');
 });
