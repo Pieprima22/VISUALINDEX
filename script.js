@@ -3956,9 +3956,9 @@ const projects = [
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=72ed31b1-4e40-42c6-b191-bc0b3a97de48&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The Valley House is a serene residential project nestled within a natural farm valley, seamlessly blending into its surrounding terrain. Designed as a retreat for a private client, the residence prioritizes integration with nature, allowing the architecture to harmonize with the rugged landscape.",
+        paragraph2: "The home features a thoughtful program of multiple bedrooms, a family room, majlis, dining, kitchen, and expansive living areas, with an outdoor pool as its defining feature. The pool extends into the valley, merging with the natural rock formations and pathways that flow down through the terrain, reinforcing a seamless connection to the environment.",
+        paragraph3: "Two distinct design options were proposed. Option 1 emphasizes horizontal planes, with cantilevered terraces and open spaces that celebrate panoramic views while minimizing visual impact. Its natural materials and soft earthy tones enhance the integration with the rocky surroundings. Option 2, on the other hand, introduces a more vertical composition, with articulated facades and stone cladding that anchor the house more prominently into the landscape. Both options offer unique takes on the interplay between nature and architecture, creating a luxurious yet grounded experience."
     },
     teamMembers: [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
@@ -4117,7 +4117,7 @@ const projects = [
         animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
     },
-    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=2b89f08f-b174-42d9-888f-be92f16b3b13&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=b2eaadb7-e81e-4cbf-8955-bb370617a0ab&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
         paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
         paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
@@ -4127,10 +4127,11 @@ const projects = [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
     ],
     galleryImages: [        
-        "https://aedasme.egnyte.com/opendocument.do?entryId=2c2720cb-6983-4e2c-b15f-3ac829ad187f&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
-        "https://aedasme.egnyte.com/opendocument.do?entryId=65a4b8f7-a27f-45f4-a558-5d6a25089b5e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
-        "https://aedasme.egnyte.com/opendocument.do?entryId=a1d5be8b-012e-4b90-a75a-e74fd17b4dbc&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
-        "https://aedasme.egnyte.com/opendocument.do?entryId=9a944003-6eae-4954-a284-687e12bcfd87&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=d44aa8a9-d7d6-48ae-9752-ca0f59a0839c&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=fe0b9f36-fe95-4ebe-8bce-5c0f5a2b1615&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=1ed07da3-15fe-47e2-8c63-58367f735cb1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=0dcc425a-1102-4d75-8e34-0ac7a53d83c0&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=f6cc6da2-0eb0-4d60-bf2c-d4c6c4ba1dfa&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
     ]
 },
 {
@@ -6234,7 +6235,8 @@ function createGlobeVisualization() {
             { lat: 33.888629, lng: 35.495479, image: './LEBANON.png', label: 'Lebanon', size: 2 },
             { lat: 35.715298, lng: 51.404343, image: './IRAN.png', label: 'Iran', size: 1 },
             { lat: 40.409264, lng: 49.867092, image: './AZBJ.png', label: 'Azerbaijan', size: 1 },
-            
+            { lat: 31.768319, lng: 35.213710, image: './PAL.png', label: 'Palestine', size: 1 }, // Palestine
+            { lat: 30.945367, lng: 38.928372, image: './JOR.png', label: 'Jordan', size: 1 }, // Jordan
             // South Asia
             { lat: 28.613939, lng: 77.209021, image: './INDIA.png', label: 'India', size: 28 },
             
