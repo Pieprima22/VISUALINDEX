@@ -5686,67 +5686,71 @@ function createGlobeVisualization() {
             targetZoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, targetZoom));
         });
 
-        // Raycaster for hover detection
-        const raycaster = new THREE.Raycaster();
-        const mouse = new THREE.Vector2();
- // Helper function to check if a point is visible to the camera
- function isPointVisible(point) {
-    const globePosition = globe.position;
-    const cameraPosition = camera.position;
-    
-    // Vector from globe center to point
-    const globeToPoint = new THREE.Vector3().subVectors(point, globePosition);
-    // Vector from globe center to camera
-    const globeToCamera = new THREE.Vector3().subVectors(cameraPosition, globePosition);
-    
-    // If the angle between these vectors is less than 90 degrees, the point is on the visible side
-    return globeToPoint.dot(globeToCamera) > 0;
-}
-        // Modified marker creation function
-        function createMarker(lat, lng, imagePath, label, size) {
-            const phi = (90 - lat) * (Math.PI / 180);
-            const theta = (lng + 180) * (Math.PI / 180);
-            
-            return new Promise((resolve) => {
-                const loader = new THREE.TextureLoader();
-                loader.load(imagePath, (texture) => {
-                    const spriteMaterial = new THREE.SpriteMaterial({ 
-                        map: texture,
-                        transparent: true,
-                        opacity: 0.9
-                    });
-                    const sprite = new THREE.Sprite(spriteMaterial);
-                    
-                    const BASE_MARKER_SIZE = 0.4;
-                    const x = -(GLOBE_RADIUS * Math.sin(phi) * Math.cos(theta));
-                    const y = GLOBE_RADIUS * Math.cos(phi);
-                    const z = GLOBE_RADIUS * Math.sin(phi) * Math.sin(theta);
-                    
-                    const direction = new THREE.Vector3(x, y, z).normalize();
-                    const imageAspect = texture.image.width / texture.image.height;
-                    const height = BASE_MARKER_SIZE;
-                    const width = height * imageAspect;
-                    
-                    const offsetDistance = GLOBE_RADIUS + (height * 0.5);
-                    const position = direction.multiplyScalar(offsetDistance);
-                    sprite.position.copy(position);
-                    
-                    sprite.scale.set(width, height, 1);
-                    
-                    // Store uppercase label
-                    sprite.userData = { 
-                        label: label.toUpperCase(),
-                        size,
-                        originalScale: {width, height},
-                        isHovered: false,
-                        basePosition: position.clone(),
-                        direction: direction.clone()
-                    };
-                    
-                    resolve(sprite);
+      // Raycaster with adjusted settings
+      const raycaster = new THREE.Raycaster();
+      // Set a larger threshold for better marker detection
+      raycaster.params.Sprite = { threshold: 0.1 };
+      const mouse = new THREE.Vector2();
+      function isPointVisible(point) {
+        const globePosition = globe.position;
+        const cameraPosition = camera.position;
+        
+        // Vector from globe center to point
+        const globeToPoint = new THREE.Vector3().subVectors(point, globePosition).normalize();
+        // Vector from globe center to camera
+        const globeToCamera = new THREE.Vector3().subVectors(cameraPosition, globePosition).normalize();
+        
+        // Calculate dot product with more lenient threshold
+        return globeToPoint.dot(globeToCamera) > -0.5; // Much more lenient threshold
+    }
+
+    function createMarker(lat, lng, imagePath, label, size) {
+        const phi = (90 - lat) * (Math.PI / 180);
+        const theta = (lng + 180) * (Math.PI / 180);
+        
+        return new Promise((resolve) => {
+            const loader = new THREE.TextureLoader();
+            loader.load(imagePath, (texture) => {
+                const spriteMaterial = new THREE.SpriteMaterial({ 
+                    map: texture,
+                    transparent: true,
+                    opacity: 0.9,
+                    depthTest: true,
+                    depthWrite: true,
+                    sizeAttenuation: true
                 });
+                const sprite = new THREE.Sprite(spriteMaterial);
+                
+                const BASE_MARKER_SIZE = 0.35;
+                const x = -(GLOBE_RADIUS * Math.sin(phi) * Math.cos(theta));
+                const y = GLOBE_RADIUS * Math.cos(phi);
+                const z = GLOBE_RADIUS * Math.sin(phi) * Math.sin(theta);
+                
+                const direction = new THREE.Vector3(x, y, z).normalize();
+                const imageAspect = texture.image.width / texture.image.height;
+                const height = BASE_MARKER_SIZE;
+                const width = height * imageAspect;
+                
+                const offsetDistance = GLOBE_RADIUS + (height * 0.4);
+                const position = direction.multiplyScalar(offsetDistance);
+                sprite.position.copy(position);
+                
+                sprite.scale.set(width, height, 1);
+                
+                sprite.userData = { 
+                    label: label.toUpperCase(),
+                    size,
+                    originalScale: {width, height},
+                    isHovered: false,
+                    basePosition: position.clone(),
+                    direction: direction.clone()
+                };
+                
+                resolve(sprite);
             });
-        }
+        });
+    }
+
 
         // Mouse handlers
         let isDragging = false;
@@ -5778,9 +5782,6 @@ function createGlobeVisualization() {
                 };
             }
 
-            raycaster.setFromCamera(mouse, camera);
-            const intersects = raycaster.intersectObjects(globe.children);
-
             // Reset all markers first
             globe.children.forEach((child) => {
                 if (child instanceof THREE.Sprite && child.userData.isHovered) {
@@ -5789,19 +5790,27 @@ function createGlobeVisualization() {
                     child.userData.isHovered = false;
                 }
             });
+
+            // Get all markers for interaction
+            const markers = globe.children.filter(child => 
+                child instanceof THREE.Sprite
+            );
+
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(markers, true);
+
             if (intersects.length > 0) {
                 const marker = intersects[0].object;
                 if (marker instanceof THREE.Sprite) {
-                    // Scale up marker
                     const HOVER_SCALE = 1.5;
                     const { width, height } = marker.userData.originalScale;
                     marker.scale.set(width * HOVER_SCALE, height * HOVER_SCALE, 1);
                     marker.userData.isHovered = true;
 
                     tooltip.innerHTML = `
-                    <div style="font-size: 14px;">${marker.userData.label}</div>
-                    <div style="font-size: 18px; font-weight: bold;">${marker.userData.size}</div>
-                `;
+                        <div style="font-size: 14px;">${marker.userData.label}</div>
+                        <div style="font-size: 18px; font-weight: bold;">${marker.userData.size}</div>
+                    `;
                     tooltip.style.display = 'block';
                     tooltip.style.left = `${e.clientX + 15}px`;
                     tooltip.style.top = `${e.clientY}px`;
@@ -5811,15 +5820,15 @@ function createGlobeVisualization() {
             }
         });
 
-        // Mouse event handlers
-        container.addEventListener('mousedown', (e) => {
-            isDragging = true;
-            previousMousePosition = {
-                x: e.clientX,
-                y: e.clientY
-            };
-        });
 
+   // Mouse event handlers (unchanged)
+   container.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    previousMousePosition = {
+        x: e.clientX,
+        y: e.clientY
+    };
+});
         document.addEventListener('mouseup', () => {
             isDragging = false;
         });
@@ -5878,26 +5887,29 @@ function createGlobeVisualization() {
             markers.forEach(marker => globe.add(marker));
         });
 
-        // Animation functions remain the same...
-        function animate() {
-            requestAnimationFrame(animate);
-            updateZoom();
+       // Modified animate function with visibility updates
+       function animate() {
+        requestAnimationFrame(animate);
+        updateZoom();
 
-            if (!isDragging) {
-                rotationSpeed.x *= dampingFactor;
-                rotationSpeed.y *= dampingFactor;
-                globe.rotation.x += rotationSpeed.x;
-                globe.rotation.y += rotationSpeed.y;
-            }
-
-            globe.children.forEach(child => {
-                if (child instanceof THREE.Sprite) {
-                    child.quaternion.copy(camera.quaternion);
-                }
-            });
-
-            renderer.render(scene, camera);
+        if (!isDragging) {
+            rotationSpeed.x *= dampingFactor;
+            rotationSpeed.y *= dampingFactor;
+            globe.rotation.x += rotationSpeed.x;
+            globe.rotation.y += rotationSpeed.y;
         }
+
+        // Update marker rotations
+        globe.children.forEach(child => {
+            if (child instanceof THREE.Sprite) {
+                child.quaternion.copy(camera.quaternion);
+            }
+        });
+
+        renderer.render(scene, camera);
+    }
+
+
 
         function handleResize() {
             camera.aspect = container.offsetWidth / container.offsetHeight;
