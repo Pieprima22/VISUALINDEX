@@ -5337,6 +5337,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const projectGrid = document.getElementById('projectGrid');
     let globeInstance = null;
     let activeHoverArea = null;
+    let searchDebounceTimer = null;
 
     // List of predefined keywords for auto-fill
     const suggestions = ["HIGH-RISE", "AWARDED", "CULTURAL", "RESIDENTIAL", "HOSPITALITY", "INTERIOR", "BUILT"];
@@ -5350,11 +5351,25 @@ document.addEventListener("DOMContentLoaded", function () {
             searchContent.style.display = "none";
         }
     });
+  // Cache DOM elements and project data
+  const projectElements = new Map();
+  const projectsCache = new Map(projects.map(project => [project.id, project]));
+  // Initialize project elements cache
+  document.querySelectorAll('.project-icon').forEach(icon => {
+    const projectId = parseInt(icon.dataset.layoutId.split('-')[1]);
+    projectElements.set(projectId, icon);
+});
+// Debounced search input handler
+mainSearchInput.addEventListener("input", function() {
+    if (searchDebounceTimer) {
+        clearTimeout(searchDebounceTimer);
+    }
 
-    mainSearchInput.addEventListener("input", function() {
-        const query = mainSearchInput.value.toLowerCase();
+    searchDebounceTimer = setTimeout(() => {
+        const query = mainSearchInput.value.toLowerCase().trim();
         updateSearchResults(query);
-    });
+    }, 150); // 150ms delay
+});
     function updateSearchResults(query) {
         searchContent.innerHTML = "";
         searchContent.style.display = query ? "block" : "none";
