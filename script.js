@@ -2235,9 +2235,11 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=339a74ef-d20c-4867-b126-60e29ed07604&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "The PIF Innovation Hub in Saudi Arabia is a groundbreaking architectural marvel designed to redefine the future of work and innovation. Featuring dynamic, moving architecture, the building symbolizes adaptability and progress, with its shifting forms responding to functional and environmental needs. The design integrates advanced technologies, sustainable materials, and a futuristic aesthetic, reflecting Saudi Arabia’s commitment to leading global innovation.",
-        paragraph2: "Inside, the hub offers a collaborative environment tailored for creativity and technological breakthroughs. Open-plan workspaces, state-of-the-art labs, and immersive digital interfaces foster a seamless interaction between people and technology. The moving architecture allows spaces to transform dynamically, accommodating diverse activities and enhancing flexibility for the ever-evolving needs of its users.",
-        paragraph3: "Set amidst a vibrant urban landscape, the PIF Innovation Hub embodies the vision of a sustainable and tech-forward future. With its bold design and cutting-edge functionality, it serves as a beacon for innovation, attracting global talent and shaping the future of industries in Saudi Arabia and beyond."
+        paragraph1: "The PIF Innovation Hub in Saudi Arabia emerges as a visionary architectural project that redefines the future of work and innovation. The proposal explores how buildings can change, reflecting evolving functions and societal progress. Three unique design approaches—Unfolding, Pivoting, and Revealing—offer distinctive responses to this concept.",
+        paragraph2: "Unfolding introduces a façade that appears to peel open, symbolizing Saudi Arabia’s journey of innovation and growth. Its sharp, angular design mirrors the country’s ambition to unveil new opportunities and possibilities for the world.",
+        paragraph3: "Pivoting focuses on dynamic movement, with a segmented façade that rotates and adjusts. This approach emphasizes flexibility and progression, aligning the building’s purpose with the ever-changing demands of technology, sustainability, and innovation.",
+        paragraph4: 'Revealing showcases a glowing façade with reflective surfaces and perforated screens. Light plays a central role, transforming the structure into a beacon of inspiration, inviting the world to witness Saudi Arabia’s emerging leadership in global innovation.',
+        paragraph5: 'Through these three transformative options, the PIF Innovation Hub becomes more than just a building; it is a bold statement of change, symbolizing adaptability, creativity, and progress.'
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -4128,7 +4130,7 @@ const projects = [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
     ],
     galleryImages: [        
-        "https://aedasme.egnyte.com/opendocument.do?entryId=d44aa8a9-d7d6-48ae-9752-ca0f59a0839c&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=1e418fa6-747a-4741-9fa1-b90b02cc71fd&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=fe0b9f36-fe95-4ebe-8bce-5c0f5a2b1615&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=1ed07da3-15fe-47e2-8c63-58367f735cb1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=0dcc425a-1102-4d75-8e34-0ac7a53d83c0&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
@@ -4169,7 +4171,8 @@ const projects = [
     teamMembers: [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
     ],
-    galleryImages: [        
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=663513a0-be81-4b16-8c15-4b0364e27a84&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",    
         "https://aedasme.egnyte.com/opendocument.do?entryId=48a9bc7d-d86a-4428-8ed1-2ba3d8191468&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=4e1ec66a-63d7-4e11-9e31-85e55400ad18&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=91d6f527-6de1-4b15-b52f-6f132e897b71&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
@@ -4332,22 +4335,32 @@ function openProjectModal(project) {
     document.getElementById('teamMembers').textContent = project.teamMembers || 'Team members information not available';
 
     // Set description paragraphs
-    document.getElementById('descriptionParagraph1').textContent = project.description?.paragraph1 || 
-        "The project's first conceptual framework emphasizes innovative design solutions that respond to both environmental and social contexts.";
-    document.getElementById('descriptionParagraph2').textContent = project.description?.paragraph2 || 
-        "Our approach integrates sustainable practices with modern functionality, resulting in spaces that are both environmentally conscious and aesthetically striking.";
-    document.getElementById('descriptionParagraph3').textContent = project.description?.paragraph3 || 
-        "The final outcome represents a harmonious blend of form and function, where each design element serves a purpose while contributing to the overall architectural narrative.";
-    
-    // Handle paragraph 4
-    const paragraph4Element = document.getElementById('descriptionParagraph4');
-    if (project.description?.paragraph4) {
-        paragraph4Element.textContent = project.description.paragraph4;
-        paragraph4Element.style.display = 'block';
-    } else {
-        paragraph4Element.style.display = 'none';
-    }
+document.getElementById('descriptionParagraph1').textContent = project.description?.paragraph1 || 
+"The project's first conceptual framework emphasizes innovative design solutions that respond to both environmental and social contexts.";
 
+document.getElementById('descriptionParagraph2').textContent = project.description?.paragraph2 || 
+"Our approach integrates sustainable practices with modern functionality, resulting in spaces that are both environmentally conscious and aesthetically striking.";
+
+document.getElementById('descriptionParagraph3').textContent = project.description?.paragraph3 || 
+"The final outcome represents a harmonious blend of form and function, where each design element serves a purpose while contributing to the overall architectural narrative.";
+
+// Handle paragraph 4
+const paragraph4Element = document.getElementById('descriptionParagraph4');
+if (project.description?.paragraph4) {
+paragraph4Element.textContent = project.description.paragraph4;
+paragraph4Element.style.display = 'block';
+} else {
+paragraph4Element.style.display = 'none';
+}
+
+// Handle paragraph 5
+const paragraph5Element = document.getElementById('descriptionParagraph5');
+if (project.description?.paragraph5) {
+paragraph5Element.textContent = project.description.paragraph5;
+paragraph5Element.style.display = 'block';
+} else {
+paragraph5Element.style.display = 'none';
+}
     // Now set images (after text content is set)
     coverImage.src = project.coverImage;
     iconImage.src = project.imageUrl;
@@ -5763,7 +5776,7 @@ function filterProjectsByKeyword(keyword) {
     
             // Description paragraphs
             if (project.description) {
-                ['paragraph1', 'paragraph2', 'paragraph3', 'paragraph4'].forEach((key, index) => {
+                ['paragraph1', 'paragraph2', 'paragraph3', 'paragraph4',  'paragraph5'].forEach((key, index) => {
                     const paragraphElement = document.getElementById(`descriptionParagraph${index + 1}`);
                     if (paragraphElement && project.description[key]) {
                         paragraphElement.textContent = project.description[key];
