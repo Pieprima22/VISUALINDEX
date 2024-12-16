@@ -4990,9 +4990,9 @@ function updateGrid(activeFilter) {
             if (scale === 'M') {
                 scaleSection.style.margin = '0 20px';
             } else if (scales[index + 1] === 'M') {
-                scaleSection.style.margin = '0 1px 0 2px';
+                scaleSection.style.margin = '0 20px 0 2px';
             } else if (scales[index - 1] === 'M') {
-                scaleSection.style.margin = '0 2px 0 30px';
+                scaleSection.style.margin = '0 2px 0 15px';
             } else {
                 scaleSection.style.margin = '0 2px';
             }
@@ -5010,7 +5010,7 @@ function updateGrid(activeFilter) {
                 columnsContainer.style.display = 'flex';
                 columnsContainer.style.justifyContent = 'center';
                 columnsContainer.style.paddingLeft = '0';
-                columnsContainer.style.paddingRight = '0';
+                columnsContainer.style.paddingRight = '35px';
                 columnsContainer.style.marginBottom = '-1.3rem';
 
             } else {
