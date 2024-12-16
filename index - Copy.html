@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Filter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="content-area">
+            <div id="projectGrid" class="grid-container">
+                <!-- Grid content will be generated here -->
+            </div>
+        </div>
+        <div id="globeContainer"></div>
+
+        <div id="projectModal" class="project-modal">
+            <div class="modal-buttons">
+                <button class="close-modal">X</button>
+            </div>
+            <button class="home-modal">HOME</button>
+            <!-- Section 1: Project Info -->
+            <section class="modal-section">
+                <div class="modal-content">
+                    <div class="modal-content-left">
+                        <img id="projectIconImage" class="modal-icon-image" src="" alt="Project Icon">
+                        <h2 id="projectTitle">Project Title</h2>
+                        <p id="projectLocation">Location Value</p>
+                        <p id="projectDate">Date Value</p>
+                        <p id="projectClientLabel">CLIENT:</p>
+                        <p id="projectClientValue">Client Value</p>
+                        <p id="projectTypologyLabel">TYPOLOGY:</p>
+                        <p id="projectTypologyValue">Typology Value</p>
+    
+                        <div class="project-links-container">
+                            <p class="more-info">CLICK TO SEE MORE:</p>
+                            <div class="project-links">
+                                <!-- Links will be dynamically inserted here -->
+                            </div>
+                        </div>
+                    </div>
+                    <img id="projectCoverImage" class="modal-cover-image" src="" alt="Project Cover">
+                </div>
+            </section>
+    
+            <!-- Section 2: Project Description -->
+            <section class="modal-section">
+                <div class="description-section">
+                    <div class="description-content">
+                        <div class="description-image-container">
+                            <img id="projectDescriptionImage" class="description-image" src="" alt="Project Description">
+                        </div>
+                        <div class="description-text">
+                            <p id="descriptionParagraph1"></p>
+                            <p id="descriptionParagraph2"></p>
+                            <p id="descriptionParagraph3"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                        <!-- Section 3: Image Gallery -->
+            <section class="modal-section">
+                <div class="gallery-section">
+                    <div class="gallery-container">
+                        <!-- Images will be dynamically inserted here -->
+                    </div>
+                </div>
+            </section>
+            <!-- Section 4: Team Members -->
+            <section class="modal-section">
+                <div class="team-section">
+                    <div class="team-content">
+                        <p id="teamLabel">TEAM:</p>
+                        <p id="teamMembers"></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="search-tab">
+            <img src="search-286.png" alt="Search Icon" class="search-icon" />
+            <input type="text" id="mainSearchInput" placeholder="SEARCH" autocomplete="off" />
+            <div id="searchContent"></div>
+        </div>
+        
+<!-- Info Tab Button -->
+<div class="info-tab">
+    INFO
+</div>
+
+<!-- Info Modal -->
+<div id="infoModal" class="info-modal">
+    <button class="close-modal info-close">X</button>
+    <button class="home-modal">HOME</button>    
+    <!-- Tab Navigation -->
+    <div class="tab-navigation">
+        <button class="tab-button active" data-tab="what-we-do">WHAT WE DO</button>
+        <button class="tab-button" data-tab="who-we-are">WHO WE ARE</button>
+        <button class="tab-button" data-tab="how-we-work">HOW WE WORK</button>
+        <button class="tab-button" data-tab="knowledge">KNOWLEDGE</button>
+    </div>
+    
+    <!-- Tab Content -->
+    <div class="info-content">
+        <!-- What We Do Tab -->
+        <div class="tab-content active" id="what-we-do">
+            <!-- First Section -->
+            <div class="info-section">
+                <img src="https://aedasme.egnyte.com/opendocument.do?entryId=5bc8943e-f6b4-417e-ac5c-33c658ef5199&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true" alt="Info Image" class="info-image">
+                <div class="info-description">
+                    <h2>AEDAS</h2>
+                    <p>Welcome to our architectural project showcase. This interactive platform allows you to explore our diverse portfolio through various filtering options. Navigate through chronological, programmatic, or location-based views to discover our work.</p>
+                    <p>Each project represents our commitment to innovative design, sustainable architecture, and creating spaces that enhance human experience. Click on any project icon to delve deeper into its details, including comprehensive descriptions, team information, and visual galleries.</p>
+                </div>
+            </div>
+            <!-- Second Section -->
+            <div class="info-section">
+                <img src="https://aedasme.egnyte.com/opendocument.do?entryId=543961a4-bab9-4a8c-9833-0fbfb6100dc0&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true" alt="Second Info Image" class="info-image">
+                <div class="info-description">
+                    <h2>Our Vision</h2>
+                    <p>At AEDAS, we believe in pushing the boundaries of architectural innovation while maintaining a deep respect for context and sustainability. Our global presence allows us to bring diverse perspectives to every project we undertake.</p>
+                    <p>Through our work, we strive to create meaningful spaces that not only meet functional requirements but also inspire and enhance the lives of those who interact with them. Our collaborative approach ensures that each project benefits from our collective expertise and creative vision.</p>
+                </div>
+            </div>
+        </div>
+
+  <!-- Updated WHO WE ARE Tab -->
+<div class="tab-content" id="who-we-are">
+    <!-- Globe Container -->
+    <div id="whoWeAreGlobe" class="globe-container"></div>
+    <div class="info-description">
+        <h2>WHO WE ARE</h2>
+        <p>Explore our global footprint with interactive markers that highlight our projects around the world. Hover over the markers to view country names and project counts.</p>
+    </div>
+</div>
+        <!-- How We Work Tab -->
+        <div class="tab-content" id="how-we-work">
+            <!-- First Section -->
+            <div class="info-section">
+                <img src="https://aedasme.egnyte.com/opendocument.do?entryId=5bc8943e-f6b4-417e-ac5c-33c658ef5199&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true" alt="Info Image" class="info-image">
+                <div class="info-description">
+                    <h2>AEDAS</h2>
+                    <p>Welcome to our architectural project showcase. This interactive platform allows you to explore our diverse portfolio through various filtering options. Navigate through chronological, programmatic, or location-based views to discover our work.</p>
+                    <p>Each project represents our commitment to innovative design, sustainable architecture, and creating spaces that enhance human experience. Click on any project icon to delve deeper into its details, including comprehensive descriptions, team information, and visual galleries.</p>
+                </div>
+            </div>
+            <!-- Second Section -->
+            <div class="info-section">
+                <img src="https://aedasme.egnyte.com/opendocument.do?entryId=543961a4-bab9-4a8c-9833-0fbfb6100dc0&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true" alt="Second Info Image" class="info-image">
+                <div class="info-description">
+                    <h2>Our Vision</h2>
+                    <p>At AEDAS, we believe in pushing the boundaries of architectural innovation while maintaining a deep respect for context and sustainability. Our global presence allows us to bring diverse perspectives to every project we undertake.</p>
+                    <p>Through our work, we strive to create meaningful spaces that not only meet functional requirements but also inspire and enhance the lives of those who interact with them. Our collaborative approach ensures that each project benefits from our collective expertise and creative vision.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Knowledge Tab -->
+        <div class="tab-content" id="knowledge">
+            <!-- First Section -->
+            <div class="info-section">
+                <img src="https://aedasme.egnyte.com/opendocument.do?entryId=5bc8943e-f6b4-417e-ac5c-33c658ef5199&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true" alt="Info Image" class="info-image">
+                <div class="info-description">
+                    <h2>AEDAS</h2>
+                    <p>Welcome to our architectural project showcase. This interactive platform allows you to explore our diverse portfolio through various filtering options. Navigate through chronological, programmatic, or location-based views to discover our work.</p>
+                    <p>Each project represents our commitment to innovative design, sustainable architecture, and creating spaces that enhance human experience. Click on any project icon to delve deeper into its details, including comprehensive descriptions, team information, and visual galleries.</p>
+                </div>
+            </div>
+            <!-- Second Section -->
+            <div class="info-section">
+                <img src="https://aedasme.egnyte.com/opendocument.do?entryId=543961a4-bab9-4a8c-9833-0fbfb6100dc0&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true" alt="Second Info Image" class="info-image">
+                <div class="info-description">
+                    <h2>Our Vision</h2>
+                    <p>At AEDAS, we believe in pushing the boundaries of architectural innovation while maintaining a deep respect for context and sustainability. Our global presence allows us to bring diverse perspectives to every project we undertake.</p>
+                    <p>Through our work, we strive to create meaningful spaces that not only meet functional requirements but also inspire and enhance the lives of those who interact with them. Our collaborative approach ensures that each project benefits from our collective expertise and creative vision.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+        <div class="filter-tabs">
+            <button class="filter-btn active" data-filter="CHRONOLOGICAL">CHRONOLOGICAL</button>
+            <button class="filter-btn" data-filter="EPOCH">EPOCH</button>
+            <button class="filter-btn" data-filter="ALPHABETICAL">ALPHABETICAL</button>
+            <button class="filter-btn" data-filter="PROGRAMMATIC">PROGRAMMATIC</button>
+            <button class="filter-btn" data-filter="SCALE">SCALE</button>
+            <button class="filter-btn" data-filter="LOCATION">LOCATION</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

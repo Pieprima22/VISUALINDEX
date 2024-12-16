@@ -1,0 +1,849 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 2rem;
+    margin-bottom: 15px;
+}
+
+.grid-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-stack {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: auto;
+
+
+}
+.project-icon:hover,
+.project-icon.hover-active {
+    z-index: 9999;
+}
+.project-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    transform-origin: center center;
+    will-change: transform, opacity;
+    position: relative;
+    overflow: visible; /* Changed from hidden to visible to allow hover image to extend outside */
+    z-index: 1; /* Base z-index for non-hovered icons */
+    transition: z-index 0s; /* Avoid z-index transition effects */
+}
+.project-icon.hover-active .project-icon-hover {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: auto; /* Allow hover detection on the larger image */
+}
+.project-icon.transitioning {
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-icon-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-icon:hover {
+    z-index: 101; /* Ensure hovered icon stacks above others */
+}
+.project-icon-hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.project-icon:hover .project-icon-hover,
+.project-icon.hover-active .project-icon-hover {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1); /* Added slight scale up for emphasis */
+    pointer-events: auto;
+}
+/* Hover state animations */
+.project-icon:hover .project-icon-hover {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+    pointer-events: auto;
+}
+
+.project-icon:hover .project-icon-image {
+    transform: scale(0);
+    opacity: 0;
+}
+/* Exit animations */
+.project-icon.exiting .project-icon-hover {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-icon.exiting .project-icon-image {
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.hover-text {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    pointer-events: none;
+    z-index: 1000;
+    white-space: nowrap;
+    font-family: 'AkkuratStd', sans-serif;
+    transition: opacity 0.2s ease;
+}
+/* Add this for smoother animations */
+.grid-container {
+    position: relative;
+    will-change: contents;
+    backface-visibility: hidden;
+}
+
+.column {
+    position: relative;
+    will-change: contents;
+}
+
+.project-stack {
+    position: relative;
+    z-index: auto;    will-change: contents;
+}
+.header {
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'AkkuratStd', sans-serif; /* Set font */
+
+}
+
+.filter-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    transition: color 0.2s;
+    font-family: 'AkkuratStd', sans-serif; /* Set font */
+
+}
+
+.filter-btn:hover {
+    color: #1f2937;
+}
+
+.filter-btn.active {
+    color: #dc2626;
+}
+
+.project-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1000;
+    scroll-behavior: auto;
+
+}
+.project-modal .modal-content {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Place items side by side */
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%; /* Full width of the modal */
+    height: 100%; /* Full height of the modal */
+    border-radius: 0; /* Remove rounded corners */
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'AkkuratStd', sans-serif; /* Set font */
+
+}
+
+  /* Section Styles */
+  .modal-section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  /* First Section Styles */
+  .modal-content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 0 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'AkkuratStd', sans-serif;
+}
+.modal-cover-image {
+    width: 60%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Prevent cropping */
+    margin-right: 180px;
+}
+
+.modal-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 70px;
+    box-sizing: border-box;
+    width: 40%; /* Set a specific width for the left container */
+    padding-right: 50px; /* Add some padding for the text */
+}
+.project-modal h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    width: 80%; /* Ensure the title takes full width of its container */
+    word-wrap: break-word; /* Enable word wrapping */
+    overflow-wrap: break-word; /* Modern browsers */
+    max-width: 100%; /* Prevent text from overflowing */
+    white-space: normal; /* Allow text to wrap */
+    line-height: 1.3; /* Improve readability of wrapped text */
+    margin-bottom: 10px; /* Add some space below the title */
+}
+
+.modal-content-left h2, 
+.modal-content-left p, 
+.modal-content-left .project-links {
+    text-align: right; /* Align text content to the right */
+    margin: 10px 0; /* Add spacing between each element */
+}
+
+.modal-content-left p {
+    margin: 5px 0;
+    font-size: 20px;
+    line-height: 1.4;
+    color: grey; /* Change text color to grey */
+
+    
+}
+.modal-content-left #projectDate {
+    margin-bottom: 50px; /* Space below the date */
+    font-size: 20px; /* Optional: Font size for the date value */
+    text-align: right; /* Align date to the right */
+}
+
+.modal-content-left #projectClientLabel,
+.modal-content-left #projectTypologyLabel {
+    color: grey; /* Change text color to grey */
+    font-size: 16px;
+
+}
+.modal-content-left #projectClientValue,
+.modal-content-left #projectTypologyValue {
+    font-size: 16px; /* Font size for client and typology values */
+    color: rgb(0, 0, 0); /* Text color for values */
+    margin: 5px 0; /* Spacing between values */
+    text-align: right; /* Align to the right */
+}
+.modal-icon-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+
+.project-modal h2 {
+    margin: 0;
+    font-size: 24px; /* Project Title font size */
+    font-weight: bold;
+    text-align: right; /* Align to the right */
+}
+.modal-content-left p {
+    margin: 5px 0;
+    line-height: 1.4;
+    font-family: 'AkkuratStd', sans-serif; /* Font family for all text */
+}
+.project-links-container {
+    position: fixed;
+    z-index: 10;
+    top: 50px; /* Adjust this for initial position */
+    left: 20px;
+    transform: rotate(270deg) translate(-100%, 0); /* Rotate and then shift it to fit inside */
+    transform-origin: top left; /* Rotation starts from the top-left corner */
+    flex-direction: row-reverse;
+    width: 646px;
+    height: max-content;
+    font-size: 1rem;
+}
+
+.project-links-container .more-info {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(169, 169, 169);
+    text-align: right;
+    font-family: 'AkkuratStd', sans-serif;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.project-links img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.project-links img:hover {
+    transform: scale(1.2);
+}
+/* Second Section Styles */
+.description-section {
+    padding: 80px;
+    margin-left: 80px;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'AkkuratStd', sans-serif;
+}
+
+.description-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
+
+.description-image {
+    width: 650px;  /* Set specific width */
+    height: 650px; /* Set specific height */
+    object-fit: cover;
+    margin-left: 50px;
+    margin-right: 40px;
+    
+}
+
+.description-text {
+    height: 650px; /* Match image height */
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    overflow: hidden; /* Hide text that extends beyond container */
+}
+
+.description-text p {
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+    text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%; /* Changed from 50% to fill container */
+}
+
+/* Third Section Styles - Image Gallery */
+.gallery-section {
+    padding: 20px;
+    margin: 0 20px;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: 'AkkuratStd', sans-serif;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between images */
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-image-container {
+    width: calc(100% - 40px); /* Full width minus margins */
+    height: 100vh; /* Full viewport height */
+    margin: 20px; /* Margin around each image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-image {
+    max-width: 100%;
+    max-height: calc(100vh - 40px); /* Full height minus margins */
+    object-fit: contain; /* Prevent cropping */
+    display: block;
+}
+/* Fourth Section Styles - Team Members */
+.team-section {
+    padding: 20px 57px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'AkkuratStd', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start; /* Align content to top instead of center */
+}
+
+.team-content {
+    width: 1103px; /* Match exact width of description image */
+    margin: 0px auto; /* Center horizontally */
+    padding: 0px;
+    margin-left: 150px; /* Match the left margin of the description image */
+    margin-right: 50px; /* Match the right margin of the description image */
+}
+
+#teamLabel {
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: block;
+}
+
+#teamMembers {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #2a2a2a;
+    text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+/* Keep original modal-buttons for close button */
+.modal-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: 'AkkuratStd', sans-serif;
+
+}
+
+/* New styling for home button */
+.home-modal {
+    position: fixed; 
+    bottom: 15px;    
+    left: 20px;     
+    background-color: white;    
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'AkkuratStd', sans-serif;
+    padding: 8px 15px;
+    z-index: 1000;   
+}
+
+.home-modal:hover {
+    opacity: 0.7;
+    color: #dc2626;
+}
+.close-modal {
+    position: fixed;
+    top: 20px;
+    right: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1101;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.close-modal:hover {
+    transform: scale(1.1);
+}
+
+.close-modal svg {
+    width: 40px; /* Make it wider */
+    height: 24px; /* Keep a fixed height or set it independently */
+    stroke: rgb(50, 50, 50);
+    stroke-width: 3;
+    stroke-linecap: butt; /* Straight line ends */
+    stroke-linejoin: miter; /* Sharp corner joins */
+}
+
+
+.info-tab {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    padding: 10px 20px;
+    background: white;
+    cursor: pointer;
+    font-family: 'AkkuratStd', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    z-index: 900;
+    transition: color 0.2s ease;
+
+}
+
+.info-tab:hover {
+    color: #dc2626;
+}
+
+.info-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: none;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.info-content {
+    max-width: 650px;
+    margin: 0 auto;
+}
+.info-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.tab-content.active .info-section {
+    opacity: 1;
+    transform: translateY(0);
+}
+.info-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.info-description {
+    width: 100%;
+    text-align: justify;
+    font-family: 'AkkuratStd', sans-serif;
+}
+
+.info-description h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #757575;
+
+}
+
+.info-description p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #2a2a2a;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+.tab-navigation {
+    position: fixed;
+    top: 40px; /* Align with the close button height */
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    padding: 3px 0;
+    font-family: 'AkkuratStd', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    text-align: left;
+    transition: color 0.3s ease;
+}
+
+.tab-button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s ease;
+}
+.tab-button.active {
+    color: #dc2626;
+}
+
+.tab-button.active::after {
+    width: 100%;
+}
+/* Tab Content Styles */
+.tab-content {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.tab-content.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Ensure content is hidden properly during transitions */
+.tab-content.fade-out {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.info-close {
+    position: fixed;
+    top: 10px;
+    right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1101;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.info-close svg {
+    width: 40px;
+    height: 24px;
+    stroke: rgb(50, 50, 50);
+    stroke-width: 3;
+    stroke-linecap: butt; /* Straight ends */
+    stroke-linejoin: miter; /* Sharp corners */
+}
+
+.info-close:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Main grid context */
+#projectGrid {
+    position: relative;
+    isolation: isolate;
+}
+
+/* Base styles for sections */
+.letter-category-section,
+.program-section {
+    position: relative;
+}
+.letter-category-section[data-letter="S"] .project-icon {
+    isolation: isolate;
+}
+/* Ensure containers don't create stacking contexts */
+.letter-category-column,
+.project-stack {
+    position: relative;
+    z-index: unset;
+}
+.program-section {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.epoch-columns {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.epoch-column {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.project-stack {
+    position: relative;
+    z-index: auto;
+    margin-bottom: 10px;
+}
+
+.program-header {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0;
+}
+.search-tab {
+    position: fixed;
+    top: 15px;
+    right: 10px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+
+#mainSearchInput {
+    background: white;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 8px;
+    width: 200px;
+    font-family: 'AkkuratStd', sans-serif;
+    font-size: 14px;
+    /* Remove display: none to always show the input */
+}
+
+#searchContent {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    display: none;
+    margin-top: 8px;
+}
+.search-result {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'AkkuratStd', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.search-result:hover {
+    background-color: #f5f5f5;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 9999;
+    transition: opacity 0.4s ease;
+}
+
+.preloader.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Add fade-in effect to main content */
+.content {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.content.fade-in {
+    opacity: 1;
+}
