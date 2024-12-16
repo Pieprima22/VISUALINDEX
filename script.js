@@ -168,7 +168,7 @@ function createGlobe() {
                 marker.userData.defaultTexture = texture;
                 marker.userData.hoverTexture = hoverTexture;
                 
-                const verticalOffset = index * (markerSize * 0.1);
+                const verticalOffset = index * (markerSize * 0.13);
                 const offsetPosition = basePosition.clone();
                 const up = offsetPosition.clone().normalize();
                 offsetPosition.addScaledVector(up, verticalOffset);
@@ -220,7 +220,7 @@ function updateHoverEffects(event) {
         // Set up the new hover state
         currentMarker.material.map = currentMarker.userData.hoverTexture;
         currentMarker.material.needsUpdate = true;
-        currentMarker.scale.setScalar(1.1);
+        currentMarker.scale.setScalar(1.8);
         hoveredMarker = currentMarker;
 
         // Update hover text
