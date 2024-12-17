@@ -4112,7 +4112,10 @@ const projects = [
     epoch: 'PRESENT', 
     hoverImage: "./hover/MUL.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/64be8529-f7b3-40df-af37-b2c41ed9edf8',
+    drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmV0YWlsIE1hbGwgTXVsdGFuIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/d986433f-575e-49e7-92af-0a374f98b99b',
+    animationLink: 'https://aedasme.egnyte.com/navigate/folder/7a524739-b84b-4244-a02c-b0ce94d58fa8',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmV0YWlsIE1hbGwgTXVsdGFuIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
