@@ -2654,9 +2654,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=02211050-138c-48ce-9db7-89a3c90f1426&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The masterplan envisions a future where Riyadh’s urban, natural, and cultural heritage merge into a seamless narrative. Rooted in Al-Turaif’s historic fabric, the design integrates the Wasis—Riyadh’s natural fabric—while weaving cultural heritage into its modern urban spaces. The project introduces a dynamic canopy structure that undulates across the masterplan, creating unique spaces for gathering, shade, and activity, while echoing Riyadh’s natural and architectural landscapes.",
+        paragraph2: "The masterplan consists of two major components: Riyadh Gateway and Sedra Expansion. Riyadh Gateway is divided into seven districts, each drawing inspiration from Saudi Arabia's geological formations, cultural richness, and natural landscapes. From entertainment hubs to business fronts and hospitality centers, the districts reflect an interconnected tapestry of spaces, offering diverse community experiences while celebrating the region's heritage.",
+        paragraph3: "The Sedra Expansion introduces a distinct residential neighborhood characterized by lively streetscapes and green spaces. This extension fosters a sense of belonging through its walkable environment and community-oriented design. Together, the project creates a sustainable, future-forward vision, seamlessly blending nature, heritage, and urban life to redefine Riyadh as a city where the past and future coexist in harmony."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -6059,12 +6059,12 @@ function createGlobeVisualization() {
         const globe = new THREE.Mesh(sphereGeometry, sphereMaterial);
         scene.add(globe);
 
-        camera.position.z = 12;
+        camera.position.z = 10;
 
             // Add zoom controls
             const ZOOM_SPEED = 0.5;
-            const MIN_ZOOM = 10;
-            const MAX_ZOOM = 12;
+            const MIN_ZOOM = 9;
+            const MAX_ZOOM = 10;
             let targetZoom = camera.position.z;
             
             // Smooth zoom function
