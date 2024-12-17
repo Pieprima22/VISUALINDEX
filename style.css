@@ -840,7 +840,6 @@ body {
 .icon-legend-tab:hover {
     color: #dc2626;
 }
-
 .icon-legend-modal {
     position: fixed;
     top: 0;
@@ -849,7 +848,6 @@ body {
     height: 100%;
     display: none;
     z-index: 1000;
-    overflow-y: auto;
     opacity: 0;
     transform: scale(0.1);
     transform-origin: bottom right;
