@@ -6369,3 +6369,62 @@ function createGlobeVisualization() {
 }
 
 createGlobeVisualization();
+
+document.addEventListener('DOMContentLoaded', () => {
+    const iconLegendTab = document.querySelector('.icon-legend-tab');
+    const iconLegendModal = document.getElementById('iconLegendModal');
+    const legendHomeButton = iconLegendModal.querySelector('.home-modal');
+    const legendCloseButton = iconLegendModal.querySelector('.legend-close');
+    const legendSections = document.querySelectorAll('.legend-section');
+
+    // Update the close button with the same SVG as info modal
+    legendCloseButton.innerHTML = `
+        <svg width="40" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter">
+            <line x1="20" y1="6" x2="6" y2="20"></line>
+            <line x1="6" y1="6" x2="20" y2="20"></line>
+        </svg>
+    `;
+
+    // Icon Legend Modal Open
+    iconLegendTab.addEventListener('click', () => {
+        iconLegendModal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+        // Add active class to show sections with animation
+        legendSections.forEach(section => {
+            section.classList.add('active');
+        });
+    });
+
+    // Home button click handler
+    legendHomeButton.onclick = () => {
+        iconLegendModal.style.display = 'none';
+        window.scrollTo(0, 0);
+        document.body.style.overflow = 'auto';
+        // Remove active class when closing
+        legendSections.forEach(section => {
+            section.classList.remove('active');
+        });
+    };
+
+    // Close button click handler
+    legendCloseButton.addEventListener('click', () => {
+        iconLegendModal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+        // Remove active class when closing
+        legendSections.forEach(section => {
+            section.classList.remove('active');
+        });
+    });
+
+    // ESC key handler
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && iconLegendModal.style.display === 'flex') {
+            iconLegendModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            // Remove active class when closing
+            legendSections.forEach(section => {
+                section.classList.remove('active');
+            });
+        }
+    });
+});
