@@ -4519,7 +4519,6 @@ document.getElementById('projectGrid').addEventListener('click', event => {
 });
 
 
-
 function updateGrid(activeFilter) {
     const grid = document.getElementById('projectGrid');
     const oldIcons = Array.from(grid.querySelectorAll('.project-icon'));
@@ -6409,7 +6408,6 @@ createGlobeVisualization();
 document.addEventListener('DOMContentLoaded', () => {
     const iconLegendTab = document.querySelector('.icon-legend-tab');
     const iconLegendModal = document.getElementById('iconLegendModal');
-    const legendHomeButton = iconLegendModal.querySelector('.home-modal');
     const legendCloseButton = iconLegendModal.querySelector('.legend-close');
     const legendSections = document.querySelectorAll('.legend-section');
 
@@ -6465,8 +6463,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Home button click handler
-    legendHomeButton.onclick = closeModal;
+
 
     // Close button click handler
     legendCloseButton.addEventListener('click', closeModal);

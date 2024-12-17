@@ -847,7 +847,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
     display: none;
     z-index: 1000;
     overflow-y: auto;
@@ -863,7 +862,7 @@ body {
 }
 
 .legend-content {
-    max-width: 650px;
+    max-width: 648px;
     margin: 0 auto;
 }
 
@@ -872,10 +871,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 0;
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .legend-section.active {
@@ -884,9 +882,11 @@ body {
 }
 
 .legend-image {
-    width: 200%;
+    width: 225%;
     height: auto;
     object-fit: cover;
+    background-color: rgba(255, 255, 255, 0.9);
+
 }
 
 /* Add animation delay for content */
