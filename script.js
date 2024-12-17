@@ -2738,9 +2738,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=23426662-37f8-4c7b-8d91-20db0df0b491&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The DG II 1 Hotel forms part of the Diriyah Masterplan, positioned with stunning views to Wadi Hanifa and the Riyadh skyline. The project reflects a balance between heritage and innovation, where the built form seamlessly integrates with the natural landscape.",
+        paragraph2: "The proposal breaks free from conventional linear layouts, instead weaving together a series of courtyards and exterior intimate spaces, reinterpreting the memory of the local farmhouse with a contemporary aspiration. The presence of water, patterns of plantations of palm trees and aromatic species guide the visitor through a sensuous journey.  It captures the essence of Arabian hospitality, evoking a sense of calmness and refined luxury.",
+        paragraph3: "At its core, the project celebrates “layers of time,” blending minimalist modern aesthetics with vernacular Najdi architecture.  The massing is carefully composed as an abstraction of Najdi vernacular, with its solidity and tectonic presence.  Traditional Najdi design elements such as openings, intricately crafted doors, columns and decorative motifs are thoughtfully reinterpreted for a contemporary context.  This balance creates a dialogue between past and present, capturing the essence of Najdi heritage while embracing modern simplicity. "
 
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
@@ -4000,9 +4000,9 @@ const projects = [
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=a1f897a9-3737-4568-b77a-02f35c3bc91c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Rua AlHaram is a large-scale development in one of the holiest sites, Makkah, Saudi Arabia, designed to elevate the spiritual experience of pilgrims and visitors. At the heart of the masterplan is a focus on maximizing views towards the Kaaba, achieved through a carefully crafted geometry that increases the frontage by 58%. Outdoor prayer spaces have been expanded by 200%, far exceeding the brief requirements, creating a public realm that seamlessly blends spirituality with accessibility and comfort.",
+        paragraph2: "The masterplan introduces the innovative Makkah Highline, a unique transport system that enhances mobility and pedestrian flow. Coupled with urban escalators and walkways, the project prioritizes crowd management during peak seasons such as Hajj. The zoning strategy divides the development into five distinctive clusters, each with a unique character offering a combination of residential, hospitality, retail, and cultural assets, ensuring a holistic experience for visitors.",
+        paragraph3: "Architecturally, the masterplan adopts the style of the Second Expansion of the Holy Mosque.  Traditional elements such as arches, decorative screens, and intricate textures are reinterpreted to reflect the city’s heritage.  A carefully curated material palette and thoughtful design language create a seamless transition from the Holy Mosque to its surroundings, celebrating Makkah’s history while embracing its future."
     },
     teamMembers: [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
@@ -5742,14 +5742,56 @@ function filterProjectsByKeyword(keyword) {
             // Hide search
             hideSearch();
             
-            // Set images
+            // Clear all existing content first
             const coverImage = document.getElementById('projectCoverImage');
+            const iconImage = document.getElementById('projectIconImage');
+            const descriptionImage = document.getElementById('projectDescriptionImage');
+            const galleryContainer = modal.querySelector('.gallery-container');
+            const linksContainer = modal.querySelector('.project-links');
+    
+            // Reset all images and containers
+            if (coverImage) {
+                coverImage.src = '';
+                coverImage.alt = '';
+            }
+            if (iconImage) {
+                iconImage.src = '';
+                iconImage.alt = '';
+            }
+            if (descriptionImage) {
+                descriptionImage.src = '';
+                descriptionImage.alt = '';
+            }
+            if (galleryContainer) {
+                galleryContainer.innerHTML = '';
+            }
+            if (linksContainer) {
+                linksContainer.innerHTML = '';
+            }
+    
+            // Clear all text content
+            const textElements = [
+                'projectTitle', 'projectLocation', 'projectDate', 
+                'projectClientValue', 'projectTypologyValue', 'teamMembers',
+                'descriptionParagraph1', 'descriptionParagraph2', 'descriptionParagraph3',
+                'descriptionParagraph4', 'descriptionParagraph5'
+            ];
+    
+            textElements.forEach(elementId => {
+                const element = document.getElementById(elementId);
+                if (element) {
+                    element.textContent = '';
+                }
+            });
+    
+            // Now set new content after clearing
+            
+            // Set images
             if (coverImage) {
                 coverImage.src = project.coverImage || '';
                 coverImage.alt = project.title;
             }
     
-            const iconImage = document.getElementById('projectIconImage');
             if (iconImage) {
                 iconImage.src = project.imageUrl || '';
                 iconImage.alt = project.title;
@@ -5771,33 +5813,31 @@ function filterProjectsByKeyword(keyword) {
                 }
             });
     
-            // Description image
-            const descriptionImage = document.getElementById('projectDescriptionImage');
+            // Set description image
             if (descriptionImage) {
                 descriptionImage.src = project.descriptionImage || '';
                 descriptionImage.alt = `${project.title} Description`;
             }
     
-            // Description paragraphs
+            // Set description paragraphs
             if (project.description) {
-                ['paragraph1', 'paragraph2', 'paragraph3', 'paragraph4',  'paragraph5'].forEach((key, index) => {
+                ['paragraph1', 'paragraph2', 'paragraph3', 'paragraph4', 'paragraph5'].forEach((key, index) => {
                     const paragraphElement = document.getElementById(`descriptionParagraph${index + 1}`);
-                    if (paragraphElement && project.description[key]) {
-                        paragraphElement.textContent = project.description[key];
+                    if (paragraphElement) {
+                        paragraphElement.textContent = project.description[key] || '';
+                        paragraphElement.style.display = project.description[key] ? 'block' : 'none';
                     }
                 });
             }
     
-            // Team members
+            // Set team members
             const teamMembers = document.getElementById('teamMembers');
-            if (teamMembers && project.teamMembers) {
-                teamMembers.textContent = project.teamMembers;
+            if (teamMembers) {
+                teamMembers.textContent = project.teamMembers || '';
             }
     
-            // Gallery
-            const galleryContainer = modal.querySelector('.gallery-container');
+            // Set gallery images
             if (galleryContainer && project.galleryImages) {
-                galleryContainer.innerHTML = ''; // Clear existing images
                 project.galleryImages.forEach(imageUrl => {
                     const imgContainer = document.createElement('div');
                     imgContainer.className = 'gallery-image-container';
@@ -5812,36 +5852,32 @@ function filterProjectsByKeyword(keyword) {
                 });
             }
     
-            // Project links
-          // Project links
-const linksContainer = modal.querySelector('.project-links');
-if (linksContainer) {
-    linksContainer.innerHTML = ''; // Clear existing links
+            // Set project links
+            if (linksContainer) {
+                const links = [
+                    { url: project.threeDLink, image: project.linkImages?.threeD },
+                    { url: project.drawingLink, image: project.linkImages?.drawing },
+                    { url: project.visualLink, image: project.linkImages?.visual },
+                    { url: project.presentationLink, image: project.linkImages?.presentation }
+                ];
     
-    // Create links with only icons - Reversed order to match the flex-direction: row-reverse
-    const links = [
-        { url: project.threeDLink, image: project.linkImages?.threeD },
-        { url: project.drawingLink, image: project.linkImages?.drawing },
-        { url: project.visualLink, image: project.linkImages?.visual },
-        { url: project.presentationLink, image: project.linkImages?.presentation }
-    ];
-
-    links.forEach(link => {
-        if (link.url && link.image) {  // Only create if both URL and image exist
-            const linkElement = document.createElement('a');
-            linkElement.href = link.url;
-            linkElement.className = 'project-link';
-            linkElement.target = '_blank'; // Open in new tab
-
-            const linkImage = document.createElement('img');
-            linkImage.src = link.image;
-            linkImage.className = 'project-link-image';
-            
-            linkElement.appendChild(linkImage);
-            linksContainer.appendChild(linkElement);
-        }
-    });
-}
+                links.forEach(link => {
+                    if (link.url && link.image) {
+                        const linkElement = document.createElement('a');
+                        linkElement.href = link.url;
+                        linkElement.className = 'project-link';
+                        linkElement.target = '_blank';
+    
+                        const linkImage = document.createElement('img');
+                        linkImage.src = link.image;
+                        linkImage.className = 'project-link-image';
+                        
+                        linkElement.appendChild(linkImage);
+                        linksContainer.appendChild(linkElement);
+                    }
+                });
+            }
+    
             // Modal close handlers
             const closeButton = modal.querySelector('.close-modal');
             closeButton.innerHTML = `
@@ -6385,46 +6421,60 @@ document.addEventListener('DOMContentLoaded', () => {
         </svg>
     `;
 
-    // Icon Legend Modal Open
+    // Icon Legend Modal Open with morphing animation
     iconLegendTab.addEventListener('click', () => {
+        // First make the modal visible but not yet animated
         iconLegendModal.style.display = 'flex';
+        
+        // Force a reflow to ensure the initial state is rendered
+        iconLegendModal.offsetHeight;
+        
+        // Add active class to trigger the morphing animation
+        iconLegendModal.classList.add('active');
+        
+        // Prevent body scroll
         document.body.style.overflow = 'hidden';
-        // Add active class to show sections with animation
-        legendSections.forEach(section => {
-            section.classList.add('active');
-        });
+        
+        // Animate the sections after the modal animation
+        setTimeout(() => {
+            legendSections.forEach(section => {
+                section.classList.add('active');
+            });
+        }, 300); // Delay matches the modal transition duration
     });
+
+    function closeModal() {
+        // Remove active class to trigger closing animation
+        iconLegendModal.classList.remove('active');
+        
+        // Remove section animations
+        legendSections.forEach(section => {
+            section.classList.remove('active');
+        });
+        
+        // Wait for animation to complete before hiding
+        setTimeout(() => {
+            iconLegendModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }, 300); // Match the transition duration
+        
+        // Scroll to top
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
 
     // Home button click handler
-    legendHomeButton.onclick = () => {
-        iconLegendModal.style.display = 'none';
-        window.scrollTo(0, 0);
-        document.body.style.overflow = 'auto';
-        // Remove active class when closing
-        legendSections.forEach(section => {
-            section.classList.remove('active');
-        });
-    };
+    legendHomeButton.onclick = closeModal;
 
     // Close button click handler
-    legendCloseButton.addEventListener('click', () => {
-        iconLegendModal.style.display = 'none';
-        document.body.style.overflow = 'auto';
-        // Remove active class when closing
-        legendSections.forEach(section => {
-            section.classList.remove('active');
-        });
-    });
+    legendCloseButton.addEventListener('click', closeModal);
 
     // ESC key handler
     document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape' && iconLegendModal.style.display === 'flex') {
-            iconLegendModal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-            // Remove active class when closing
-            legendSections.forEach(section => {
-                section.classList.remove('active');
-            });
+            closeModal();
         }
     });
 });
