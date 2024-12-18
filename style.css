@@ -273,7 +273,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
-    width: 85%; /* Ensure the title takes full width of its container */
+    width: 80%; /* Ensure the title takes full width of its container */
     word-wrap: break-word; /* Enable word wrapping */
     overflow-wrap: break-word; /* Modern browsers */
     max-width: 100%; /* Prevent text from overflowing */
@@ -315,6 +315,7 @@ body {
     color: rgb(0, 0, 0); /* Text color for values */
     margin: 5px 0; /* Spacing between values */
     text-align: right; /* Align to the right */
+    padding-left: 70PX;
 }
 .modal-icon-image {
     width: 45px;
@@ -852,6 +853,7 @@ body {
     transform: scale(0.1);
     transform-origin: bottom right;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: adds a semi-transparent white background */
 }
 
 .icon-legend-modal.active {
