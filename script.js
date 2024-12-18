@@ -4957,7 +4957,7 @@ function updateGrid(activeFilter) {
     
             // Adjust gap for PRESENT epoch
             if (epoch === 'PRESENT') {
-                columnsContainer.style.gap = '35px';
+                columnsContainer.style.gap = '34px',
                 columnsContainer.style.justifyContent = 'center';
                 columnsContainer.style.padding = '0 8px';
 
