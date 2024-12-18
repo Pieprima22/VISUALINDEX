@@ -4444,38 +4444,52 @@ function getColumnWidth(totalHeaders) {
 function getProjectKey(project, filter) {
     return `project-${project.id}-${filterConfigs[filter].getHeader(project)}`;
 }
-
-// Add this at the top of your JavaScript file
+// Global state for toggle
 let showCoverImages = false;
+// Create toggle switch elements
+function createToggleSwitch() {
+    const toggleSwitch = document.createElement('div');
+    toggleSwitch.className = 'toggle-switch';
 
-// Create toggle button HTML - add this to your HTML where you want the toggle to appear
-const toggleButton = document.createElement('button');
-toggleButton.className = 'icon-toggle-btn';
-toggleButton.innerHTML = 'Switch to Cover View';
-toggleButton.style.cssText = `
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    padding: 8px 16px;
-    background-color: #ffffff;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: 'AkkuratStd', sans-serif;
-    font-size: 14px;
-    z-index: 1000;
-    transition: background-color 0.3s;
-`;
+    const labelIcon = document.createElement('span');
+    labelIcon.className = 'toggle-label';
 
-// Add hover effect styles
-const style = document.createElement('style');
-style.textContent = `
-    .icon-toggle-btn:hover {
-        background-color: #f0f0f0;
-    }
-`;
-document.head.appendChild(style);
+    const labelCover = document.createElement('span');
+    labelCover.className = 'toggle-label';
 
+    const track = document.createElement('div');
+    track.className = 'toggle-track';
+
+    const handle = document.createElement('div');
+    handle.className = 'toggle-handle';
+
+    const icons = document.createElement('div');
+    icons.className = 'toggle-icons';
+
+    // Create mini icon SVGs
+    const iconSvg = `
+        <svg class="toggle-icon icon" viewBox="0 0 24 24">
+        </svg>
+    `;
+
+    const coverSvg = `
+        <svg class="toggle-icon cover" viewBox="0 0 24 24">
+        </svg>
+    `;
+
+    icons.innerHTML = iconSvg + coverSvg;
+
+    // Assemble the toggle
+    track.appendChild(handle);
+    track.appendChild(icons);
+    toggleSwitch.appendChild(labelIcon);
+    toggleSwitch.appendChild(track);
+    toggleSwitch.appendChild(labelCover);
+
+    return { toggleSwitch, track };
+}
+
+// Project icon creation function
 function createProjectIcon(project, filter) {
     const projectIcon = document.createElement('div');
     projectIcon.className = 'project-icon';
@@ -4522,10 +4536,11 @@ function createProjectIcon(project, filter) {
     
     return projectIcon;
 }
-// Add toggle functionality
-function toggleProjectIcons() {
+
+// Toggle functionality
+function toggleProjectIcons(track) {
     showCoverImages = !showCoverImages;
-    toggleButton.innerHTML = showCoverImages ? 'Switch to Icon View' : 'Switch to Cover View';
+    track.classList.toggle('active');
     
     // Get current active filter
     const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
@@ -4534,10 +4549,11 @@ function toggleProjectIcons() {
     updateGrid(activeFilter);
 }
 
-// Add toggle button to the page and set up click handler
+// Initialize toggle switch
 document.addEventListener('DOMContentLoaded', () => {
-    document.body.appendChild(toggleButton);
-    toggleButton.addEventListener('click', toggleProjectIcons);
+    const { toggleSwitch, track } = createToggleSwitch();
+    document.body.appendChild(toggleSwitch);
+    track.addEventListener('click', () => toggleProjectIcons(track));
 });
 
 function hideSearch() {
