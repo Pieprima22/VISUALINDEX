@@ -5810,8 +5810,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // List of predefined keywords for auto-fill
     const suggestions = ["HIGH-RISE", "AWARDED", "INTERIOR", "BUILT"];
+    clients: ["WOW INVEST. LIMITED", "AL REEM REAL ESTATE DEVELOPMENT EST", "WASL"]
 
-    // Toggle search input visibility when clicking the search icon
     searchIcon.addEventListener("click", function() {
         mainSearchInput.classList.toggle("visible");
         if (mainSearchInput.classList.contains("visible")) {
@@ -5820,6 +5820,7 @@ document.addEventListener("DOMContentLoaded", function () {
             searchContent.style.display = "none";
         }
     });
+
     // Debounced search input handler
     mainSearchInput.addEventListener("input", function() {
         if (searchDebounceTimer) {
