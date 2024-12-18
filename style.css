@@ -910,6 +910,7 @@ body {
     align-items: center;
     gap: 8px;
     font-family: 'AkkuratStd', sans-serif;
+    z-index: 1;
 }
 
 .toggle-label {

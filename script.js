@@ -4446,6 +4446,14 @@ function getProjectKey(project, filter) {
 }
 // Global state for toggle
 let showCoverImages = false;
+
+// Add styles for toggle switch
+const style = document.createElement('style');
+style.textContent = `
+
+`;
+document.head.appendChild(style);
+
 // Create toggle switch elements
 function createToggleSwitch() {
     const toggleSwitch = document.createElement('div');
