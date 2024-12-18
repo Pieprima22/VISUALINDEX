@@ -629,9 +629,9 @@ const projects = [
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=96c8dca5-489c-443c-a04d-7c25760d3f19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
-            paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-            paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-            paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+            paragraph1: "The project is located in one of the holiest sites in the world, Mecca, Saudi Arabia.  It aims to revive the city's heritage through extensive research. By studying historical descriptions, graphical representations, and old photographs, the proposal analyzes the traditional Makkan style, urban fabric, and the daily life of its people. This research led to the creation of a detailed catalog of Makkan buildings, houses, and unique architectural components such as doors, windows, and roshans, reinterpreted in a modern paradigm.",
+            paragraph2: "Set on a challenging mountainous terrain, the proposal introduces \"Makkah’s Highline\", a continuous green pedestrian belt that connects the site to the second expansion’s skybridge. Covering 80,000 sqm of public realm, the highline prioritizes pedestrian movement and creates an inviting, car-free experience by relocating vehicular access underground.",
+            paragraph3: "The masterplan is organized into five clusters, each distinguished by a unique character, and includes residential, hospitality, retail, office, and cultural spaces. Inspired by the organic arrangement of old Mecca’s urban fabric, the clusters reintroduce traditional public realm components while addressing contemporary urban needs. This vision celebrates Mecca’s heritage, creating a modern yet timeless destination for residents and visitors."
         },
         teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -5805,12 +5805,18 @@ document.addEventListener("DOMContentLoaded", function () {
     const filterButtons = document.querySelectorAll('.filter-btn');
     let globeInstance = null;
     let searchDebounceTimer = null;
-    let currentSearchResults = new Set(); // Store current search results globally
+    let currentSearchResults = new Set();
 
-
-    // List of predefined keywords for auto-fill
-    const suggestions = ["HIGH-RISE", "AWARDED", "INTERIOR", "BUILT"];
-    clients: ["WOW INVEST. LIMITED", "AL REEM REAL ESTATE DEVELOPMENT EST", "WASL"]
+    // Updated suggestions to include both tags and clients
+    const suggestions = {
+        tags: ["HIGH-RISE", "AWARDED", "INTERIOR", "BUILT"],
+        clients: ["WOW INVEST. LIMITED", "AL REEM REAL ESTATE DEVELOPMENT EST", "WASL", "TEACOM","DGCL","MODON","BOUTIQUE GROUP","PIF","MODON PROPERTIES","MBC",
+            "EAST & WEST PROPERTIES","UNITED DEVELOPMENT CO.","ROSHN","NEOM","MAJID AL FUTTAIM PROPERTIES","PUBLIC FUND INVESTMENT","NEW MURABBA","DIFC","ALDAR",
+            "ENOC","BEYON","PRIVATE","EMAAR PROPERTIES","OMRAN GROUP","NAKHEEL","ROYAL COMMISSION FOR AL-ULA","ELLINGTON", "AL REEM REAL ESTATE DEVELOPMENT EST", 
+            "SOUDAH DEVELOPMENT COMPANY", "FISHER MAN'S COVE HOTEL LIMITED", "RTA", "SELECT GROUP", "ITHMAAR DEVELOPMENT COMPANY", "AL MADDAHIA", "QIDDIYA", 
+            "FAKIEH GROUP", "MINISTRY OF CULTURE", "RAHIM HOLDINGS W.L.L.", "ABDUL LATIF JAMEEL", "FAISAL ASGHAR ENTERPRISES (PVT) LIMITED", "AL NAHDA REAL ESTATE TR. CO. LLC"
+        , "FISHERMAN'S COVE HOTEL LIMITED", "DUBAI PROPERTIES"]
+    };
 
     searchIcon.addEventListener("click", function() {
         mainSearchInput.classList.toggle("visible");
@@ -5821,7 +5827,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Debounced search input handler
     mainSearchInput.addEventListener("input", function() {
         if (searchDebounceTimer) {
             clearTimeout(searchDebounceTimer);
@@ -5832,556 +5837,211 @@ document.addEventListener("DOMContentLoaded", function () {
             updateSearchResults(query);
         }, 150);
     });
-  // Cache DOM elements and project data
-  const projectElements = new Map();
-  const projectsCache = new Map(projects.map(project => [project.id, project]));
-  // Initialize project elements cache
-  document.querySelectorAll('.project-icon').forEach(icon => {
-    const projectId = parseInt(icon.dataset.layoutId.split('-')[1]);
-    projectElements.set(projectId, icon);
-});
-        // Debounced search input handler
-        mainSearchInput.addEventListener("input", function() {
-            if (searchDebounceTimer) {
-                clearTimeout(searchDebounceTimer);
-            }
 
-            searchDebounceTimer = setTimeout(() => {
-                const query = mainSearchInput.value.toLowerCase().trim();
-                updateSearchResults(query);
-            }, 150); // 150ms delay
+    // Cache DOM elements and project data
+    const projectElements = new Map();
+    const projectsCache = new Map(projects.map(project => [project.id, project]));
+
+    document.querySelectorAll('.project-icon').forEach(icon => {
+        const projectId = parseInt(icon.dataset.layoutId.split('-')[1]);
+        projectElements.set(projectId, icon);
+    });
+
+    function updateSearchResults(query) {
+        searchContent.innerHTML = "";
+        searchContent.style.display = query ? "block" : "none";
+        
+        if (!query) {
+            currentSearchResults.clear();
+            showAllProjects();
+            return;
+        }
+
+        const displayedResults = new Set();
+        currentSearchResults.clear();
+
+        // Add tag suggestions
+        const matchingTags = suggestions.tags.filter(tag => 
+            tag.toLowerCase().includes(query.toLowerCase()) && 
+            !displayedResults.has(tag)
+        );
+
+        matchingTags.forEach(tag => {
+            displayedResults.add(tag);
+            const result = createSearchResult(null, tag, 'tag');
+            searchContent.appendChild(result);
         });
-        function updateSearchResults(query) {
-            searchContent.innerHTML = "";
-            searchContent.style.display = query ? "block" : "none";
-            
-            if (!query) {
-                currentSearchResults.clear(); // Clear the search results
-                showAllProjects();
+
+        // Add client suggestions
+        const matchingClients = suggestions.clients.filter(client => 
+            client.toLowerCase().includes(query.toLowerCase()) && 
+            !displayedResults.has(client)
+        );
+
+        matchingClients.forEach(client => {
+            displayedResults.add(client);
+            const result = createSearchResult(null, client, 'client');
+            searchContent.appendChild(result);
+        });
+
+        // Project search logic
+        const startsWithQuery = [];
+        const containsQuery = [];
+        const otherMatches = [];
+        
+        projects.forEach(project => {
+            const projectTitle = project.title.toLowerCase();
+            const queryLower = query.toLowerCase();
+            const hasMatchingTag = project.tags && project.tags.some(tag => 
+                tag.toLowerCase().includes(queryLower)
+            );
+            const hasMatchingClient = project.client && 
+                project.client.toLowerCase().includes(queryLower);
+
+            if (displayedResults.has(project.title)) {
                 return;
             }
 
-            const displayedResults = new Set();
-            currentSearchResults.clear(); // Reset current search results
+            if (projectTitle.startsWith(queryLower)) {
+                startsWithQuery.push(project);
+            } else if (projectTitle.includes(queryLower)) {
+                containsQuery.push(project);
+            } else if (
+                project.typology?.toLowerCase().includes(queryLower) ||
+                project.program?.toLowerCase().includes(queryLower) ||
+                project.location?.toLowerCase().includes(queryLower) ||
+                hasMatchingTag ||
+                hasMatchingClient
+            ) {
+                otherMatches.push(project);
+            }
+        });
 
-            // First, add keyword suggestions
-            const matchingSuggestions = suggestions.filter(keyword => 
-                keyword.toLowerCase().includes(query.toLowerCase()) && 
-                !displayedResults.has(keyword)
-            );
-
-            matchingSuggestions.forEach(keyword => {
-                displayedResults.add(keyword);
-                const result = createSearchResult(null, keyword);
-                searchContent.appendChild(result);
-            });
-        // Separate projects into three categories:
-            // 1. Titles starting with the query
-            // 2. Titles containing the query but not starting with it
-            // 3. Other matches (location, typology, program, tags)
-            const startsWithQuery = [];
-            const containsQuery = [];
-            const otherMatches = [];
-            
-            projects.forEach(project => {
-                const projectTitle = project.title.toLowerCase();
-                const queryLower = query.toLowerCase();
-                const hasMatchingTag = project.tags && project.tags.some(tag => 
-                    tag.toLowerCase().includes(queryLower)
-                );
-
-                // Check if already displayed
-                if (displayedResults.has(project.title)) {
-                    return;
-                }
-
-                // Add to appropriate array based on match type
-                if (projectTitle.startsWith(queryLower)) {
-                    startsWithQuery.push(project);
-                } else if (projectTitle.includes(queryLower)) {
-                    containsQuery.push(project);
-                } else if (
-                    project.typology?.toLowerCase().includes(queryLower) ||
-                    project.program?.toLowerCase().includes(queryLower) ||
-                    project.location?.toLowerCase().includes(queryLower) ||
-                    hasMatchingTag
-                ) {
-                    otherMatches.push(project);
-                }
-            });
-
-            // Add all matches to currentSearchResults
-            [...startsWithQuery, ...containsQuery, ...otherMatches].forEach(project => {
-                currentSearchResults.add(project);
-            });
-
-            // Display results in order: starts with, contains, other matches
-            [...startsWithQuery, ...containsQuery, ...otherMatches].forEach(project => {
+        [...startsWithQuery, ...containsQuery, ...otherMatches].forEach(project => {
+            currentSearchResults.add(project);
+            if (!displayedResults.has(project.title)) {
                 displayedResults.add(project.title);
                 const result = createSearchResult(project);
                 searchContent.appendChild(result);
+            }
+        });
+
+        updateVisibilityBasedOnCurrentFilter();
+    }
+
+    function createSearchResult(project, keyword = null, type = null) {
+        const result = document.createElement("div");
+        result.classList.add("search-result");
+
+        if (keyword) {
+            // Add label for client suggestions
+            if (type === 'client') {
+                const clientLabel = document.createElement('span');
+                clientLabel.className = 'client-label';
+                clientLabel.textContent = 'CLIENT: ';
+                result.appendChild(clientLabel);
+                
+                const clientText = document.createElement('span');
+                clientText.textContent = keyword;
+                result.appendChild(clientText);
+            } else {
+                result.textContent = keyword;
+            }
+
+            result.addEventListener("click", () => {
+                mainSearchInput.value = keyword;
+                if (type === 'client') {
+                    filterProjectsByClient(keyword);
+                } else {
+                    filterProjectsByKeyword(keyword);
+                }
             });
-
-updateVisibilityBasedOnCurrentFilter();
-}
-
-function updateVisibilityBasedOnCurrentFilter() {
-    const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
-    if (activeFilter === 'LOCATION' && globeInstance) {
-        updateGlobeMarkersVisibility(currentSearchResults);
-    } else {
-        updateProjectVisibility(currentSearchResults);
-    }
-}
-
-function showAllProjects() {
-    const projectIcons = document.querySelectorAll('.project-icon');
-    projectIcons.forEach(icon => {
-        icon.style.display = "block";
-        icon.style.visibility = "visible";
-        icon.style.position = "relative";
-    });
-    
-    // If globe view is active, show all markers
-    const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
-    if (activeFilter === 'LOCATION' && globeInstance) {
-        globeInstance.resetAllMarkers();
-    }
-}
-
-function updateProjectVisibility(matchingProjects) {
-    const projectIcons = document.querySelectorAll('.project-icon');
-    
-    projectIcons.forEach(icon => {
-        const projectId = parseInt(icon.dataset.layoutId.split('-')[1]);
-        const project = projects.find(p => p.id === projectId);
-        
-        if (matchingProjects.size === 0 || matchingProjects.has(project)) {
-            icon.style.display = "block";
-            icon.style.visibility = "visible";
-            icon.style.position = "relative";
-        } else {
-            icon.style.display = "none";
-            icon.style.visibility = "hidden";
-            icon.style.position = "absolute";
+        } else if (project) {
+            result.textContent = project.title;
+            result.addEventListener("click", () => {
+                const fullProject = projectsCache.get(project.id) || project;
+                openProjectModal(fullProject, mainSearchInput.value);
+            });
         }
-    });
-}
-function createSearchResult(project, keyword = null) {
-    const result = document.createElement("div");
-    result.classList.add("search-result");
 
-    if (keyword) {
-        result.textContent = keyword;
-        result.addEventListener("click", () => {
-            mainSearchInput.value = keyword;
-            filterProjectsByKeyword(keyword);
-        });
-    } else if (project) {
-        result.textContent = project.title;
-        result.addEventListener("click", () => {
-            // Add these debug logs
-            console.log("Project being passed to modal:", project);
-            console.log("Project properties:", Object.keys(project));
-            
-            const fullProject = projectsCache.get(project.id) || project;
-            openProjectModal(fullProject, mainSearchInput.value);
-        });
+        return result;
     }
 
-    return result;
-}
-
-function showAllProjects() {
-    const projectIcons = document.querySelectorAll('.project-icon');
-    projectIcons.forEach(icon => {
-        icon.style.display = "block";
-        icon.style.visibility = "visible";
-        icon.style.position = "relative";
-    });
-}
-
-function updateProjectVisibility(matchingProjects) {
-    const projectIcons = document.querySelectorAll('.project-icon');
-    
-    projectIcons.forEach(icon => {
-        const projectId = parseInt(icon.dataset.layoutId.split('-')[1]);
-        const project = projects.find(p => p.id === projectId);
+    function filterProjectsByClient(clientName) {
+        const matchingProjects = new Set();
         
-        if (matchingProjects.has(project)) {
-            icon.style.display = "block";  // Changed from empty string to "block"
-            icon.style.visibility = "visible";
-            icon.style.position = "relative";
-        } else {
-            icon.style.display = "none";
-            icon.style.visibility = "hidden";
-            icon.style.position = "absolute";
-        }
-    });
-}
-function updateGlobeMarkersVisibility(matchingProjects) {
-    if (!globeInstance) return;
-    
-    globeInstance.updateMarkersForSearch(matchingProjects);
-}
+        projects.forEach(project => {
+            if (project.client === clientName) {
+                matchingProjects.add(project);
+            }
+        });
 
-function filterProjectsByKeyword(keyword) {
-    const matchingProjects = new Set();
-    const requiredTags = ['HIGH-RISE', 'AWARDED', 'BUILT', 'INTERIOR'];
-    
-    projects.forEach(project => {
-        // If the project has tags
-        if (project.tags) {
-            if (requiredTags.includes(keyword)) {
-                // Only add if project has the clicked tag
+        currentSearchResults = matchingProjects;
+        updateVisibilityBasedOnCurrentFilter();
+        searchContent.style.display = "none";
+    }
+
+    function filterProjectsByKeyword(keyword) {
+        const matchingProjects = new Set();
+        const requiredTags = suggestions.tags;
+        
+        projects.forEach(project => {
+            if (project.tags && requiredTags.includes(keyword)) {
                 if (project.tags.includes(keyword)) {
                     matchingProjects.add(project);
                 }
             }
+            
+            if (project.typology === keyword || project.program === keyword) {
+                matchingProjects.add(project);
+            }
+        });
+
+        currentSearchResults = matchingProjects;
+        updateVisibilityBasedOnCurrentFilter();
+        searchContent.style.display = "none";
+    }
+
+    function updateVisibilityBasedOnCurrentFilter() {
+        const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
+        if (activeFilter === 'LOCATION' && globeInstance) {
+            updateGlobeMarkersVisibility(currentSearchResults);
+        } else {
+            updateProjectVisibility(currentSearchResults);
         }
+    }
+
+    function updateProjectVisibility(matchingProjects) {
+        const projectIcons = document.querySelectorAll('.project-icon');
         
-        // Also check other properties for backwards compatibility
-        if (project.typology === keyword || 
-            project.program === keyword) {
-            matchingProjects.add(project);
-        }
-    });
-
-    // Debug log
-    console.log(`Matching projects for ${keyword}:`, 
-        Array.from(matchingProjects).map(p => p.title));
-
-    const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
-    if (activeFilter === 'LOCATION' && globeInstance) {
-        updateGlobeMarkersVisibility(matchingProjects);
-    } else {
-        updateProjectVisibility(matchingProjects);
-    }
-    
-    searchContent.style.display = "none";
-}
-
-    
-    // Helper function to verify project tags
-    function verifyProjectTags(project) {
-        if (!project.tags) {
-            console.warn(`Project "${project.title}" has no tags array`);
-            return false;
-        }
-        return true;
-    }
-    
-    // Function to check all projects' tags
-    function checkAllProjectTags() {
-        console.log("Checking all projects' tags:");
-        projects.forEach(project => {
-            console.log(`${project.title}:`, project.tags || 'NO TAGS');
+        projectIcons.forEach(icon => {
+            const projectId = parseInt(icon.dataset.layoutId.split('-')[1]);
+            const project = projects.find(p => p.id === projectId);
+            
+            if (matchingProjects.size === 0 || matchingProjects.has(project)) {
+                icon.style.display = "block";
+                icon.style.visibility = "visible";
+                icon.style.position = "relative";
+            } else {
+                icon.style.display = "none";
+                icon.style.visibility = "hidden";
+                icon.style.position = "absolute";
+            }
         });
     }
-    function hideSearch() {
-        const searchTab = document.querySelector('.search-tab');
-        searchTab.style.display = 'none';
-    }
 
-    function showSearch() {
-        const searchTab = document.querySelector('.search-tab');
-        searchTab.style.display = 'flex';
-    }
-
-    function openProjectModal(project, searchValue = '') {
-        if (!project) {
-            console.error('No project provided to openProjectModal');
-            return;
-        }
-    
-        const modal = document.getElementById('projectModal');
-        if (!modal) {
-            console.error('Modal element not found');
-            return;
-        }
-    
-        try {
-            // Store the search value and current project
-            modal.dataset.searchValue = searchValue || '';
-            modal.dataset.currentProject = project.title;
-            
-            // Hide search
-            hideSearch();
-            
-            // Clear all existing content first
-            const coverImage = document.getElementById('projectCoverImage');
-            const iconImage = document.getElementById('projectIconImage');
-            const descriptionImage = document.getElementById('projectDescriptionImage');
-            const galleryContainer = modal.querySelector('.gallery-container');
-            const linksContainer = modal.querySelector('.project-links');
-    
-            // Reset all images and containers
-            if (coverImage) {
-                coverImage.src = '';
-                coverImage.alt = '';
-            }
-            if (iconImage) {
-                iconImage.src = '';
-                iconImage.alt = '';
-            }
-            if (descriptionImage) {
-                descriptionImage.src = '';
-                descriptionImage.alt = '';
-            }
-            if (galleryContainer) {
-                galleryContainer.innerHTML = '';
-            }
-            if (linksContainer) {
-                linksContainer.innerHTML = '';
-            }
-    
-            // Clear all text content
-            const textElements = [
-                'projectTitle', 'projectLocation', 'projectDate', 
-                'projectClientValue', 'projectTypologyValue', 'teamMembers',
-                'descriptionParagraph1', 'descriptionParagraph2', 'descriptionParagraph3',
-                'descriptionParagraph4', 'descriptionParagraph5'
-            ];
-    
-            textElements.forEach(elementId => {
-                const element = document.getElementById(elementId);
-                if (element) {
-                    element.textContent = '';
-                }
-            });
-    
-            // Now set new content after clearing
-            
-            // Set images
-            if (coverImage) {
-                coverImage.src = project.coverImage || '';
-                coverImage.alt = project.title;
-            }
-    
-            if (iconImage) {
-                iconImage.src = project.imageUrl || '';
-                iconImage.alt = project.title;
-            }
-    
-            // Set basic project info
-            const elementMappings = {
-                'projectTitle': project.title,
-                'projectLocation': project.location,
-                'projectDate': project.year,
-                'projectClientValue': project.client,
-                'projectTypologyValue': project.typology
-            };
-    
-            Object.entries(elementMappings).forEach(([elementId, value]) => {
-                const element = document.getElementById(elementId);
-                if (element) {
-                    element.textContent = value || '';
-                }
-            });
-    
-            // Set description image
-            if (descriptionImage) {
-                descriptionImage.src = project.descriptionImage || '';
-                descriptionImage.alt = `${project.title} Description`;
-            }
-    
-            // Set description paragraphs
-            if (project.description) {
-                ['paragraph1', 'paragraph2', 'paragraph3', 'paragraph4', 'paragraph5'].forEach((key, index) => {
-                    const paragraphElement = document.getElementById(`descriptionParagraph${index + 1}`);
-                    if (paragraphElement) {
-                        paragraphElement.textContent = project.description[key] || '';
-                        paragraphElement.style.display = project.description[key] ? 'block' : 'none';
-                    }
-                });
-            }
-    
-            // Set team members
-            const teamMembers = document.getElementById('teamMembers');
-            if (teamMembers) {
-                teamMembers.textContent = project.teamMembers || '';
-            }
-    
-            // Set gallery images
-            if (galleryContainer && project.galleryImages) {
-                project.galleryImages.forEach(imageUrl => {
-                    const imgContainer = document.createElement('div');
-                    imgContainer.className = 'gallery-image-container';
-                    
-                    const img = document.createElement('img');
-                    img.src = imageUrl;
-                    img.alt = `${project.title} Gallery Image`;
-                    img.className = 'gallery-image';
-                    
-                    imgContainer.appendChild(img);
-                    galleryContainer.appendChild(imgContainer);
-                });
-            }
-    
-            // Set project links
-            if (linksContainer) {
-                const links = [
-                    { url: project.threeDLink, image: project.linkImages?.threeD },
-                    { url: project.drawingLink, image: project.linkImages?.drawing },
-                    { url: project.visualLink, image: project.linkImages?.visual },
-                    { url: project.presentationLink, image: project.linkImages?.presentation }
-                ];
-    
-                links.forEach(link => {
-                    if (link.url && link.image) {
-                        const linkElement = document.createElement('a');
-                        linkElement.href = link.url;
-                        linkElement.className = 'project-link';
-                        linkElement.target = '_blank';
-    
-                        const linkImage = document.createElement('img');
-                        linkImage.src = link.image;
-                        linkImage.className = 'project-link-image';
-                        
-                        linkElement.appendChild(linkImage);
-                        linksContainer.appendChild(linkElement);
-                    }
-                });
-            }
-    
-            // Modal close handlers
-            const closeButton = modal.querySelector('.close-modal');
-            closeButton.innerHTML = `
-                <svg width="40" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter">
-                    <line x1="20" y1="6" x2="6" y2="20"></line>
-                    <line x1="6" y1="6" x2="20" y2="20"></line>
-                </svg>
-            `;
-            const homeButton = modal.querySelector('.home-modal');
-            
-            // Remove old event listener if exists
-            const oldKeydownHandler = modal.keydownHandler;
-            if (oldKeydownHandler) {
-                document.removeEventListener('keydown', oldKeydownHandler);
-            }
-    
-            const closeModalAndReset = () => {
-                if (!modal) return;
-                
-                try {
-                    // Restore search value from modal's dataset
-                    if (modal.dataset.searchValue) {
-                        mainSearchInput.value = modal.dataset.searchValue;
-                        // Trigger search update
-                        const event = new Event('input');
-                        mainSearchInput.dispatchEvent(event);
-                    }
-                    
-                    // Show search
-                    showSearch();
-                    
-                    // Reset modal and scroll positions
-                    modal.style.display = 'none';
-                    modal.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-                    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-                    document.body.style.overflow = 'auto';
-                    
-                    // Clear modal's stored data
-                    delete modal.dataset.searchValue;
-                    delete modal.dataset.currentProject;
-                } catch (error) {
-                    console.error('Error closing modal:', error);
-                    // Ensure modal is hidden and body scroll is restored
-                    if (modal) modal.style.display = 'none';
-                    document.body.style.overflow = 'auto';
-                }
-            };
-    
-            closeButton.onclick = closeModalAndReset;
-            homeButton.onclick = closeModalAndReset;
-    
-            // Add keyboard navigation for closing modal
-            const keydownHandler = function(event) {
-                if (event.key === 'Escape') {
-                    closeModalAndReset();
-                    document.removeEventListener('keydown', keydownHandler);
-                }
-            };
-            modal.keydownHandler = keydownHandler;
-            document.addEventListener('keydown', keydownHandler);
-    
-            // Show the modal and handle scrolling
-            modal.style.display = 'block';
-            modal.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-            document.body.style.overflow = 'hidden';
-            
-            // Force scroll to top
-            modal.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-            document.body.scrollTop = 0;
-    
-            // Add smooth scrolling after initial position is set
-            setTimeout(() => {
-                document.documentElement.style.scrollBehavior = 'smooth';
-            }, 100);
-    
-            // Force one final scroll to top after a slight delay
-            setTimeout(() => {
-                modal.scrollTo({
-                    top: 0,
-                    left: 0,
-                    behavior: 'instant'
-                });
-            }, 50);
-    
-        } catch (error) {
-            console.error('Error opening project modal:', error, project);
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-            showSearch();
+    function showAllProjects() {
+        const projectIcons = document.querySelectorAll('.project-icon');
+        projectIcons.forEach(icon => {
+            icon.style.display = "block";
+            icon.style.visibility = "visible";
+            icon.style.position = "relative";
+        });
+        
+        if (document.querySelector('.filter-btn.active').dataset.filter === 'LOCATION' && globeInstance) {
+            globeInstance.resetAllMarkers();
         }
     }
-    // Helper function to verify project data is complete
-function verifyProjectData(project) {
-    const requiredFields = ['title', 'location', 'year', 'client', 'typology', 'coverImage'];
-    const missingFields = requiredFields.filter(field => !project[field]);
-    
-    if (missingFields.length > 0) {
-        console.warn(`Project is missing required fields: ${missingFields.join(', ')}`);
-        return false;
-    }
-    return true;
-}
-
-    const closeModalAndReset = () => {
-        const modal = document.getElementById('projectModal');
-        
-        // Restore search value from modal's dataset
-        if (modal.dataset.searchValue) {
-            mainSearchInput.value = modal.dataset.searchValue;
-            // Trigger search update
-            const event = new Event('input');
-            mainSearchInput.dispatchEvent(event);
-        }
-        
-        // Show search
-        showSearch();
-        
-        // Reset modal and scroll positions
-        modal.style.display = 'none';
-        modal.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-        document.body.style.overflow = 'auto';
-        
-        // Clear modal's stored data
-        delete modal.dataset.searchValue;
-        delete modal.dataset.currentProject;
-    };
-
-    // Set up event listeners
-    document.querySelector('.close-modal').onclick = closeModalAndReset;
-    document.querySelector('.home-modal').onclick = closeModalAndReset;
-
-    document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape" && document.getElementById('projectModal').style.display === 'block') {
-            closeModalAndReset();
-        }
-    });
 
     // Close search results when clicking outside
     document.addEventListener("click", function(event) {
@@ -6397,21 +6057,18 @@ function verifyProjectData(project) {
             button.classList.add('active');
             updateGrid(button.dataset.filter);
             
-            // Maintain search filtering after changing views
             if (currentSearchResults.size > 0) {
                 updateVisibilityBasedOnCurrentFilter();
             }
         });
     });
 
-     // Function to update grid (your existing implementation)
-     function updateGrid(filterType) {
-        // Your existing grid update logic
-        // Make sure to respect currentSearchResults if there are any
+    function updateGrid(filterType) {
         if (currentSearchResults.size > 0) {
             updateVisibilityBasedOnCurrentFilter();
         }
     }
+
     // Initialize with default view
     updateGrid('CHRONOLOGICAL');
 });
