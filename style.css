@@ -273,7 +273,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
-    width: 80%; /* Ensure the title takes full width of its container */
+    width: 85%; /* Ensure the title takes full width of its container */
     word-wrap: break-word; /* Enable word wrapping */
     overflow-wrap: break-word; /* Modern browsers */
     max-width: 100%; /* Prevent text from overflowing */

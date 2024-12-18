@@ -387,7 +387,6 @@ function resetMarkerState(marker) {
         filterMarkersByKeyword
     };
 }
-
 const projects = [
     { 
         id: 1, 
@@ -3667,7 +3666,7 @@ const projects = [
     hoverImage: "./hover/NWW.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/0ab31de0-03c8-41cf-b830-4c453fbe1748',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/6237bed4-5e6d-4593-a0ab-6e97b446df9b',
-    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/9fbd8463-c2da-49ed-a472-747b7fc496ca',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQWwgTmF3cmFzIFdhbGsgIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
     linkImages : {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -3743,10 +3742,12 @@ const projects = [
     epoch: 'PRESENT', 
     hoverImage: "./hover/DMX.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/25447286-50d3-4fb9-adac-a989531c7ab6',
+    drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRGlsbXVuaWEgTUlYIDI0LTI1Il19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/f5b830da-13dd-45e9-b48b-7224eb1e70a2',
     linkImages : {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
 
     },
     // New fields for the description section
@@ -4065,7 +4066,7 @@ const projects = [
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=c1db6f66-8502-4e9c-9500-e4ae5690fb18&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=07927848-2866-43df-9caa-41b0e87493e5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2015,
-    client: "ABDUL LATIF JAMEE",
+    client: "ABDUL LATIF JAMEEL",
     program: 'OFFICE', 
     typology: 'OFFICE', 
     location: 'KSA, SAUDI ARABIA',
@@ -4073,7 +4074,7 @@ const projects = [
     epoch: 'PAST', 
     hoverImage: "./hover/ALJ.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/2944e00c-0586-4f95-8e39-f0f14b69ba74',
-    drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/420b6b3e-76b6-4212-82be-ff30c3e95aec',
+    drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQWJkdWwgTGF0aWYgSmFtZWVsIENIUSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/c8d30fa2-c980-4a77-b958-efd1672556ce',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -4157,6 +4158,7 @@ const projects = [
     hoverImage: "./hover/SCH.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/MODON%20School/Presentation',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/efbf958e-c362-421d-b03f-cbfa6bcb893d',
+    drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTU9ET04gU2Nob29sIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     threeDLink: 'https://aedasme.egnyte.com/navigate/file/90ffd3ab-5edb-450a-a9ac-72ccbb2bd9ef',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -4221,6 +4223,89 @@ const projects = [
         "https://aedasme.egnyte.com/opendocument.do?entryId=3db81a4c-aa63-43ce-b14d-1a812e0181ee&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=9d42f86f-3e28-44e8-b694-9d2909891be7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
     ]
+},
+
+{
+    id: 93, 
+    title: 'MAYAN YAS MARINA',  
+    abbr: 'MYN', 
+    image: "./ICON/MYN.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=a093e275-71df-4504-bc2c-805c74081baf&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=2502b981-191b-4b2b-a5cb-e92a6a72ea23&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2015,
+    client: "ALDAR",
+    program: 'RESIDENTIAL', 
+    typology: 'RESIDENTIAL', 
+    location: 'ABU DHABI',
+    scale: 'M', 
+    epoch: 'PRESENT', 
+    hoverImage: "./hover/MYN.png",
+    presentationLink: 'https://aedasme.egnyte.com/navigate/file/9b978884-0c33-4cbb-93ea-ed2f89100d59',
+    drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTWF5YW4gWWFzIE1hcmluYSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
+    visualLink: 'https://aedasme.egnyte.com/navigate/file/2afc97f3-8e20-416d-be51-68a827842167',
+    animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Mayan%20Yas%20Marina/Animation',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTkVPTSBTaW5kYWxhaCBJc2xhbmQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=340b92aa-947a-4e20-a693-5b60c31c2e3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=435c1801-3a09-4a05-bc33-d494baa74331&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=c53444b4-dcd5-4230-8f46-83be6b4dd506&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=b0baa31d-f63b-4c30-8eb3-1937d74d9b7e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=470781e1-9f81-4e52-bfbc-cd3415f989dd&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=aa7c7c39-d219-4cae-a479-59c79b046e26&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
+
+{
+    id: 94, 
+    title: 'SAHARA EAST TOWER',  
+    abbr: 'SAH', 
+    image: "./ICON/SAH.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=fddd9a43-01c5-416d-97f8-8600ce6a1b86&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=42b11b52-b5f3-491b-8b95-d2e36bd9e549&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2019,
+    client: "AL NAHDA REAL ESTATE TR. CO. LLC",
+    program: 'RESIDENTIAL', 
+    typology: 'RESIDENTIAL', 
+    location: 'SHARJAH',
+    scale: 'M', 
+    epoch: 'PRESENT', 
+    hoverImage: "./hover/SAH.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/93d77b50-8dc6-49a0-ad4b-c0ac4dfd79c8',
+    visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/87e3eaef-6248-414f-9b6e-2dd0e7f9aa07',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=b48e1472-42a4-456a-8699-1e0b875e5c34&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=4dafd175-e871-44ef-960c-4c275ad185fd&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=22711c2e-0e1b-406e-b4ec-5cf1c1038c0e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true" 
+    ]
 }
 
 ];
@@ -4269,11 +4354,9 @@ function getColumnWidth(totalHeaders) {
     return Math.min(Math.max(calculatedWidth, minWidth), maxWidth);
 }
 
-
 function getProjectKey(project, filter) {
     return `project-${project.id}-${filterConfigs[filter].getHeader(project)}`;
 }
-
 function createProjectIcon(project, filter) {
     const projectIcon = document.createElement('div');
     projectIcon.className = 'project-icon';
@@ -4823,11 +4906,11 @@ function updateGrid(activeFilter) {
             const nextLetter = letters[index + 1];
             const prevLetter = letters[index - 1];
             
-            if (letter === 'S') {
+            if (letter === 'S' || letter === 'M') {
                 letterSection.style.margin = '0 -5px';
-            } else if (nextLetter === 'S') {
+            } else if (nextLetter === 'S' || nextLetter === 'M') {
                 letterSection.style.margin = '0 20px 0 -7px';
-            } else if (prevLetter === 'S') {
+            } else if (prevLetter === 'S' || prevLetter === 'M') {
                 letterSection.style.margin = '0 -7px 0 15px';
             } else {
                 letterSection.style.margin = '0 -7px';
@@ -4842,19 +4925,19 @@ function updateGrid(activeFilter) {
             columnsContainer.className = 'letter-category-columns';
             columnsContainer.style.marginBottom = '-0.6rem';
     
-            if (letter === 'S') {
+            if (letter === 'S' || letter === 'M') {
                 // Add data attribute to letter section
-                letterSection.dataset.letter = 'S';
+                letterSection.dataset.letter = letter;
                 letterSection.style.position = 'relative';
                 
                 // Create wrapper for transform
-                const sWrapper = document.createElement('div');
-                sWrapper.className = 's-section-wrapper';
-                sWrapper.style.position = 'relative';
-                sWrapper.style.left = '0%';
-                sWrapper.style.transform = 'none'; // Removed translateX
-                sWrapper.style.width = '100%';
-
+                const wrapper = document.createElement('div');
+                wrapper.className = `${letter.toLowerCase()}-section-wrapper`;
+                wrapper.style.position = 'relative';
+                wrapper.style.left = '0%';
+                wrapper.style.transform = 'none';
+                wrapper.style.width = '100%';
+    
                 // Style columns container
                 columnsContainer.style.display = 'flex';
                 columnsContainer.style.justifyContent = 'center';
@@ -4862,8 +4945,8 @@ function updateGrid(activeFilter) {
                 columnsContainer.style.width = `${letterWidth * 0.8}px`;
                 columnsContainer.style.position = 'relative';
                 columnsContainer.style.marginBottom = '0rem';
-                columnsContainer.style.marginLeft = '-30px'; // Add left margin to offset
-
+                columnsContainer.style.marginLeft = '-30px';
+    
                 const columns = [];
                 // Create two columns
                 for (let i = 0; i < 2; i++) {
@@ -4934,8 +5017,8 @@ function updateGrid(activeFilter) {
                 }
             
                 // Append in correct order
-                sWrapper.appendChild(columnsContainer);
-                letterSection.appendChild(sWrapper);
+                wrapper.appendChild(columnsContainer);
+                letterSection.appendChild(wrapper);
             }
             else {
                 // Original single column layout for other letters
@@ -4952,7 +5035,7 @@ function updateGrid(activeFilter) {
                 projectStack.style.position = 'relative';
                 projectStack.style.zIndex = 'auto';
             
-                // Filter and sort projects based on programmatic order
+                // Filter and sort projects
                 const letterProjects = projects.filter(project => 
                     filterConfigs[activeFilter].getHeader(project) === letter
                 );
