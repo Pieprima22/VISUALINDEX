@@ -4444,6 +4444,38 @@ function getColumnWidth(totalHeaders) {
 function getProjectKey(project, filter) {
     return `project-${project.id}-${filterConfigs[filter].getHeader(project)}`;
 }
+
+// Add this at the top of your JavaScript file
+let showCoverImages = false;
+
+// Create toggle button HTML - add this to your HTML where you want the toggle to appear
+const toggleButton = document.createElement('button');
+toggleButton.className = 'icon-toggle-btn';
+toggleButton.innerHTML = 'Switch to Cover View';
+toggleButton.style.cssText = `
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'AkkuratStd', sans-serif;
+    font-size: 14px;
+    z-index: 1000;
+    transition: background-color 0.3s;
+`;
+
+// Add hover effect styles
+const style = document.createElement('style');
+style.textContent = `
+    .icon-toggle-btn:hover {
+        background-color: #f0f0f0;
+    }
+`;
+document.head.appendChild(style);
+
 function createProjectIcon(project, filter) {
     const projectIcon = document.createElement('div');
     projectIcon.className = 'project-icon';
@@ -4453,14 +4485,14 @@ function createProjectIcon(project, filter) {
     
     // Create and set up the main image
     const img = document.createElement('img');
-    img.src = project.imageUrl;
+    img.src = showCoverImages ? (project.coverImage || project.imageUrl) : project.imageUrl;
     img.alt = project.title;
     img.className = 'project-icon-image';
     img.loading = 'lazy';
     
     // Create the hover cover image
     const hoverImg = document.createElement('img');
-    hoverImg.src = project.coverImage || project.imageUrl;
+    hoverImg.src = showCoverImages ? project.imageUrl : (project.coverImage || project.imageUrl);
     hoverImg.alt = project.title;
     hoverImg.className = 'project-icon-hover';
     hoverImg.loading = 'lazy';
@@ -4480,7 +4512,7 @@ function createProjectIcon(project, filter) {
 
     // Add hover event listeners
     projectIcon.addEventListener('mouseenter', () => {
-        document.body.style.zIndex = '1';  // Ensure body doesn't create stacking context
+        document.body.style.zIndex = '1';
         projectIcon.style.zIndex = '9999';
     });
 
@@ -4490,6 +4522,23 @@ function createProjectIcon(project, filter) {
     
     return projectIcon;
 }
+// Add toggle functionality
+function toggleProjectIcons() {
+    showCoverImages = !showCoverImages;
+    toggleButton.innerHTML = showCoverImages ? 'Switch to Icon View' : 'Switch to Cover View';
+    
+    // Get current active filter
+    const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
+    
+    // Update grid with new images
+    updateGrid(activeFilter);
+}
+
+// Add toggle button to the page and set up click handler
+document.addEventListener('DOMContentLoaded', () => {
+    document.body.appendChild(toggleButton);
+    toggleButton.addEventListener('click', toggleProjectIcons);
+});
 
 function hideSearch() {
     const searchTab = document.querySelector('.search-tab');
