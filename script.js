@@ -5820,7 +5820,7 @@ function updateGrid(activeFilter) {
     
             // Special styling for M scale
             if (scale === 'M') {
-                columnsContainer.style.gap = '40px';
+                columnsContainer.style.gap = '36px';
                 columnsContainer.style.width = `${scaleWidth}px`;
                 columnsContainer.style.display = 'flex';
                 columnsContainer.style.justifyContent = 'center';
