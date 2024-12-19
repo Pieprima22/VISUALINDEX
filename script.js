@@ -6436,3 +6436,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+document.querySelectorAll('.image-link').forEach(link => {
+    const defaultImage = link.querySelector('.default-image');
+    const hoverImage = link.querySelector('.hover-image');
+
+    link.addEventListener('mouseover', function() {
+        this.style.zIndex = '3';
+        defaultImage.style.opacity = '0';
+        hoverImage.style.opacity = '1';
+    });
+
+    link.addEventListener('mouseout', function() {
+        this.style.zIndex = '2';
+        defaultImage.style.opacity = '1';
+        hoverImage.style.opacity = '0';
+    });
+});

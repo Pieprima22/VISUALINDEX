@@ -975,4 +975,80 @@ body {
 
 .toggle-track .toggle-icon.icon {
     color: #666;
+
+}
+.knowledge-container {
+    position: absolute;
+    width: 1100px;
+    height: 600px;
+    margin-top: 60px;
+    margin-left: -550px;
+    overflow: hidden;
+}
+
+.image-link {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.image-link .default-image,
+.image-link .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: auto;
+    object-fit: cover;
+    pointer-events: auto;
+    transition: opacity 0.3s ease;
+}
+
+.image-link .hover-image {
+    opacity: 0;
+}
+
+/* Individual image positions and crops */
+.image-K .default-image,
+.image-K .hover-image {
+    clip-path: inset(41% 41.5% 42.2% 48.5%);
+}
+
+.image-SO .default-image,
+.image-SO .hover-image {
+    clip-path: inset(35% 22.2% 53% 71.5%);
+}
+
+.image-REP .default-image,
+.image-REP .hover-image {
+    clip-path: inset(45% 59.5% 36% 29.5%);
+}
+
+.image-RE .default-image,
+.image-RE .hover-image {
+    clip-path: inset(42.5% 29.5% 44% 63%);
+}
+
+.image-CAD .default-image,
+.image-CAD .hover-image {
+    clip-path: inset(16% 50% 64% 39%);
+}
+
+
+.bottom-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.bottom-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
