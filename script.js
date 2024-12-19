@@ -4475,7 +4475,254 @@ const projects = [
         "https://aedasme.egnyte.com/opendocument.do?entryId=77b738f3-0068-4dbc-bbb5-0dcf0e4cbc27&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=dfde90ea-4cf1-4349-b238-ae5a3b75885d&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
     ]
+},
+
+{
+    id: 99, 
+    title: 'BUSINESS BAY LANDMARK WATERFRONT (BAY POINT)',  
+    abbr: 'BBW', 
+    image: "./ICON/BBW.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=79355a10-86f3-4a00-a2ca-f006ba0674d9&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=28823401-6b66-4675-8019-fac68a4b7b06&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2017,
+    client: "DUBAI PROPERTIES",
+    program: 'RESIDENTIAL', 
+    typology: 'RESIDENTIAL', 
+    location: 'DUBAI, UAE',
+    scale: 'M', 
+    epoch: 'PRESENT', 
+    hoverImage: "./hover/BBW.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/e7930663-8865-4db1-86a8-617a402141b0',
+    visualLink: 'https://aedasme.egnyte.com/navigate/file/75d42810-f50b-4427-b7d2-6325eddad63e',
+    animationLink: 'https://aedasme.egnyte.com/navigate/file/54cfd122-a01d-4543-9182-80b89470bb3f',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQnVzaW5lc3MgQmF5IExhbmRtYXJrIFdhdGVyZnJvbnQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=86575fce-5356-4418-b5be-09f28753424f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=a9ca2027-399b-4b42-8ff9-0f254cb07f84&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=ad207ebb-7b15-4e3a-bb25-85825b5f11dc&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=7d45914e-0ce6-4c73-9870-0cb8ffd29b87&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=854b4de5-744c-4d7d-9412-583529d65e7b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=a0d3e08d-a4b8-4665-9fc7-2b70cf69d91f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
+{
+    id: 100, 
+    title: 'WAREHOUSES IN THE MINA ZAYED, ABU DHABI',  
+    abbr: 'WMZ', 
+    image: "./ICON/WMZ.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=ffd43956-d712-41e4-926e-da69d5853117&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=59352469-2064-4491-be4c-fb993b80d12f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2018,
+    client: "FISHERMAN'S COVE HOTEL LIMITED",
+    program: 'MASTERPLAN', 
+    typology: 'MASTERPLAN', 
+    location: 'ABU DHABI',
+    scale: 'L', 
+    epoch: 'PRESENT', 
+    hoverImage: "./hover/WMZ.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/6aa69b0e-f391-4793-854d-8628272a38ed',
+    visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/fe4fc02c-f7de-4bf5-9ac6-84ab0c633a74',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=391bf692-79d7-4ad0-a32d-7a917edccc69&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=b71cb35a-92b3-45f9-83ec-d71cd4e431de&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=73bdd569-c532-40b8-a094-be16b7baf1f0&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=6e305129-d167-43ac-a6f9-5c64ef2ae1bd&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+    ]
+},
+
+{
+    id: 101, 
+    title: 'GOA MANSIONS',  
+    abbr: 'GOM', 
+    image: "./ICON/GOM.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=f303bfb9-8e73-43d1-ae70-6b9f7a7dc258&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=503c7b84-8514-4636-841d-db48f51f64fb&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2021,
+    client: "NEOM",
+    program: 'RESIDENTIAL', 
+    typology: 'RESIDENTIAL', 
+    location: 'KSA, SAUDI ARABIA',
+    scale: 'S', 
+    epoch: 'FUTURE', 
+    hoverImage: "./hover/GOM.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/9bfe57eb-9739-4d41-b78c-4079a273266c',
+    visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/3db35b8e-be54-499e-a001-3528f4fa92a9',
+    animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/c9abd43c-0612-492d-bf0b-5864ba193506',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=2698f583-8780-4da2-b05f-5251aac04313&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=7299d2ce-006e-4612-8eaf-3288c22be82e&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=9c263d13-1328-4a56-b573-60803ddded92&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=dc042d9d-dd39-4e8c-aedc-4f06b6d6caf3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=0a11e98a-d4af-4175-8cb5-5da8432aaaaf&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=0d0bc191-ff65-4298-98de-478fe92bde1e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=bcce37d4-1f9a-4f9a-a6b1-1d9e16ba9835&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=fc6c6a86-b852-4096-a3f7-a49d8a4fb555&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
+{
+    id: 102, 
+    title: 'GOA STAFF VILLAGE',  
+    abbr: 'GOS', 
+    image: "./ICON/GOS.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=687a2c68-b44f-4ea0-bdc5-cf67dd2d8f38&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=88de6dd3-2767-4743-bf47-3717e08e7eb5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2021,
+    client: "NEOM",
+    program: 'MASTERPLAN', 
+    typology: 'MASTERPLAN', 
+    location: 'KSA, SAUDI ARABIA',
+    scale: 'L', 
+    epoch: 'FUTURE', 
+    hoverImage: "./hover/GOS.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/1ad22d50-ac6a-4d31-be86-cea1ac909221',
+    visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/cf077815-0cfe-4cc7-9287-38ce7d9c312b',
+    animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/722486ba-f7e0-4d2a-9ab5-940ce13a08ae',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=e3ffb949-7b7f-44a4-9196-b1ec74a5525e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=d9a44d42-b2ec-4760-b733-e8c701e6adf9&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=5d8c79aa-9408-455a-8d46-1c3a1f346e13&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=236b9d06-0339-4ae2-a287-82fc409b2079&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=ecfb0bc6-f9dd-4948-b9b9-d85ae71fa02c&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
+
+{
+    id: 103, 
+    title: 'RAS EL HEKMA VMP EGYPT - ALGARVE & WEST COAST CANALS',  
+    abbr: 'RAW', 
+    image: "./ICON/RAW.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=06d782bb-65fc-4b58-ba8a-518bbf3aa409&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=76c0bcba-d077-48f8-8846-7ce0e93b84fa&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2024,
+    client: "MODON",
+    program: 'MASTERPLAN', 
+    typology: 'MASTERPLAN', 
+    location: 'KSA, SAUDI ARABIA',
+    scale: 'XL', 
+    epoch: 'PAST', 
+    hoverImage: "./hover/RAW.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmFzIEVsIEhla21hIEFsZ2FydmUiLCJSYXMgRWwgSGVrbWEgV2VzdCBDb2FzdCBDYW5hbHMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUHJlc2VudGF0aW9uIiwiUmVwb3J0Il19XQ%3D%3D',
+    visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Ras%20El%20Hekma/Visuals/Ras%20El%20Hekma%20Algarve%20%26%20West%20Coast%20Canals',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmFzIEVsIEhla21hIFdlc3QgQ29hc3QgQ2FuYWxzIiwiUmFzIEVsIEhla21hIEFsZ2FydmUiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=f0df7a1e-392f-42d5-9b98-c632ff945b04&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=695a881a-6357-4877-9d97-338a3691ece1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=77bd7779-ce89-4214-9229-cd7412861464&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=f535a23d-013a-43b9-91b1-e211c58d96e4&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=9d55db0b-6725-4ad7-8afb-f9e0863b1d80&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=eeea47d9-038d-478a-a14a-1c1a6b926f29&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
+
+{
+    id: 104, 
+    title: 'KHOR SAADIYAT  THEATER MARINA',  
+    abbr: 'KTM', 
+    image: "./ICON/KTM.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=06d782bb-65fc-4b58-ba8a-518bbf3aa409&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=76c0bcba-d077-48f8-8846-7ce0e93b84fa&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2024,
+    client: "MODON",
+    program: 'MASTERPLAN', 
+    typology: 'MASTERPLAN', 
+    location: 'ABU DHABI',
+    scale: 'L', 
+    epoch: 'FUTURE', 
+    hoverImage: "./hover/KTM.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/eb146eae-7223-48b2-8f21-e9be87589fab',
+    visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/f1c62b3c-086e-4523-ae20-29496cd5543c',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5916c642-f968-4ed2-af7b-e2e0c440103a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=660bd4cb-b2e0-40ca-a0d3-3dac4fa47ba2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=9c6503f4-5ea0-4572-95e9-aa18ed04c2c9&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=e507236b-bc6e-4975-b9cb-da23f1335606&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
 }
+
 
 ];
 
