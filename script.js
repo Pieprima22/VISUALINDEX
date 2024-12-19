@@ -4841,6 +4841,45 @@ const projects = [
         "https://aedasme.egnyte.com/opendocument.do?entryId=b386a3f0-f865-4005-b3c0-5471c922293e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=bb11b87e-05d3-4839-87c1-0a887125c310&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
     ]
+},
+
+{
+    id: 108, 
+    title: 'FOOTBALL CITY DUBAI',  
+    abbr: 'FBC', 
+    image: "./ICON/FBC.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=03a21d4b-bc72-4434-b1ca-c166c77bcb6e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=39b7a18b-be6c-4d8b-b34f-2271eababb9b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2015,
+    client: "FOOTBALL",
+    program: 'MASTERPLAN', 
+    typology: 'MASTERPLAN', 
+    location: 'DUBAI, UAE',
+    scale: 'XL', 
+    epoch: 'PRESENT', 
+    hoverImage: "./hover/FBC.png",
+    presentationLink: 'https://aedasme.egnyte.com/navigate/file/47400822-05c8-4865-924f-4f2267ce9a8a',
+    visualLink: 'https://aedasme.egnyte.com/navigate/file/45f64f88-fc96-4cc8-93e2-a7da3ff65a45',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=08cbefc0-afe4-4abf-91dc-0f057352cfdd&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=37c0012f-a7b3-4c48-9544-b055e6da9e86&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=9c9cce78-2efa-4d6d-be59-70c0c647b870&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=f90ef380-742a-400f-a2d8-97c0451c4078&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+    ]
 }
 
 
@@ -5637,15 +5676,15 @@ function updateGrid(activeFilter) {
             programSection.style.flexDirection = 'column';
             programSection.style.alignItems = 'center';
     
-            // Add margins for RESIDENTIAL and its neighbors
-            if (program === 'RESIDENTIAL') {
-                programSection.style.margin = '0 -10px'; // Equal margin on both sides
-            } else if (programs[programIndex + 1] === 'RESIDENTIAL') {
-                programSection.style.margin = '0 20px 0 -5px'; // Right margin for program before RESIDENTIAL
-            } else if (programs[programIndex - 1] === 'RESIDENTIAL') {
-                programSection.style.margin = '0 -8px 0 20px'; // Left margin for program after RESIDENTIAL
+            // Add margins for RESIDENTIAL, MASTERPLAN and their neighbors
+            if (program === 'RESIDENTIAL' || program === 'MASTERPLAN') {
+                programSection.style.margin = '0 -10px';
+            } else if (programs[programIndex + 1] === 'RESIDENTIAL' || programs[programIndex + 1] === 'MASTERPLAN') {
+                programSection.style.margin = '0 20px 0 -5px';
+            } else if (programs[programIndex - 1] === 'RESIDENTIAL' || programs[programIndex - 1] === 'MASTERPLAN') {
+                programSection.style.margin = '0 -8px 0 20px';
             } else {
-                programSection.style.margin = '0 -8px'; // Default margin for other programs
+                programSection.style.margin = '0 -8px';
             }
             
             const columnsContainer = document.createElement('div');
@@ -5653,8 +5692,8 @@ function updateGrid(activeFilter) {
             columnsContainer.style.display = 'flex';
             columnsContainer.style.justifyContent = 'center';
             columnsContainer.style.width = '100%';
-            columnsContainer.style.marginBottom = '-0.6rem';
             columnsContainer.style.gap = '0';
+            columnsContainer.style.marginBottom = '-0.6rem';  // Apply to all programs consistently
     
             const epochColumnWidth = getColumnWidth(filterConfigs[activeFilter].headers.length * 3) * 0.8;
     
@@ -5663,8 +5702,8 @@ function updateGrid(activeFilter) {
                 epochColumn.className = 'epoch-column';
                 epochColumn.style.width = `${epochColumnWidth - 10}px`;
     
-                // Add margin based on position
-                if (program === 'RESIDENTIAL') {
+                // Add margin based on position for both RESIDENTIAL and MASTERPLAN
+                if (program === 'RESIDENTIAL' || program === 'MASTERPLAN') {
                     if (epoch === 'PRESENT') {
                         epochColumn.style.margin = '0 20px';
                     } else if (epoch === 'PAST') {
@@ -5673,31 +5712,20 @@ function updateGrid(activeFilter) {
                         epochColumn.style.margin = '0 0 0 26px';
                     }
                 }
-                // Add margin based on position
-                if (program === 'RESIDENTIAL') {
-                    if (epoch === 'PRESENT') {
-                        epochColumn.style.margin = '0 20px';
-                    } else if (epoch === 'PAST') {
-                        epochColumn.style.margin = '0 -5px -10px 0'; // Added 20px bottom margin
-                    } else if (epoch === 'FUTURE') {
-                        epochColumn.style.margin = '0 0 -10px 26px'; // Added 20px bottom margin
-                    }
-                }
-                // Special handling for RESIDENTIAL program in PRESENT epoch
-                if (program === 'RESIDENTIAL' && epoch === 'PRESENT') {
-                    // Create a container for the two columns
+    
+                // Special handling for RESIDENTIAL and MASTERPLAN programs in PRESENT epoch
+                if ((program === 'RESIDENTIAL' || program === 'MASTERPLAN') && epoch === 'PRESENT') {
                     const twoColumnsContainer = document.createElement('div');
                     twoColumnsContainer.style.display = 'flex';
                     twoColumnsContainer.style.justifyContent = 'center';
                     twoColumnsContainer.style.gap = '43px';
                     twoColumnsContainer.style.width = '100%';
-                    columnsContainer.style.marginBottom = '0rem';
+                    twoColumnsContainer.style.marginBottom = '0.6rem';  // Add margin to match other columns
     
                     const columns = [];
-                    // Create two columns
                     for (let i = 0; i < 2; i++) {
                         const column = document.createElement('div');
-                        column.style.width = `calc(50% - 16px)`; // Adjusted for the gap
+                        column.style.width = `calc(50% - 16px)`;
                         column.style.display = 'flex';
                         column.style.flexDirection = 'column-reverse';
                         column.style.gap = '7px';
@@ -5705,16 +5733,13 @@ function updateGrid(activeFilter) {
                         twoColumnsContainer.appendChild(column);
                     }
     
-                    // Filter and sort projects
                     const filteredProjects = projects.filter(
                         project => project.program === program && project.epoch === epoch
                     );
     
-                    // Calculate rows needed
                     const numRows = Math.ceil(filteredProjects.length / 2);
                     const projectGrid = Array(numRows).fill(null).map(() => Array(2).fill(null));
     
-                    // Fill grid by rows
                     let currentIndex = 0;
                     for (let row = 0; row < numRows; row++) {
                         for (let col = 0; col < 2; col++) {
@@ -5725,7 +5750,6 @@ function updateGrid(activeFilter) {
                         }
                     }
     
-                    // Add projects to columns based on grid
                     for (let row = 0; row < numRows; row++) {
                         for (let col = 0; col < 2; col++) {
                             const project = projectGrid[row][col];
@@ -5738,7 +5762,6 @@ function updateGrid(activeFilter) {
     
                     epochColumn.appendChild(twoColumnsContainer);
                 } else {
-                    // Original single column layout for other combinations
                     const projectStack = document.createElement('div');
                     projectStack.className = 'project-stack';
                     projectStack.style.display = 'flex';
@@ -6130,7 +6153,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "ENOC","BEYON","PRIVATE","EMAAR PROPERTIES","OMRAN GROUP","NAKHEEL","ROYAL COMMISSION FOR AL-ULA","ELLINGTON", "AL REEM REAL ESTATE DEVELOPMENT EST", 
             "SOUDAH DEVELOPMENT COMPANY", "FISHER MAN'S COVE HOTEL LIMITED", "RTA", "SELECT GROUP", "ITHMAAR DEVELOPMENT COMPANY", "AL MADDAHIA", "QIDDIYA", 
             "FAKIEH GROUP", "MINISTRY OF CULTURE", "RAHIM HOLDINGS W.L.L.", "ABDUL LATIF JAMEEL", "FAISAL ASGHAR ENTERPRISES (PVT) LIMITED", "AL NAHDA REAL ESTATE TR. CO. LLC"
-        , "FISHERMAN'S COVE HOTEL LIMITED", "DUBAI PROPERTIES"]
+        , "FISHERMAN'S COVE HOTEL LIMITED", "DUBAI PROPERTIES", "FOOTBALL", "GEMINI PROPERTY DEVELOPERS"]
     };
 
     searchIcon.addEventListener("click", function() {
