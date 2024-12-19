@@ -5156,7 +5156,6 @@ function updateGrid(activeFilter) {
         grid.style.overflow = 'hidden';
         grid.style.margin = 'auto';
         grid.style.marginTop = '2rem';
-        
     
         const { renderer, animate, resizeHandler } = createGlobe();
         grid.appendChild(renderer.domElement);
@@ -5416,8 +5415,8 @@ function updateGrid(activeFilter) {
             } else if (letter === 'R') {
                 letterSection.style.margin = '0 13px'; // Add margin for R to separate from Q
             } else if (letter === 'Q') {
-                letterSection.style.margin = '0 -13px 0 -14px'; // First number is top, second is right, third is bottom, fourth is left
-        
+                letterSection.style.margin = '0 -13px 0 -15px'; // First number is top, second is right, third is bottom, fourth is left
+            
             } else if (nextLetter === 'S' || nextLetter === 'M') {
                 letterSection.style.margin = '0 20px 0 -7px';
             } else if (prevLetter === 'S' || prevLetter === 'M') {
@@ -5442,7 +5441,7 @@ function updateGrid(activeFilter) {
                 columnsContainer.style.gap = '35px';
                 columnsContainer.style.width = `${letterWidth * 0.8}px`;
                 columnsContainer.style.marginLeft = '-30px';
-                columnsContainer.style.marginBottom = '0.6px';
+                columnsContainer.style.marginBottom = '0px';
 
                 
                 // Create two columns
