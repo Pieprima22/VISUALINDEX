@@ -1018,39 +1018,63 @@ body {
 /* Individual image positions and crops */
 .image-K .default-image,
 .image-K .hover-image {
-    clip-path: inset(41% 41.5% 42.2% 48.5%);
+    clip-path: inset(41% 44% 38.5% 44.5%);
+
 }
 
 .image-SO .default-image,
 .image-SO .hover-image {
-    clip-path: inset(35% 22.2% 53% 71.5%);
+    clip-path: inset(37% 25.5% 51.55% 68%);
+
 }
 
 .image-REP .default-image,
 .image-REP .hover-image {
-    clip-path: inset(45% 59.5% 36% 29.5%);
+    clip-path: inset(42.5% 62% 39% 27%);
+
 }
 
 .image-RE .default-image,
 .image-RE .hover-image {
-    clip-path: inset(42.5% 29.5% 44% 63%);
+    clip-path: inset(44% 33% 42.5% 59.5%);
+
 }
 
 .image-CAD .default-image,
 .image-CAD .hover-image {
-    clip-path: inset(16% 50% 64% 39%);
+    clip-path: inset(21% 56% 60% 33%);
 }
 
 .image-LEC .default-image,
 .image-LEC .hover-image {
-    clip-path: inset(63.5% 38% 23% 54%);
+    clip-path: inset(62.5% 38% 24% 54.3%);
+
 }
 
 .image-TEM .default-image,
 .image-TEM .hover-image {
-    clip-path: inset(25% 33.5% 61.5% 59%);
+    clip-path: inset(23%  40% 63% 52.5%);
+
 }
 
+
+.image-TOP .default-image,
+.image-TOP .hover-image {
+    clip-path: inset(53%  25.5% 35% 68%);
+
+}
+
+.image-2D .default-image,
+.image-2D .hover-image {
+    clip-path: inset(57.5% 72.5% 34.5% 23%);
+
+}
+
+.image-3D .default-image,
+.image-3D .hover-image {
+    clip-path: inset(42% 74.2% 50% 21.5%);
+
+}
 .bottom-image {
     position: absolute;
     top: 50%;
