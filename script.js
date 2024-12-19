@@ -4823,6 +4823,8 @@ const projects = [
     hoverImage: "./hover/GEM.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/02dce027-3ed5-4f06-9be1-eca1aefec5ec',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/bc6851d1-d4aa-4b40-ad75-b688b4325520',
+    drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR2VtaW5pIFNwbGVuZG9yIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR2VtaW5pIFNwbGVuZG9yIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
