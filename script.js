@@ -2396,9 +2396,11 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/c5c5b3d9-07d8-4433-b056-9a72639ff162',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/354b6b7b-2b28-429b-aa9a-714954c170b9',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/b3945c4a-fcee-4312-b2bc-4ca1675924b2',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRElGQyAyLjAiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
     linkImages : {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
 
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=14afa883-e65d-4c44-a98f-308e5ed62ed7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3015,8 +3017,8 @@ const projects = [
 { 
     id: 63, 
     title: 'RIYADH HUB',  
-    abbr: 'RYD', 
-    image: "./ICON/RYD.svg",
+    abbr: 'RYH', 
+    image: "./ICON/RYH.svg",
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=c967847e-9ff5-4904-8efd-8aa449cf1eb4&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     imageUrl : 'https://aedasme.egnyte.com/opendocument.do?entryId=5c88cba7-7fa8-48c1-8a60-03c9c89ed934&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2019,
@@ -3026,7 +3028,7 @@ const projects = [
     location: 'KSA, SAUDI ARABIA',
     scale: 'XL', 
     epoch: 'FUTURE', 
-    hoverImage: "./hover/RYD.png",
+    hoverImage: "./hover/RYH.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/61cdcdda-3771-41f1-a4b5-f5d33b09ff69',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Riyadh%20Hub/Visuals',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Riyadh%20Hub/Animation',
@@ -3833,7 +3835,7 @@ const projects = [
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        threeD: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRGlyaXlhaCBHYXRlIFBlbmluc3VsYSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D'
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=6465a8ca-8918-4f77-bcbc-5c59f19e403c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4345,7 +4347,6 @@ const projects = [
     ],
     galleryImages: [    
         "https://aedasme.egnyte.com/opendocument.do?entryId=4c136242-c1f1-4146-9e58-797cf6daf07e&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
-        "https://aedasme.egnyte.com/opendocument.do?entryId=507fa0e6-551d-44e4-bd17-8a14b58f9cb7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=c8c0a57b-4325-4581-878a-819243aef97b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=5c494f91-07b6-4cee-a7b9-bcb4a34d8268&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=2be13c6f-1972-4305-94b3-d15f2d80dac3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
@@ -4690,7 +4691,7 @@ const projects = [
     abbr: 'KTM', 
     image: "./ICON/KTM.svg",
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=06d782bb-65fc-4b58-ba8a-518bbf3aa409&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=76c0bcba-d077-48f8-8846-7ce0e93b84fa&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=722230c7-8ddd-4755-937e-13d5eec83d39&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2024,
     client: "MODON",
     program: 'MASTERPLAN', 
@@ -4720,6 +4721,125 @@ const projects = [
         "https://aedasme.egnyte.com/opendocument.do?entryId=660bd4cb-b2e0-40ca-a0d3-3dac4fa47ba2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=9c6503f4-5ea0-4572-95e9-aa18ed04c2c9&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=e507236b-bc6e-4975-b9cb-da23f1335606&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
+
+{
+    id: 105, 
+    title: 'KHOR SAADIYAT  THEATER DISTRICT',  
+    abbr: 'KTD', 
+    image: "./ICON/KTD.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=06d782bb-65fc-4b58-ba8a-518bbf3aa409&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=9a4afa0c-8af7-4717-9b33-2dc14b1007a3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2023,
+    client: "MODON",
+    program: 'MASTERPLAN', 
+    typology: 'MASTERPLAN', 
+    location: 'ABU DHABI',
+    scale: 'L', 
+    epoch: 'FUTURE', 
+    hoverImage: "./hover/KTD.png",
+    visualLink: 'https://aedasme.egnyte.com/navigate/folder/26a27d8d-60db-4dec-9464-905f71aa8cb4',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5916c642-f968-4ed2-af7b-e2e0c440103a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=660bd4cb-b2e0-40ca-a0d3-3dac4fa47ba2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=9c6503f4-5ea0-4572-95e9-aa18ed04c2c9&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=e507236b-bc6e-4975-b9cb-da23f1335606&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
+
+{
+    id: 106, 
+    title: 'KHOR SAADIYAT  MASTERPLAN',  
+    abbr: 'KSM', 
+    image: "./ICON/KSM.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=748c336c-02d2-4285-90d1-e9dce4720870&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=38b7e39f-718b-48e9-a5ae-e9ea759c5cac&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2020,
+    client: "MODON",
+    program: 'MASTERPLAN', 
+    typology: 'MASTERPLAN', 
+    location: 'ABU DHABI',
+    scale: 'XL', 
+    epoch: 'PAST', 
+    hoverImage: "./hover/KSM.png",
+    presentationLink: 'https://aedasme.egnyte.com/navigate/file/e7ee05a6-8181-43db-a84e-8e428626fe2c',
+    visualLink: 'https://aedasme.egnyte.com/navigate/folder/ef452a7d-612c-4f8e-9161-6daa9bd48cf4',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiS2hvciBBbCBTYWFkaXlhdCBNYXN0ZXJwbGFuIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=3daebd38-1b72-47a1-82be-d5d12ba72060&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=148dc21d-c2b7-454e-b5f2-84f09b4f9282&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=a0208520-aa4d-4a22-9ffc-d985975e4408&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=2bc6d91e-ab01-4c61-95f4-4028b15611f7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=4fe2a332-cda7-4a52-920e-f502cc0bef62&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=a4f6d506-fe41-49ca-a5c3-306c110f0fe3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
+
+{
+    id: 107, 
+    title: 'GEMINI SPLENDOR',  
+    abbr: 'GEM', 
+    image: "./ICON/GEM.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=dc6e14b3-9103-489c-9b71-75733cbd497e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=18937a7f-6ac2-4172-a59a-cbe7b4d96e9e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2015,
+    client: "GEMINI PROPERTY DEVELOPERS",
+    program: 'RESIDENTIAL', 
+    typology: 'RESIDENTIAL', 
+    location: 'DUBAI, UAE',
+    scale: 'M', 
+    epoch: 'PRESENT', 
+    hoverImage: "./hover/GEM.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/02dce027-3ed5-4f06-9be1-eca1aefec5ec',
+    visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/bc6851d1-d4aa-4b40-ad75-b688b4325520',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5abd06a7-6e0a-4914-8594-4f2bbfa3314c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=d699fd22-604f-4b22-b5b9-f53ae01c06fd&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=b386a3f0-f865-4005-b3c0-5471c922293e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=bb11b87e-05d3-4839-87c1-0a887125c310&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
     ]
 }
 
@@ -4772,14 +4892,13 @@ function getColumnWidth(totalHeaders) {
 
 function getProjectKey(project, filter) {
     return `project-${project.id}-${filterConfigs[filter].getHeader(project)}`;
-}
-// Global state for toggle
-let showCoverImages = false;
+}// Global state for toggle
+let showHoverImages = false;
 
 // Add styles for toggle switch
 const style = document.createElement('style');
 style.textContent = `
-
+    // Existing styles remain the same
 `;
 document.head.appendChild(style);
 
@@ -4791,8 +4910,8 @@ function createToggleSwitch() {
     const labelIcon = document.createElement('span');
     labelIcon.className = 'toggle-label';
 
-    const labelCover = document.createElement('span');
-    labelCover.className = 'toggle-label';
+    const labelHover = document.createElement('span');
+    labelHover.className = 'toggle-label';
 
     const track = document.createElement('div');
     track.className = 'toggle-track';
@@ -4809,19 +4928,19 @@ function createToggleSwitch() {
         </svg>
     `;
 
-    const coverSvg = `
-        <svg class="toggle-icon cover" viewBox="0 0 24 24">
+    const hoverSvg = `
+        <svg class="toggle-icon hover" viewBox="0 0 24 24">
         </svg>
     `;
 
-    icons.innerHTML = iconSvg + coverSvg;
+    icons.innerHTML = iconSvg + hoverSvg;
 
     // Assemble the toggle
     track.appendChild(handle);
     track.appendChild(icons);
     toggleSwitch.appendChild(labelIcon);
     toggleSwitch.appendChild(track);
-    toggleSwitch.appendChild(labelCover);
+    toggleSwitch.appendChild(labelHover);
 
     return { toggleSwitch, track };
 }
@@ -4836,14 +4955,14 @@ function createProjectIcon(project, filter) {
     
     // Create and set up the main image
     const img = document.createElement('img');
-    img.src = showCoverImages ? (project.coverImage || project.imageUrl) : project.imageUrl;
+    img.src = showHoverImages ? project.hoverImage : project.imageUrl;
     img.alt = project.title;
     img.className = 'project-icon-image';
     img.loading = 'lazy';
     
-    // Create the hover cover image
+    // Create the hover image
     const hoverImg = document.createElement('img');
-    hoverImg.src = showCoverImages ? project.imageUrl : (project.coverImage || project.imageUrl);
+    hoverImg.src = showHoverImages ? project.imageUrl : project.hoverImage;
     hoverImg.alt = project.title;
     hoverImg.className = 'project-icon-hover';
     hoverImg.loading = 'lazy';
@@ -4855,7 +4974,7 @@ function createProjectIcon(project, filter) {
     };
     
     hoverImg.onerror = () => {
-        hoverImg.src = project.imageUrl;
+        hoverImg.src = project.imageUrl || '/placeholder.png';
     };
     
     projectIcon.appendChild(img);
@@ -4876,7 +4995,7 @@ function createProjectIcon(project, filter) {
 
 // Toggle functionality
 function toggleProjectIcons(track) {
-    showCoverImages = !showCoverImages;
+    showHoverImages = !showHoverImages;
     track.classList.toggle('active');
     
     // Get current active filter
@@ -4892,7 +5011,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.appendChild(toggleSwitch);
     track.addEventListener('click', () => toggleProjectIcons(track));
 });
-
 function hideSearch() {
     const searchTab = document.querySelector('.search-tab');
     if (searchTab) {

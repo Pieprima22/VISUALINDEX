@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    overflow-y: hidden;
 }
 
 .container {
@@ -130,7 +131,6 @@ body {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .hover-text {
     position: absolute;
     background: rgba(0, 0, 0, 0.8);
@@ -140,9 +140,14 @@ body {
     font-size: 14px;
     pointer-events: none;
     z-index: 1000;
-    white-space: nowrap;
+    white-space: normal;
+    width: cover;  /* This makes the background fit the text width */
+    max-width: 200px;
+    word-wrap: break-word;
     font-family: 'AkkuratStd', sans-serif;
     transition: opacity 0.2s ease;
+    height: cover;  /* This makes the background fit the text height */
+    display: inline-block;  /* This ensures the background only covers the text */
 }
 /* Add this for smoother animations */
 .grid-container {
