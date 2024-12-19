@@ -5695,7 +5695,7 @@ function updateGrid(activeFilter) {
             columnsContainer.style.justifyContent = 'center';
             columnsContainer.style.width = '100%';
             columnsContainer.style.gap = '0';
-            columnsContainer.style.marginBottom = '-0.6rem';  // Apply to all programs consistently
+            columnsContainer.style.marginBottom = '-0.6rem';
     
             const epochColumnWidth = getColumnWidth(filterConfigs[activeFilter].headers.length * 3) * 0.8;
     
@@ -5711,7 +5711,7 @@ function updateGrid(activeFilter) {
                     } else if (epoch === 'PAST') {
                         epochColumn.style.margin = '0 -5px 0 0';
                     } else if (epoch === 'FUTURE') {
-                        epochColumn.style.margin = '0 0 0 26px';
+                        epochColumn.style.margin = '0 0 0 27px';
                     }
                 }
     
@@ -5722,7 +5722,7 @@ function updateGrid(activeFilter) {
                     twoColumnsContainer.style.justifyContent = 'center';
                     twoColumnsContainer.style.gap = '43px';
                     twoColumnsContainer.style.width = '100%';
-                    twoColumnsContainer.style.marginBottom = '0.6rem';  // Add margin to match other columns
+                    twoColumnsContainer.style.marginBottom = '0.6rem';
     
                     const columns = [];
                     for (let i = 0; i < 2; i++) {
@@ -5739,27 +5739,20 @@ function updateGrid(activeFilter) {
                         project => project.program === program && project.epoch === epoch
                     );
     
-                    const numRows = Math.ceil(filteredProjects.length / 2);
-                    const projectGrid = Array(numRows).fill(null).map(() => Array(2).fill(null));
+                    // New distribution logic for uneven columns
+                    const totalProjects = filteredProjects.length;
+                    const firstColumnCount = Math.ceil(totalProjects * 0.6); // 60% to first column
+                    const secondColumnCount = totalProjects - firstColumnCount;
     
-                    let currentIndex = 0;
-                    for (let row = 0; row < numRows; row++) {
-                        for (let col = 0; col < 2; col++) {
-                            if (currentIndex < filteredProjects.length) {
-                                projectGrid[row][col] = filteredProjects[currentIndex];
-                                currentIndex++;
-                            }
-                        }
+                    // Distribute projects to columns
+                    for (let i = 0; i < firstColumnCount; i++) {
+                        const projectIcon = createProjectIcon(filteredProjects[i], activeFilter);
+                        columns[0].appendChild(projectIcon);
                     }
     
-                    for (let row = 0; row < numRows; row++) {
-                        for (let col = 0; col < 2; col++) {
-                            const project = projectGrid[row][col];
-                            if (project) {
-                                const projectIcon = createProjectIcon(project, activeFilter);
-                                columns[col].appendChild(projectIcon);
-                            }
-                        }
+                    for (let i = 0; i < secondColumnCount; i++) {
+                        const projectIcon = createProjectIcon(filteredProjects[firstColumnCount + i], activeFilter);
+                        columns[1].appendChild(projectIcon);
                     }
     
                     epochColumn.appendChild(twoColumnsContainer);
