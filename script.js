@@ -5142,9 +5142,15 @@ function updateGrid(activeFilter) {
         letters.forEach((letter, index) => {
             const letterSection = document.createElement('div');
             letterSection.className = 'letter-category-section';
+            letterSection.dataset.letter = letter;
             letterSection.style.width = `${letterWidth}px`;
-            
-            // Define next and previous letters
+            letterSection.style.position = 'relative';
+            letterSection.style.display = 'flex';
+            letterSection.style.flexDirection = 'column';
+            letterSection.style.alignItems = 'center';
+            letterSection.style.justifyContent = 'flex-end';
+    
+            // Handle margins based on adjacent letters
             const nextLetter = letters[index + 1];
             const prevLetter = letters[index - 1];
             
@@ -5157,117 +5163,59 @@ function updateGrid(activeFilter) {
             } else {
                 letterSection.style.margin = '0 -7px';
             }
-            
-            letterSection.style.display = 'flex';
-            letterSection.style.flexDirection = 'column';
-            letterSection.style.alignItems = 'center';
     
-            // Create columns container
+            // Get and sort projects for this letter
+            const letterProjects = projects
+                .filter(project => filterConfigs[activeFilter].getHeader(project) === letter)
+                .sort((a, b) => programOrder.indexOf(a.program) - programOrder.indexOf(b.program));
+    
             const columnsContainer = document.createElement('div');
             columnsContainer.className = 'letter-category-columns';
             columnsContainer.style.marginBottom = '-0.6rem';
+            columnsContainer.style.position = 'relative';
     
-            if (letter === 'S' || letter === 'M') {
-                // Add data attribute to letter section
-                letterSection.dataset.letter = letter;
-                letterSection.style.position = 'relative';
-                
-                // Create wrapper for transform
-                const wrapper = document.createElement('div');
-                wrapper.className = `${letter.toLowerCase()}-section-wrapper`;
-                wrapper.style.position = 'relative';
-                wrapper.style.left = '0%';
-                wrapper.style.transform = 'none';
-                wrapper.style.width = '100%';
-    
-                // Style columns container
+            if (letterProjects.length > 9) {
+                // Two-column layout for more than 9 projects
                 columnsContainer.style.display = 'flex';
                 columnsContainer.style.justifyContent = 'center';
                 columnsContainer.style.gap = '35px';
                 columnsContainer.style.width = `${letterWidth * 0.8}px`;
-                columnsContainer.style.position = 'relative';
-                columnsContainer.style.marginBottom = '0rem';
                 columnsContainer.style.marginLeft = '-30px';
-    
-                const columns = [];
+                columnsContainer.style.marginBottom = '0.6px';
+
+                
                 // Create two columns
-                for (let i = 0; i < 2; i++) {
-                    const column = document.createElement('div');
-                    column.className = 'letter-category-column';
+                const leftColumn = document.createElement('div');
+                const rightColumn = document.createElement('div');
+                [leftColumn, rightColumn].forEach(column => {
                     column.style.width = `${(letterWidth * 0.8 / 2) - 6}px`;
                     column.style.display = 'flex';
                     column.style.flexDirection = 'column-reverse';
                     column.style.gap = '7px';
                     column.style.position = 'relative';
-                    columns.push(column);
-                    columnsContainer.appendChild(column);
-                }
-            
-                // Filter and sort projects
-                const letterProjects = projects.filter(project => 
-                    filterConfigs[activeFilter].getHeader(project) === letter
-                );
-                
-                letterProjects.sort((a, b) => {
-                    const tagA = a.program;
-                    const tagB = b.program;
-                    return programOrder.indexOf(tagA) - programOrder.indexOf(tagB);
                 });
-            
-                // Calculate rows needed
-                const numRows = Math.ceil(letterProjects.length / 2);
-                const projectGrid = Array(numRows).fill(null).map(() => 
-                    Array(2).fill(null)
-                );
-            
-                // Fill grid by rows
-                let currentIndex = 0;
-                for (let row = 0; row < numRows; row++) {
-                    for (let col = 0; col < 2; col++) {
-                        if (currentIndex < letterProjects.length) {
-                            projectGrid[row][col] = letterProjects[currentIndex];
-                            currentIndex++;
-                        }
+    
+                // Distribute projects between columns
+                letterProjects.forEach((project, index) => {
+                    const projectIcon = createProjectIcon(project, activeFilter);
+                    projectIcon.style.position = 'relative';
+                    projectIcon.style.pointerEvents = 'auto';
+                    
+                    if (index % 2 === 0) {
+                        leftColumn.appendChild(projectIcon);
+                    } else {
+                        rightColumn.appendChild(projectIcon);
                     }
-                }
-            
-                // Create a container for all project icons
-                const projectIconsContainer = document.createElement('div');
-                projectIconsContainer.style.position = 'absolute';
-                projectIconsContainer.style.top = '0';
-                projectIconsContainer.style.left = '0';
-                projectIconsContainer.style.width = '100%';
-                projectIconsContainer.style.height = '100%';
-                projectIconsContainer.style.pointerEvents = 'none';
-            
-                // Add projects to columns and track their positions
-                for (let row = 0; row < numRows; row++) {
-                    for (let col = 0; col < 2; col++) {
-                        const project = projectGrid[row][col];
-                        if (project) {
-                            const projectIcon = createProjectIcon(project, activeFilter);
-                            projectIcon.style.position = 'relative';
-                            projectIcon.style.pointerEvents = 'auto';
-                            
-                            // Create a container for this specific project
-                            const iconContainer = document.createElement('div');
-                            iconContainer.style.position = 'relative';
-                            iconContainer.appendChild(projectIcon);
-                            columns[col].appendChild(iconContainer);
-                        }
-                    }
-                }
-            
-                // Append in correct order
-                wrapper.appendChild(columnsContainer);
-                letterSection.appendChild(wrapper);
-            }
-            else {
-                // Original single column layout for other letters
+                });
+    
+                columnsContainer.appendChild(leftColumn);
+                columnsContainer.appendChild(rightColumn);
+            } else {
+                // Single column layout for 9 or fewer projects
                 columnsContainer.style.display = 'flex';
                 columnsContainer.style.flexDirection = 'column';
                 columnsContainer.style.width = '100%';
-                
+    
                 const projectStack = document.createElement('div');
                 projectStack.className = 'project-stack';
                 projectStack.style.display = 'flex';
@@ -5276,36 +5224,25 @@ function updateGrid(activeFilter) {
                 projectStack.style.width = '100%';
                 projectStack.style.position = 'relative';
                 projectStack.style.zIndex = 'auto';
-            
-                // Filter and sort projects
-                const letterProjects = projects.filter(project => 
-                    filterConfigs[activeFilter].getHeader(project) === letter
-                );
-                
-                letterProjects.sort((a, b) => {
-                    const tagA = a.program;
-                    const tagB = b.program;
-                    return programOrder.indexOf(tagA) - programOrder.indexOf(tagB);
-                });
-            
+    
                 letterProjects.forEach(project => {
                     const projectIcon = createProjectIcon(project, activeFilter);
                     projectIcon.style.position = 'relative';
                     projectIcon.style.zIndex = '1';
+                    projectIcon.style.pointerEvents = 'auto';
                     projectStack.appendChild(projectIcon);
                 });
-            
+    
                 columnsContainer.appendChild(projectStack);
             }
     
-            // Create header div
+            // Add header
             const headerDiv = document.createElement('div');
             headerDiv.className = 'header';
             headerDiv.textContent = letter;
             headerDiv.style.width = '100%';
             headerDiv.style.textAlign = 'center';
     
-            // Append columns first, then header
             letterSection.appendChild(columnsContainer);
             letterSection.appendChild(headerDiv);
             grid.appendChild(letterSection);
