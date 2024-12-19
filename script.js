@@ -1879,9 +1879,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=c2436821-b7bb-401a-9e5f-9dbbe81f9a99&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Rihla, meaning “a journey through nature,” is a masterplan competition that aims to reimagine Jeddah’s greater downtown as a vibrant and connected urban center.  As the centerpiece of the Renaissance project, Rihla seeks to redefine Jeddah’s identity through contemporary design and urban revitalization, positioning the city as a modern global destination. The project combines strategic land use, mobility solutions, and community-focused spaces to enhance residents’ quality of life and foster sustainable growth.",
+        paragraph2: "The masterplan draws inspiration from the cultural richness of Al Balad and reawakens the historical significance of Old Makkah Road. This iconic pathway is envisioned as a serene and accessible journey through the heart of the city. Urban gateways—five symbolic entry points—mark the transition into Jeddah’s reimagined neighborhoods, welcoming visitors and residents into spaces of cultural and social vibrancy. Dynamic urban plazas serve as gathering places, fostering interaction, cultural exchange, and a sense of belonging.",
+        paragraph3: "Rihla presents a bold vision for Jeddah’s future, where the past and present converge. By integrating innovative public spaces and prioritizing community connectivity, the masterplan transforms the city’s downtown into a thriving, cohesive urban fabric that celebrates heritage while embracing progress."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -4818,6 +4818,7 @@ const projects = [
     program: 'RESIDENTIAL', 
     typology: 'RESIDENTIAL', 
     location: 'DUBAI, UAE',
+    
     scale: 'M', 
     epoch: 'PRESENT', 
     hoverImage: "./hover/GEM.png",
@@ -4854,7 +4855,7 @@ const projects = [
     image: "./ICON/FBC.svg",
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=03a21d4b-bc72-4434-b1ca-c166c77bcb6e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=39b7a18b-be6c-4d8b-b34f-2271eababb9b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-    year: 2015,
+    year: 2020,
     client: "FOOTBALL",
     program: 'MASTERPLAN', 
     typology: 'MASTERPLAN', 
@@ -4883,6 +4884,48 @@ const projects = [
         "https://aedasme.egnyte.com/opendocument.do?entryId=37c0012f-a7b3-4c48-9544-b055e6da9e86&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=9c9cce78-2efa-4d6d-be59-70c0c647b870&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=f90ef380-742a-400f-a2d8-97c0451c4078&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+    ]
+},
+
+{
+    id: 109, 
+    title: 'JAV PHASE 2  MOSQUE',  
+    abbr: 'FBC', 
+    image: "./ICON/FBC.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=7e1e93f6-72dd-42a3-b8e6-6e9f716ae65c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=39b7a18b-be6c-4d8b-b34f-2271eababb9b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2017,
+    client: "WASL",
+    program: 'OTHERS', 
+    typology: 'MOSQUE', 
+    location: 'DUBAI, UAE',
+    scale: 'M', 
+    epoch: 'PRESENT', 
+    hoverImage: "./hover/FBC.png",
+    presentationLink: 'https://aedasme.egnyte.com/navigate/file/815e77c3-477d-4365-8f93-4a5422c7b944',
+    drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSkFWIFBoYXNlIDIgIE1vc3F1ZSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
+    visualLink: 'https://aedasme.egnyte.com/navigate/file/b0b808f0-87ee-466a-830b-e99784d91873',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSkFWIFBoYXNlIDIgIE1vc3F1ZSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=d8c4d3e1-aeed-4117-911b-a442c3500f9e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
+        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
+        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=d443058b-0ea1-465a-be3d-1159c9712304&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=32eb4b26-e75a-4dd8-a952-3ded8805c543&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=57ca443f-425a-4d8d-9975-5c1cb3441262&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=100ecf67-a41d-48dc-a8e8-c29a2dfaf320&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
     ]
 }
 
