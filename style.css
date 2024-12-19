@@ -1008,7 +1008,7 @@ body {
     height: auto;
     object-fit: cover;
     pointer-events: auto;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.2s ease;
 }
 
 .image-link .hover-image {
