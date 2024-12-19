@@ -5156,6 +5156,7 @@ function updateGrid(activeFilter) {
         grid.style.overflow = 'hidden';
         grid.style.margin = 'auto';
         grid.style.marginTop = '2rem';
+        
     
         const { renderer, animate, resizeHandler } = createGlobe();
         grid.appendChild(renderer.domElement);
@@ -5390,19 +5391,33 @@ function updateGrid(activeFilter) {
             const letterSection = document.createElement('div');
             letterSection.className = 'letter-category-section';
             letterSection.dataset.letter = letter;
-            letterSection.style.width = `${letterWidth}px`;
+            
+            // Adjust width for specific letters to prevent overlap
+            if (letter === 'R' || letter === 'Q') {
+                letterSection.style.width = `${letterWidth * 1.2}px`; // Make R and Q sections wider
+            } else {
+                letterSection.style.width = `${letterWidth}px`;
+            }
+            
             letterSection.style.position = 'relative';
             letterSection.style.display = 'flex';
             letterSection.style.flexDirection = 'column';
             letterSection.style.alignItems = 'center';
             letterSection.style.justifyContent = 'flex-end';
-    
+        
             // Handle margins based on adjacent letters
             const nextLetter = letters[index + 1];
             const prevLetter = letters[index - 1];
             
-            if (letter === 'S' || letter === 'M') {
+            if (letter === 'S') {
+                letterSection.style.margin = '0 -5px 0 20px';
+            } else if (letter === 'M') {
                 letterSection.style.margin = '0 -5px';
+            } else if (letter === 'R') {
+                letterSection.style.margin = '0 13px'; // Add margin for R to separate from Q
+            } else if (letter === 'Q') {
+                letterSection.style.margin = '0 -13px 0 -14px'; // First number is top, second is right, third is bottom, fourth is left
+        
             } else if (nextLetter === 'S' || nextLetter === 'M') {
                 letterSection.style.margin = '0 20px 0 -7px';
             } else if (prevLetter === 'S' || prevLetter === 'M') {
@@ -5410,17 +5425,16 @@ function updateGrid(activeFilter) {
             } else {
                 letterSection.style.margin = '0 -7px';
             }
-    
+        
             // Get and sort projects for this letter
             const letterProjects = projects
                 .filter(project => filterConfigs[activeFilter].getHeader(project) === letter)
                 .sort((a, b) => programOrder.indexOf(a.program) - programOrder.indexOf(b.program));
-    
+        
             const columnsContainer = document.createElement('div');
             columnsContainer.className = 'letter-category-columns';
             columnsContainer.style.marginBottom = '-0.6rem';
             columnsContainer.style.position = 'relative';
-    
             if (letterProjects.length > 9) {
                 // Two-column layout for more than 9 projects
                 columnsContainer.style.display = 'flex';
