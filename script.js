@@ -1156,6 +1156,10 @@ const projects = [
         location: 'KSA, SAUDI ARABIA',
         scale: 'M', 
         epoch: 'PRESENT', 
+        tags: [
+            'AWARDED',
+            'BUILT'
+        ],
         presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/6c6def1c-a686-46bd-8fd4-81314cc7f046',
         drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSGFiaXRhcyBBbC1VbGEiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/c099f89c-2573-4fd1-83a8-6c4fb6c0f001',
@@ -4245,6 +4249,9 @@ const projects = [
     location: 'ABU DHABI',
     scale: 'M', 
     epoch: 'PRESENT', 
+    tags: [
+        'BUILT'
+    ],
     hoverImage: "./hover/MYN.png",
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/9b978884-0c33-4cbb-93ea-ed2f89100d59',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTWF5YW4gWWFzIE1hcmluYSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
@@ -4492,6 +4499,9 @@ const projects = [
     location: 'DUBAI, UAE',
     scale: 'M', 
     epoch: 'PRESENT', 
+    tags: [
+        'BAY POINT'
+    ],
     hoverImage: "./hover/BBW.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/e7930663-8865-4db1-86a8-617a402141b0',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/75d42810-f50b-4427-b7d2-6325eddad63e',
@@ -4819,7 +4829,9 @@ const projects = [
     program: 'RESIDENTIAL', 
     typology: 'RESIDENTIAL', 
     location: 'DUBAI, UAE',
-    
+    tags: [
+        'BUILT'
+    ],
     scale: 'M', 
     epoch: 'PRESENT', 
     hoverImage: "./hover/GEM.png",
@@ -6189,7 +6201,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Updated suggestions to include both tags and clients
     const suggestions = {
-        tags: ["HIGH-RISE", "AWARDED", "INTERIOR", "BUILT"],
+        tags: ["HIGH-RISE", "AWARDED", "INTERIOR", "BUILT", "BAY POINT"],
         clients: ["WOW INVEST. LIMITED", "AL REEM REAL ESTATE DEVELOPMENT EST", "WASL", "TECOM GROUP","DGCL","MODON","BOUTIQUE GROUP","PIF","MODON PROPERTIES","MBC",
             "EAST & WEST PROPERTIES","UNITED DEVELOPMENT CO.","ROSHN","NEOM","MAJID AL FUTTAIM PROPERTIES","NEW MURABBA","DIFC","ALDAR",
             "ENOC","BEYON","PRIVATE","EMAAR PROPERTIES","OMRAN GROUP","NAKHEEL","ROYAL COMMISSION FOR AL-ULA","ELLINGTON", "AL REEM REAL ESTATE DEVELOPMENT EST", 
