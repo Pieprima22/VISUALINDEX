@@ -142,9 +142,11 @@ function createGlobe() {
             'QATAR': { lat: 25.3548, lng: 51.1839 },
             'KSA, SAUDI ARABIA': { lat: 23.8859, lng: 45.0792 },
             'BAHRAIN': { lat: 26.0667, lng: 50.5577 },
-            'MUSCAT, OMAN': { lat: 23.5880, lng: 58.3829 }
+            'MUSCAT, OMAN': { lat: 23.5880, lng: 58.3829 },
+            'PAKISTAN': { lat: 30.3753, lng: 69.3451 },
+            'SHARJAH': { lat: 25.3463, lng: 55.4209 }
         };
-
+        
         Object.entries(projectsByLocation).forEach(([location, locationProjects]) => {
             const coords = locationCoords[location];
             if (!coords) return;
@@ -4704,7 +4706,7 @@ const projects = [
     title: 'KHOR SAADIYAT THEATER MARINA',  
     abbr: 'KTM', 
     image: "./ICON/KTM.svg",
-    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=06d782bb-65fc-4b58-ba8a-518bbf3aa409&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=aa414407-ca8d-4083-a6db-9939844c9ad3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=722230c7-8ddd-4755-937e-13d5eec83d39&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2024,
     client: "MODON",
@@ -4772,9 +4774,7 @@ const projects = [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
     ],
     galleryImages: [    
-        "https://aedasme.egnyte.com/opendocument.do?entryId=0c0baff5-13f8-4979-b34d-4be3f057fe3c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
-        "https://aedasme.egnyte.com/opendocument.do?entryId=0f15be5d-07b6-4592-bb14-40dc1aedf175&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
-        "https://aedasme.egnyte.com/opendocument.do?entryId=ca8f92ad-84fd-440f-84f1-8d9ced843b4f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=26a79e9a-a4a2-49f2-a150-6f8033199ddf&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=37bc6a2d-76bc-4c03-8b3b-3fc1dbb2ca2e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
     ]
 },
