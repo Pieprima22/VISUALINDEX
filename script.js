@@ -1008,9 +1008,9 @@ const projects = [
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=e055444a-c034-4a0d-95ed-67f2493dc019&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
-            paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-            paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-            paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+            paragraph1: "The ENOC Future Station redefines the fuel experience by fusing the UAE’s cultural heritage with sustainable innovation. Drawing inspiration from the Ghaf tree, the design echoes its symbolic roots of resilience, shelter, and permanence, creating a space that bridges the past and the future. The station’s architecture honors the Ghaf’s legacy as a source of refuge for travelers, while embracing a forward-looking vision for sustainability and functionality.",
+            paragraph2: "At the heart of the design is a striking Ghaf-shaped canopy, crafted from lightweight, eco-friendly carbon fiber and featuring a UV-protected, corrosion-proof cushion layer. This canopy is more than a functional structure; it represents a harmony between cultural heritage and cutting-edge technology. It houses 283 solar photovoltaic panels and an innovative 25-meter wind turbine, generating renewable energy to power the station. These features align with the client’s vision of energy efficiency, making the station a testament to the possibilities of sustainable design.",
+            paragraph3: "As the first fuel station in the world to achieve LEED Platinum certification, the ENOC Future Station sets a global precedent. Its integration of sustainable technologies and cultural references makes it more than a service station—it is a symbol of how tradition and innovation can work hand in hand to pioneer a new future."
         },
         teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -1790,6 +1790,9 @@ const projects = [
     location: 'DUBAI, UAE',
     scale: 'M', 
     epoch: 'PRESENT', 
+    tags: [
+        'BUILT'
+    ],
     hoverImage: "./hover/NOK.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/df0dc95d-f747-4f2b-ae30-7ba50421d813',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index%2F2.%20Hospitality%2F2B.%20Branded%20Hotel%20Apartment%2FDrawing&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiU0xTIFdPVyBIb3RlbCBBcGFydG1lbnQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
@@ -4741,7 +4744,7 @@ const projects = [
     title: 'KHOR SAADIYAT  THEATER DISTRICT',  
     abbr: 'KTD', 
     image: "./ICON/KTD.svg",
-    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=06d782bb-65fc-4b58-ba8a-518bbf3aa409&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=06f31ad9-05fc-4a81-a63c-865b130bfbb5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=9a4afa0c-8af7-4717-9b33-2dc14b1007a3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2023,
     client: "MODON",
@@ -4759,7 +4762,7 @@ const projects = [
         drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
         threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
     },
-    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5916c642-f968-4ed2-af7b-e2e0c440103a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=61ad3900-0b9b-4eed-aec9-c7836786c393&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
         paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
         paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
@@ -4769,9 +4772,10 @@ const projects = [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
     ],
     galleryImages: [    
-        "https://aedasme.egnyte.com/opendocument.do?entryId=660bd4cb-b2e0-40ca-a0d3-3dac4fa47ba2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
-        "https://aedasme.egnyte.com/opendocument.do?entryId=9c6503f4-5ea0-4572-95e9-aa18ed04c2c9&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
-        "https://aedasme.egnyte.com/opendocument.do?entryId=e507236b-bc6e-4975-b9cb-da23f1335606&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+        "https://aedasme.egnyte.com/opendocument.do?entryId=0c0baff5-13f8-4979-b34d-4be3f057fe3c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=0f15be5d-07b6-4592-bb14-40dc1aedf175&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=ca8f92ad-84fd-440f-84f1-8d9ced843b4f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=37bc6a2d-76bc-4c03-8b3b-3fc1dbb2ca2e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
     ]
 },
 
