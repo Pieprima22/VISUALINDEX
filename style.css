@@ -985,8 +985,8 @@ body {
 .knowledge-container {
     position: absolute;
     width: 1400px;
-    height: 650px;
-    margin-top: -50px;
+    height: 670px;
+    margin-top: -70px;
     margin-left: -750px;
     overflow: hidden;
 }
@@ -1030,7 +1030,7 @@ body {
 
 .image-REP .default-image,
 .image-REP .hover-image {
-    clip-path: inset(42.5% 62% 39% 27%);
+    clip-path: inset(54% 58.5% 27% 31%);
 
 }
 
@@ -1060,19 +1060,20 @@ body {
 
 .image-TOP .default-image,
 .image-TOP .hover-image {
-    clip-path: inset(53%  25.5% 35% 68%);
+    clip-path: inset(54.5%  26.5% 35.5% 67.5%);
 
 }
 
 .image-2D .default-image,
 .image-2D .hover-image {
-    clip-path: inset(57.5% 72.5% 34.5% 23%);
+    clip-path: inset(74% 67% 16% 27%);
+
 
 }
 
 .image-3D .default-image,
 .image-3D .hover-image {
-    clip-path: inset(42% 74.2% 50% 21.5%);
+    clip-path: inset(59% 71.5% 31% 22.8%);
 
 }
 .bottom-image {

@@ -1233,7 +1233,7 @@ const projects = [
         image: "/ICON/WDS.svg",
         hoverImage: "./hover/WDS.png",
         coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=12db4279-9e1f-4af7-b190-c41a24be3c6f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',    
-        imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=b7b8542a-df77-4f75-9308-b370c7dfde41&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=72d1fe11-3f69-4196-8746-e99abcf5a7c5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         year: 2021, 
         client: 'DGCL',
         program: 'HOSPITALITY', 
@@ -3284,7 +3284,7 @@ const projects = [
     abbr: 'MBL', 
     image: "./ICON/MBL.svg",
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=ef152d2f-e721-443d-a7e3-26935303e028&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-    imageUrl : 'https://aedasme.egnyte.com/opendocument.do?entryId=c10c6ec0-e9a1-412b-a8ea-b5dde29c02a3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl : 'https://aedasme.egnyte.com/opendocument.do?entryId=bc34ed70-1fba-48a5-adab-147cd45b7f2b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2020,
     client: "MBC",
     program: 'OTHERS', 
@@ -4070,7 +4070,7 @@ const projects = [
     abbr: 'ALJ', 
     image: "./ICON/ALJ.svg",
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=c1db6f66-8502-4e9c-9500-e4ae5690fb18&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=07927848-2866-43df-9caa-41b0e87493e5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=c74f165c-a3a0-4035-90f4-36ad1e3a5f82&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2015,
     client: "ABDUL LATIF JAMEEL",
     program: 'OFFICE', 
@@ -4620,6 +4620,7 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/1ad22d50-ac6a-4d31-be86-cea1ac909221',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/cf077815-0cfe-4cc7-9287-38ce7d9c312b',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/722486ba-f7e0-4d2a-9ab5-940ce13a08ae',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR09BIFN0YWZmIFZpbGxhZ2UiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
@@ -4890,10 +4891,10 @@ const projects = [
 {
     id: 109, 
     title: 'JAV PHASE 2  MOSQUE',  
-    abbr: 'FBC', 
-    image: "./ICON/FBC.svg",
+    abbr: 'J2M', 
+    image: "./ICON/J2M.svg",
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=7e1e93f6-72dd-42a3-b8e6-6e9f716ae65c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=39b7a18b-be6c-4d8b-b34f-2271eababb9b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=47eea0b1-d3fd-4a3c-8b5e-ffd9da32bb85&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2017,
     client: "WASL",
     program: 'OTHERS', 
@@ -4901,7 +4902,7 @@ const projects = [
     location: 'DUBAI, UAE',
     scale: 'M', 
     epoch: 'PRESENT', 
-    hoverImage: "./hover/FBC.png",
+    hoverImage: "./hover/J2M.png",
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/815e77c3-477d-4365-8f93-4a5422c7b944',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSkFWIFBoYXNlIDIgIE1vc3F1ZSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/b0b808f0-87ee-466a-830b-e99784d91873',
@@ -6018,13 +6019,12 @@ function updateGrid(activeFilter) {
 }
 document.addEventListener('DOMContentLoaded', () => {
     const content = document.querySelector('.content');
-    
-
     const filterButtons = document.querySelectorAll('.filter-btn');
     const projectGrid = document.getElementById('projectGrid');    
     let activeHoverArea = null;
     const tabButtons = document.querySelectorAll('.tab-button');
     const tabContents = document.querySelectorAll('.tab-content');
+    
     const resetTabs = () => {
         tabButtons.forEach(btn => btn.classList.remove('active'));
         tabContents.forEach(content => {
@@ -6038,19 +6038,20 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById(firstTabId).classList.add('active');
         }
     };
+
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
             tabButtons.forEach(btn => btn.classList.remove('active'));
             tabContents.forEach(content => {
                 content.classList.remove('active');
-                content.scrollTop = 0; // Reset scroll position for all tabs
+                content.scrollTop = 0;
             });
 
             button.classList.add('active');
             const tabId = button.dataset.tab;
             const activeContent = document.getElementById(tabId);
             activeContent.classList.add('active');
-            activeContent.scrollTop = 0; // Ensure the new active tab is scrolled to top
+            activeContent.scrollTop = 0;
         });
     });
 
@@ -6067,57 +6068,60 @@ document.addEventListener('DOMContentLoaded', () => {
         </svg>
     `;
     
-        // Info Modal Open
-        infoTab.addEventListener('click', () => {
-            resetTabs(); // Reset tabs when opening the modal
-            infoModal.style.display = 'flex';
-            document.body.style.overflow = 'hidden';
-        });
-        infoHomeButton.onclick = () => {
+    // Info Modal Open
+    infoTab.addEventListener('click', () => {
+        resetTabs();
+        infoModal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    });
+
+    infoHomeButton.onclick = () => {
+        infoModal.style.display = 'none';
+        window.scrollTo(0, 0);
+        document.body.style.overflow = 'auto';
+        resetTabs();
+    };
+
+    infoCloseButton.addEventListener('click', () => {
+        infoModal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+        resetTabs();
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && infoModal.style.display === 'flex') {
             infoModal.style.display = 'none';
-            window.scrollTo(0, 0);
             document.body.style.overflow = 'auto';
             resetTabs();
-        };
-        infoCloseButton.addEventListener('click', () => {
-            infoModal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-            resetTabs();
-        });
+        }
+    });
 
-        document.addEventListener('keydown', (event) => {
-            if (event.key === 'Escape' && infoModal.style.display === 'flex') {
-                infoModal.style.display = 'none';
-                document.body.style.overflow = 'auto';
-                resetTabs();
-            }
-        });
-
-        projectGrid.addEventListener('mousemove', (event) => {
-            const hoverText = document.querySelector('.hover-text');
-            const projectIcon = event.target.closest('.project-icon');
+    // Rest of the event listeners remain unchanged
+    projectGrid.addEventListener('mousemove', (event) => {
+        const hoverText = document.querySelector('.hover-text');
+        const projectIcon = event.target.closest('.project-icon');
+        
+        if (hoverText && projectIcon) {
+            const iconRect = projectIcon.getBoundingClientRect();
             
-            if (hoverText && projectIcon) {
-                // Changed to use projectIcon bounds instead of hover image
-                const iconRect = projectIcon.getBoundingClientRect();
-                
-                const isWithinHoverArea = (
-                    event.clientX >= iconRect.left &&
-                    event.clientX <= iconRect.right &&
-                    event.clientY >= iconRect.top &&
-                    event.clientY <= iconRect.bottom
-                );
-                
-                if (isWithinHoverArea) {
-                    hoverText.style.left = `${event.pageX + 15}px`;
-                    hoverText.style.top = `${event.pageY - 10}px`;
-                    hoverText.style.opacity = '1';
-                } else {
-                    hoverText.style.opacity = '0';
-                }
+            const isWithinHoverArea = (
+                event.clientX >= iconRect.left &&
+                event.clientX <= iconRect.right &&
+                event.clientY >= iconRect.top &&
+                event.clientY <= iconRect.bottom
+            );
+            
+            if (isWithinHoverArea) {
+                hoverText.style.left = `${event.pageX + 15}px`;
+                hoverText.style.top = `${event.pageY - 10}px`;
+                hoverText.style.opacity = '1';
+            } else {
+                hoverText.style.opacity = '0';
             }
-        });
-    // Existing Project Grid Mouse Over Handler
+        }
+    });
+
+    // Existing Project Grid Mouse Over Handler remains unchanged
     projectGrid.addEventListener('mouseover', (event) => {
         const projectIcon = event.target.closest('.project-icon');
         
@@ -6135,7 +6139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Existing Project Grid Mouse Out Handler
+    // Existing event listeners remain unchanged
     projectGrid.addEventListener('mouseout', (event) => {
         const projectIcon = event.target.closest('.project-icon');
         const relatedTarget = event.relatedTarget;
@@ -6160,7 +6164,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Existing Filter Buttons Handler
     filterButtons.forEach(button => {
         button.addEventListener('click', () => {
             filterButtons.forEach(btn => btn.classList.remove('active'));
