@@ -1018,14 +1018,13 @@ body {
 /* Individual image positions and crops */
 .image-K .default-image,
 .image-K .hover-image {
-    clip-path: inset(41% 44% 38.5% 44.5%);
-
+    clip-path: inset(41% 44% 38.5% 44.2%);
+    
 }
 
 .image-SO .default-image,
 .image-SO .hover-image {
-    clip-path: inset(37% 25.5% 51.55% 68%);
-
+    clip-path: inset(37.5% 26.5% 52% 67.5%);
 }
 
 .image-REP .default-image,
