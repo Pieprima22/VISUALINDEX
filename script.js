@@ -4701,7 +4701,7 @@ const projects = [
 
 {
     id: 104, 
-    title: 'KHOR SAADIYAT  THEATER MARINA',  
+    title: 'KHOR SAADIYAT THEATER MARINA',  
     abbr: 'KTM', 
     image: "./ICON/KTM.svg",
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=06d782bb-65fc-4b58-ba8a-518bbf3aa409&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -4741,7 +4741,7 @@ const projects = [
 
 {
     id: 105, 
-    title: 'KHOR SAADIYAT  THEATER DISTRICT',  
+    title: 'KHOR SAADIYAT THEATER DISTRICT',  
     abbr: 'KTD', 
     image: "./ICON/KTD.svg",
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=06f31ad9-05fc-4a81-a63c-865b130bfbb5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -4781,7 +4781,7 @@ const projects = [
 
 {
     id: 106, 
-    title: 'KHOR SAADIYAT  MASTERPLAN',  
+    title: 'KHOR SAADIYAT MASTERPLAN',  
     abbr: 'KSM', 
     image: "./ICON/KSM.svg",
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=748c336c-02d2-4285-90d1-e9dce4720870&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
