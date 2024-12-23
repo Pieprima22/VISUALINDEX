@@ -1234,7 +1234,7 @@ const projects = [
     },
     { 
         id: 21, 
-        title: 'WADI SAFAR', 
+        title: 'WADI SAFAR OBEROI', 
         abbr: 'WDS', 
         image: "/ICON/WDS.svg",
         hoverImage: "./hover/WDS.png",
