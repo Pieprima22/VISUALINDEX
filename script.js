@@ -3221,7 +3221,7 @@ const projects = [
     client: "DIFC",
     program: 'OFFICE', 
     typology: 'OFFICE', 
-    location: 'KSA, SAUDI ARABIA',
+    location: 'DUABI, UAE',
     scale: 'M', 
     epoch: 'PRESENT', 
     hoverImage: "./hover/INH.png",
@@ -3247,7 +3247,8 @@ const projects = [
         "https://aedasme.egnyte.com/opendocument.do?entryId=d06b499a-4b9d-4f88-b986-f5f62c29a93c&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=1a3346f8-b1a5-4fc7-9b49-7caae502820c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=70208f72-3915-46e4-a252-92389d0dc34e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
-        "https://aedasme.egnyte.com/opendocument.do?entryId=70101275-bf99-44ed-9a00-0839945a5bee&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+        "https://aedasme.egnyte.com/opendocument.do?entryId=70101275-bf99-44ed-9a00-0839945a5bee&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=4b7e7267-8fb1-4ef5-a1ca-d7c51beb4c6a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
     ]
 },
 
@@ -3614,7 +3615,7 @@ const projects = [
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=4c5011ab-4d4a-42be-bdbb-e573b4af519a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
         paragraph1: "Qiddiya, a landmark entertainment city located west of Riyadh, introduces a Light Rail Transit system to unify its expansive districts. With stations designed across three typologies—elevated, at-grade, and underground—the project ensures seamless mobility while complementing the surrounding natural and urban environments",
-        paragraph2: "The proposal is built on three core design concepts, each delivering unique experiences. Concept 01 – <b><i>\"Fun Never Stops\"</i></b> creates whimsical, colorful environments inspired by childhood play. The design fosters joy and belonging with unstructured, vibrant spaces for community interaction. Concept 02 – <b><i>\"Nothing Can Stop the Flow\"</i></b> embraces Qiddiya’s natural terrain, integrating stations into rock formations and green spaces to create a seamless experience that reflects nature’s textures and flow. Concept 03 – <b><i>\"Ordinary Needs an Extra\"</i></b> elevates the transit experience with futuristic designs that incorporate gamification and stunning illuminated structures, transforming functional spaces into astonishing urban landmarks.",
+        paragraph2: "The proposal is built on three core design concepts, each delivering unique experiences. Concept 01 – \"Fun Never Stops\" creates whimsical, colorful environments inspired by childhood play. The design fosters joy and belonging with unstructured, vibrant spaces for community interaction. Concept 02 – \"Nothing Can Stop the Flow\" embraces Qiddiya’s natural terrain, integrating stations into rock formations and green spaces to create a seamless experience that reflects nature’s textures and flow. Concept 03 – \"Ordinary Needs an Extra\" elevates the transit experience with futuristic designs that incorporate gamification and stunning illuminated structures, transforming functional spaces into astonishing urban landmarks.",
         paragraph3: "The LRT stations not only prioritize connectivity and mobility but also redefine the transit journey by incorporating cultural, recreational, and natural elements. This visionary approach enhances Qiddiya’s urban identity, creating vibrant spaces that seamlessly merge transit infrastructure with the city's dynamic and playful spirit."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
