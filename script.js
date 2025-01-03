@@ -1532,7 +1532,7 @@ const projects = [
         coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=543961a4-bab9-4a8c-9833-0fbfb6100dc0&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',    
         imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=edf5f8ad-09a9-4e32-8974-9fa027014011&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         year: 2024, 
-        client: 'DIFC',
+        client: 'WASL',
         program: 'OTHERS', 
         typology: 'STADIUM',  
         location: 'DUABI, UAE',
@@ -1545,7 +1545,8 @@ const projects = [
         linkImages: {
             presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
             visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
 
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=571c862e-242e-4844-9d01-8fccd175ec81&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -3508,7 +3509,7 @@ const projects = [
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=d67f70cf-65fd-4f29-802e-a6e5db54c763&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     imageUrl : 'https://aedasme.egnyte.com/opendocument.do?entryId=4a7d924d-149c-4c4c-acb4-397174f70969&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2020,
-    client: "COMPANY",
+    client: "ITHMAAR DEVELOPMENT COMPANY",
     program: 'OTHERS', 
     typology: 'MOSQUE', 
     location: 'BAHRAIN',
@@ -4126,7 +4127,7 @@ const projects = [
     title: 'RETAIL MALL, MULTAN',  
     abbr: 'MUL', 
     image: "./ICON/MUL.svg",
-    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=bc767c44-e0cd-4dfa-9a39-3e08f4ad4161&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=6c8e32dc-a6e6-48ef-850c-61ec648c0a04&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=539d4ff7-19ea-47fd-81a2-cf5ff907b6c8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2018,
     client: "FAISAL ASGHAR ENTERPRISES (PVT) LIMITED",
@@ -4916,7 +4917,7 @@ const projects = [
 
 {
     id: 109, 
-    title: 'JAV PHASE 2  MOSQUE',  
+    title: 'JAV PHASE 2 MOSQUE',  
     abbr: 'J2M', 
     image: "./ICON/J2M.svg",
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=7e1e93f6-72dd-42a3-b8e6-6e9f716ae65c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
