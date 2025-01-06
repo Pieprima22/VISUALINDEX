@@ -5081,6 +5081,7 @@ function createProjectIcon(project, filter) {
     hoverImg.src = showHoverImages ? project.imageUrl : project.hoverImage;
     hoverImg.alt = project.title;
     hoverImg.className = 'project-icon-hover';
+    hoverImg.loading = 'lazy';
     
     // Error handling
     img.onerror = () => {
