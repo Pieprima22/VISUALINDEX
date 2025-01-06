@@ -5075,6 +5075,7 @@ function createProjectIcon(project, filter) {
     img.src = showHoverImages ? project.hoverImage : project.imageUrl;
     img.alt = project.title;
     img.className = 'project-icon-image';
+    img.loading = 'lazy';
     
     // Create the hover image
     const hoverImg = document.createElement('img');
@@ -6569,43 +6570,3 @@ document.querySelectorAll('.image-link').forEach(link => {
         hoverImage.style.opacity = '0';
     });
 });
-
-const preloader = document.createElement('div');
-preloader.className = 'preloader';
-preloader.innerHTML = `
-    <div class="preloader-content">
-        <div class="loading-spinner"></div>
-        <div class="loading-text">Loading...</div>
-    </div>
-`;
-
-// Add preloader to the page
-document.body.insertBefore(preloader, document.body.firstChild);
-
-// Hide preloader when page is loaded
-window.addEventListener('load', () => {
-    // Delay to ensure animations are smooth
-    setTimeout(() => {
-        document.body.classList.add('loaded');
-        preloader.classList.add('fade-out');
-        
-        // Remove preloader from DOM after animation
-        setTimeout(() => {
-            preloader.remove();
-        }, 800); // Match the transition duration
-    }, 500); // Short delay before starting fade out
-});
-
-// Optional: Add failsafe for slow loading resources
-setTimeout(() => {
-    if (document.querySelector('.preloader')) {
-        document.body.classList.add('loaded');
-        document.querySelector('.preloader').classList.add('fade-out');
-        
-        setTimeout(() => {
-            if (document.querySelector('.preloader')) {
-                document.querySelector('.preloader').remove();
-            }
-        }, 800);
-    }
-}, 5000); // Failsafe timeout after 5 seconds
