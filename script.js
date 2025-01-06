@@ -5075,14 +5075,12 @@ function createProjectIcon(project, filter) {
     img.src = showHoverImages ? project.hoverImage : project.imageUrl;
     img.alt = project.title;
     img.className = 'project-icon-image';
-    img.loading = 'lazy';
     
     // Create the hover image
     const hoverImg = document.createElement('img');
     hoverImg.src = showHoverImages ? project.imageUrl : project.hoverImage;
     hoverImg.alt = project.title;
     hoverImg.className = 'project-icon-hover';
-    hoverImg.loading = 'lazy';
     
     // Error handling
     img.onerror = () => {
