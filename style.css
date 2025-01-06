@@ -1044,12 +1044,6 @@ body {
     clip-path: inset(21% 56% 60% 33%);
 }
 
-.image-LEC .default-image,
-.image-LEC .hover-image {
-    clip-path: inset(62.5% 38% 24% 54.3%);
-
-}
-
 .image-TEM .default-image,
 .image-TEM .hover-image {
     clip-path: inset(23%  40% 63% 52.5%);
