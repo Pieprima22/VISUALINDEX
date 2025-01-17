@@ -135,17 +135,19 @@ function createGlobe() {
             projectsByLocation[project.location].push(project);
         });
 
-        const locationCoords = {
-            'DUBAI, UAE': { lat: 25.2048, lng: 55.2708 },
-            'ABU DHABI': { lat: 24.4539, lng: 54.3773 },
-            'MOROCCO': { lat: 31.7917, lng: -7.0926 },
-            'QATAR': { lat: 25.3548, lng: 51.1839 },
-            'KSA, SAUDI ARABIA': { lat: 23.8859, lng: 45.0792 },
-            'BAHRAIN': { lat: 26.0667, lng: 50.5577 },
-            'MUSCAT, OMAN': { lat: 23.5880, lng: 58.3829 },
-            'PAKISTAN': { lat: 30.3753, lng: 69.3451 },
-            'SHARJAH': { lat: 25.3463, lng: 55.4209 }
-        };
+       const locationCoords = {
+    'DUBAI, UAE': { lat: 25.2048, lng: 55.2708 },
+    'ABU DHABI': { lat: 24.4539, lng: 54.3773 }, // Corrected the typo
+    'MOROCCO': { lat: 31.7917, lng: -7.0926 },
+    'QATAR': { lat: 25.3548, lng: 51.1839 },
+    'KSA, SAUDI ARABIA': { lat: 23.8859, lng: 45.0792 },
+    'BAHRAIN': { lat: 26.0667, lng: 50.5577 },
+    'MUSCAT, OMAN': { lat: 23.5880, lng: 58.3829 },
+    'PAKISTAN': { lat: 30.3753, lng: 69.3451 },
+    'SHARJAH': { lat: 25.3463, lng: 55.4209 },
+    'EGYPT': { lat: 26.8206, lng: 30.8025 } // Added Egypt
+};
+
         
         Object.entries(projectsByLocation).forEach(([location, locationProjects]) => {
             const coords = locationCoords[location];
@@ -1307,9 +1309,9 @@ const projects = [
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=92f00e77-e954-40db-a640-99420b608719&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
-            paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-            paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-            paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+            paragraph1: "King Salman Square, located in the Northern Cultural District of Diriyah Gate, Saudi Arabia, is a centerpiece of the Diriyah Gate Development Authority’s (DGCL) ambitious plan to celebrate Saudi heritage and history. The square offers commanding views of the UNESCO World Heritage Site of At-Turaif and Wadi Hanifa, integrating traditional Najdi architectural principles of simplicity, functionality, and hospitality.",
+            paragraph2: "The square’s design incorporates food and beverage outlets influenced by Najdi architecture, reflecting traditional souq structures. These venues, with open facades and shaded terraces, provide views of At-Turaif and King Salman Square, activating the area both day and night. Covered and uncovered dining areas offer locals and visitors an opportunity to experience the charm of Najdi aesthetics while enjoying the ongoing activities in the square.",
+            paragraph3: "The adjacent Museum of Stories, part of the Journey of 100 Stories, anchors the Northern Cultural District. Influenced by traditional residential architecture, the design emphasizes natural materials such as mud plaster, limestone, and tamarisk wood, ensuring harmony with the surrounding heritage. With thoughtful spatial organization and visual connections to key landmarks like the House of Al Saud, King Salman Square stands as a beacon of cultural pride, blending history, architecture, and modern experiences."
         },
         teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -2635,9 +2637,9 @@ const projects = [
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=6f3d4bfb-f87e-4a14-9caa-430507cd567f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Anchored within the Sobha Hartland masterplan, this visionary dual-tower development redefines luxury living in Dubai. The project features a Hotel and Branded Residences in one tower and a Residential Tower in the other, with a total GFA of approx. 37,000 sqm. These two sculptural forms are unified by a shared podium and an elevated bridge, which creates a dynamic architectural dialogue between the buildings while introducing green terraces and communal spaces for enhanced connectivity.",
+        paragraph2: "The design strategically maximizes panoramic views of Burj Khalifa, Ras Al Khor Wildlife Sanctuary, and the future Creek Tower. At the podium level, residents and visitors are welcomed into an urban oasis of landscaped greenery, retail experiences, and resort-style leisure amenities, including a tranquil poolscape and co-working spaces. The seamless integration of indoor and outdoor environments invites exploration and social interaction while maintaining an elevated sense of privacy.",
+        paragraph3: "With its sweeping curves, glass façades, and metallic accents, the architectural expression reflects movement, fluidity, and lightness. This development exemplifies the fusion of luxury and sustainability, transforming Sobha Hartland into a modern urban sanctuary that harmoniously balances nature, community, and design excellence."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -4352,7 +4354,7 @@ const projects = [
     client: "MODON",
     program: 'HOSPITALITY', 
     typology: 'HOSPITALITY', 
-    location: 'KSA, SAUDI ARABIA',
+    location: 'EGYPT',
     scale: 'L', 
     epoch: 'PAST', 
     hoverImage: "./hover/RCH.png",
@@ -4392,7 +4394,7 @@ const projects = [
     client: "MODON",
     program: 'HOSPITALITY', 
     typology: 'HOSPITALITY', 
-    location: 'KSA, SAUDI ARABIA',
+    location: 'EGYPT',
     scale: 'L', 
     epoch: 'PAST', 
     hoverImage: "./hover/REB.png",
@@ -4475,7 +4477,7 @@ const projects = [
     client: "MODON",
     program: 'HOSPITALITY', 
     typology: 'HOSPITALITY', 
-    location: 'KSA, SAUDI ARABIA',
+    location: 'EGYPT',
     scale: 'M', 
     epoch: 'PAST', 
     hoverImage: "./hover/RAQ.png",
@@ -4689,7 +4691,7 @@ const projects = [
     client: "MODON",
     program: 'MASTERPLAN', 
     typology: 'MASTERPLAN', 
-    location: 'KSA, SAUDI ARABIA',
+    location: 'EGYPT',
     scale: 'XL', 
     epoch: 'PAST', 
     hoverImage: "./hover/RAW.png",
@@ -4704,9 +4706,9 @@ const projects = [
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=f0df7a1e-392f-42d5-9b98-c632ff945b04&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The Ras El Hekma Masterplan, located along Egypt’s picturesque coastline, is a visionary development divided into two distinct parts: Algarve and the West Coast Canal. The masterplan celebrates natural beauty, cultural heritage, and modern luxury, creating a destination that offers both adventure and tranquillity. It is designed to immerse residents and visitors in authentic experiences while showcasing the region’s stunning landscapes and vibrant culture.",
+        paragraph2: "Algarve boasts a dynamic blend of charming villages, golden beaches, and rugged cliffs, providing breathtaking views and endless activities. Key areas include Passeio Do Mar, where the sea meets the land, offering historical retreats, tidal pools, and cliffside clubs. Parque Da Vila is a lush green hub for relaxation and fine dining, while Via Do Mar unfolds with luxury amenities, and Camino Da Praia serves as the gateway to authentic Algarve living. Together, these zones create a harmonious blend of cultural vibrancy, natural beauty, and modern sophistication.",
+        paragraph3: "The West Coast Canal offers a serene private enclave centred on scenic canals and waterfront residences. This area features distinct zones, including beachfront villas, terraced apartments, canal-side homes, and hillside retreats, each with unique characteristics. With its contemporary luxury and idyllic waterfront living, the West Coast Canal provides an unparalleled home-away-from-home experience, blending elegance with nature."
     },
     teamMembers: [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
