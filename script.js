@@ -552,9 +552,9 @@ const projects = [
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=f19ad5da-7a1a-4d22-b1a2-8908a227901e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
-            paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-            paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-            paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+            paragraph1: "Al Bateen City Gateways is envisioned as a vibrant mixed-use development that captures the essence of Abu Dhabi’s rich cultural heritage and timeless traditions. This masterplan seeks to recover the memory of the place, offering a journey through the unique traces of Abu Dhabi’s history. The design incorporates elements inspired by Old Abu Dhabi, such as arches, authentic Areesh, wind towers, and traditional materials, creating an architectural language that reflects the city’s cultural identity.",
+            paragraph2: "The masterplan is carefully zoned to cater to diverse needs, including a boutique waterfront hotel, a covered souq corridor, a promenade with retail and F&B outlets, and shaded gathering spaces. Shading is achieved through innovative structures that merge traditional techniques with contemporary design, ensuring a comfortable environment for visitors. The circulation strategy promotes pedestrian movement while providing vehicular access along the edges and incorporating marine drop-off points.",
+            paragraph3: "Key zones within the masterplan include a heritage village, an adventure play zone, a family-friendly civic plaza, and a floating dhow café. With features like camel safari tracks, water play areas, and a farm, Al Bateen City Gateways transforms into a dynamic destination that bridges Abu Dhabi’s past and future, offering a truly unique experience."
         },
         teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -931,9 +931,9 @@ const projects = [
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=d908b598-0188-425b-bbbc-7d2d5f77ee8c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
-            paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-            paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-            paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+            paragraph1: "Golf Place Villas, nestled in the tranquil southern enclave of Dubai Hills Estate, offer a perfect blend of serenity and connectivity. Located away from the city's bustle yet conveniently close to Downtown Dubai, Dubai Marina, and Umm Suqeim Beach, the project serves as an urban retreat. Each villa is thoughtfully positioned to provide sweeping views of lush greenery and an 18-hole championship golf course.",
+            paragraph2: "The design philosophy emphasizes elegance and comfort, featuring three distinct architectural styles: Contemporary, Half Stone, and Sliding Boxes. With sizes ranging from 400 to 800 sqm, the villas boast expansive layouts bathed in natural light through floor-to-ceiling windows. The development seamlessly combines modern family living with a dynamic, sporting lifestyle, creating a space that feels both welcoming and refined.",
+            paragraph3: "The interiors offer two carefully curated schemes: Dark and Light. The Dark Scheme uses warm wood tones and ambient lighting for a cozy, luxurious atmosphere, while the Light Scheme features bright whites and soft beige finishes for a fresh and airy feel. Golf Place Villas redefine luxury, providing a sanctuary of style, comfort, and natural beauty."
         },
         teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -1055,9 +1055,9 @@ const projects = [
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5584521c-ec60-4ed4-87c8-9cc35a05b9b7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
-            paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-            paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-            paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+            paragraph1: "Yas Medical Street in Abu Dhabi is envisioned as a seamless convergence of architectural eras, drawing inspiration from the timeless elegance of Andalusian design, the relaxed charm of Southern California, and the contemporary sophistication of Rodeo Drive. By cataloguing key elements such as doors, windows, arches, and materials from these styles, the design creates a unified language that reflects a harmonious fusion of past, present, and future.",
+            paragraph2: "The masterplan presents a dynamic zoning strategy, combining healthcare facilities, retail outlets, and F&B spaces into a vibrant district. At its core lies a main boulevard complemented by a high-end retail street, lively F&B plazas, a central plaza, and a state-of-the-art hospital. Thoughtfully planned spaces encourage pedestrian movement and foster a sense of connection, transforming functional zones into engaging, interactive environments.",
+            paragraph3: "Infused with Andalusian arches, Californian textures, and the iconic energy of Rodeo Drive, the design narrative offers a one-of-a-kind urban experience. Yas Medical Street redefines the traditional medical district, transforming it into a vibrant destination that bridges heritage and innovation, offering a space where culture, community, and modernity thrive."
         },
         teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -2124,9 +2124,10 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=c7cdbe9b-8b8d-41c6-b07c-331ff82145a5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Located in the breathtaking Al Bustan area of Muscat, Oman, the Four Seasons Oman development is a visionary luxury project by OMRAN Group. The project spans two strategic sites overlooking the Gulf of Oman, blending the natural beauty of Oman’s coastal and mountainous landscape with cutting-edge design and sustainability principles.",
+        paragraph2: "Spanning 53,583 sqm, Site 1 features a protected natural beach and will host a 200-key five-star Four Seasons hotel. Existing structures will be demolished to create a luxurious, sustainable hospitality destination blending modern design with Omani heritage.",
+        paragraph3: "Covering 85,000 sqm, Site 2 includes one of Oman’s oldest marinas, set for upgrades with branded residences, luxury retail, and entertainment. It will enhance its role as a hub for activities like fishing, diving, and dhow cruises.",
+        paragraph4: "The project emphasizes an integrated design connecting both sites, prioritizing sustainability through low-energy consumption, renewable energy solutions, water conservation, and waste management. Designed to international standards, this development will position Oman as a key destination in the global luxury hospitality network."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -2424,9 +2425,10 @@ const projects = [
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=14afa883-e65d-4c44-a98f-308e5ed62ed7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The vision for DIFC2 is to shape the future of finance by establishing Dubai as the global leader in financial innovation and entrepreneurship. The development will provide a world-class environment for companies, residents, and visitors, fostering a dynamic space to live, work, and play. It aims to elevate the MEASA region's financial industry while setting a global benchmark for emerging markets.",
+        paragraph2: "This grand boulevard transforms into a pedestrian promenade during national celebrations, with Za'abeel Square serving as the focal point for cultural events. The masterplan integrates loops of green spaces, active nodes, and sustainable mobility routes, creating an urban park that enhances the pedestrian experience and promotes sustainable movement.",
+        paragraph3: "Walkability is a key element of the design, with the green belt strategically positioned to allow users easy access to open spaces within a two-minute walk. Additionally, the boulevard and green belt include pedestrian paths and bike lanes, enhancing micro-mobility and ensuring seamless connectivity throughout the site.",
+        paragraph4: "The land use strategy positions high-rise offices and mixed-use buildings along the western side near Al Mustaqbal Street, while the southeastern end is dedicated to residential zones, offering private green spaces and exclusive views of the downtown area."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -2506,9 +2508,9 @@ const projects = [
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=2a6a7cba-64b1-441b-83f5-23ed60ee979f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "NEOM Mountain Mansions reimagines luxury living amidst the striking NEOM mountain landscape, creating a one-of-a-kind destination for the global elite. The project seamlessly integrates natural terrain and innovative architecture, fulfilling NEOM’s vision of a sustainable, experiential, and high-quality lifestyle. Designed around three unique villages, the Slope Village, Museum Village and Lake Village, the project offers breathtaking views, cultural connections, and cutting-edge design.",
+        paragraph2: "The proposal introduces 6 different prototypes, delta, gamma, omicron, xi, phi, an omega.  Each prototype embodies a unique architectural narrative. Delta rises as a gleaming triangulated diamond in platinum and blue-green hues, perched to capture panoramic vistas. Gamma clings boldly to the mountain, a suspended cocoon glowing in golden light. Omicron, inspired by bird nests, forms a circular mansion with copper tones, featuring a central pool and a carved outdoor cave. Xi’s futuristic vertical skeletons of blue-gray metal create striking portals to the natural surroundings. Phi, a cluster of white and gold spherical structures, evokes the organic beauty of tree sap, while Omega’s rotating horizontal design in black carbon and yellow light redefines innovation and movement.",
+        paragraph3: "Through terraces, courtyards, and seamless integration with the landscape, NEOM Mountain Mansions exemplifies a harmonious blend of culture, nature, and modernity. The project stands as a global benchmark for luxurious mountain living."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -2550,9 +2552,9 @@ const projects = [
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=c40cd995-e254-4e3a-863c-08b9632bc0a1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Located on the stunning Hudayriyat Coast in Abu Dhabi, Hudayriyat Residences introduces a serene masterplan inspired by Mediterranean elegance, combining Santorini-style waterfront apartments with luxurious cliffside villas. Situated on prime waterfront property, the development connects these two distinctive communities through a seamless boardwalk that emphasizes coastal living and natural beauty.",
+        paragraph2: "The terraced apartments, with their fluid and organic forms, draw directly from Santorini’s architectural identity, blending Mediterranean chic with modern functionality. Ranging from one-bedroom units to penthouses, each apartment prioritizes views, privacy, and expansive terraces cascading toward the beach. The interior design uses natural wood, stone, and warm tones to enhance the connection between the living spaces and their stunning surroundings.",
+        paragraph3: "Perched on a cliff edge, the Sunset Villas embody luxury, each offering approximately 1,500 sqm of space with private beach access. The villas are designed to adapt to the site’s natural levels, with an arrival at the top and stepped levels descending to the beach. Horizontal frames define the facade, while central courtyards and careful rotations of the villas ensure privacy and an abundance of natural light. Hudayriyat Residences is a celebration of coastal elegance and thoughtful design, perfectly positioned on Abu Dhabi’s beautiful coastline."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -2590,9 +2592,9 @@ const projects = [
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=b177d7d6-394d-479e-a75c-2b792a51f14d&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The Cove Hudariyat is a laid-back, boho-inspired destination that blends wood and sand to create a serene coastal retreat. The design emphasizes natural aging and the beauty of materials over time, using recycled wood to tell the story of enduring architecture. Inspired by self-built beach shacks, the architecture evokes a relaxed, peaceful lifestyle, reflecting the essence of beach living.",
+        paragraph2: "The development utilizes modular construction with 8x8m units, allowing flexible configurations and efficient design. This approach ensures that the architecture meets the required unit areas while simplifying the construction process. By joining modules, various unit sizes can be achieved, maintaining ease of construction and minimizing delays.",
+        paragraph3: "For structural integrity, the project employs hollow-core slabs and thermal blockwork walls. These materials enable quick assembly, with steel structures and precast elements supporting the slabs, and on-site blockwork providing a cost-effective and fast build. This modular, efficient construction method ensures the project’s timely completion while maintaining high quality and sustainability. The Cove Hudariyat is designed to be a timeless, peaceful retreat, where architecture and nature harmonize seamlessly."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -2931,9 +2933,7 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=662e848b-63ff-4dec-bdd0-75ca55cb2356&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The inspiration for this residential project is the transition from the busy and fast-track daily routine to the calmness of one’s own space. The portal leading to the residential building acts as the transition from one realm to another. Notions like nature, well-being, rebalancing, and relaxation are some of the ideas represented in this concept presentation. The main theme of the apartment design revolves around warm grey and cold grey schemes, creating a balanced, calming atmosphere that enhances the sense of tranquility and relaxation within the living spaces."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -3020,9 +3020,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=dd9f1797-9154-4692-9a76-23e3ab135324&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The Seychelles Redevelopment Masterplan, located at Fisherman’s Cove on Mahé, seeks to rejuvenate this prime location while preserving the charm of traditional Creole architecture. This architectural style, deeply rooted in the islands' heritage and climate, features large doors and windows, high-pitched roofs, and an emphasis on natural ventilation and lighting. The redevelopment addresses key aspects of the guest experience, including improving the arrival process, creating a VIP entrance, and enhancing site connectivity, all while maintaining the spirit of Seychelles.",
+        paragraph2: "Traditional Creole architecture reflects adaptations to the climate and locally available materials. Its signature features include double doors, expansive windows, and steeply pitched roofs designed to maximize airflow and light. This style serves as the foundation for the masterplan, which integrates these elements into modern designs to provide an authentic yet contemporary experience.",
+        paragraph3: "Key features of the redevelopment include new premium rooms, junior suites, and executive villas. The plan prioritizes comfort, privacy, and a seamless blend of tradition and modernity, offering guests an unforgettable stay that respects Seychelles' natural beauty."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -3060,9 +3060,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=cfd86f92-e033-4e4f-8cae-9fc27ff7b3f3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Riyadh Hub is a masterplan project envisioned as a futuristic destination that bridges science, nature, and culture while honouring Saudi Arabia's local characteristics. Two visionary options were proposed: The Beacon and The Portal. The Beacon, the preferred option, features a fractal-shaped masterplan spiralling toward its center, crowned by an iconic structure rising dramatically from the desert landscape. This design reflects the curves and ridges of Saudi Arabia’s sand dunes and integrates a comprehensive transportation network that seamlessly connects urban nodes distributed across the site.",
+        paragraph2: "At the heart of The Beacon lies an immersive experience with five thematic chapters—Culture: Arabian Palace, Nature: Floating Oasis and Spiral Oasis, Technology: Innovation Engine, and Vision: Cosmos—combine to create a destination that is both grounded in tradition and forward-looking. The interactive screen facade, unprecedented in scale, illuminates the city at night, making Riyadh Hub a landmark of innovation and design.",
+        paragraph3: "Alternatively, The Portal concept draws inspiration from wormholes, symbolizing the intersection of past and future. It offers realistic themed environments like Cyberpunk City, Space City, and Magic Arabia. This design incorporates a unique LED curtain wall facade using materials that reduce heat gain while fostering energy efficiency. Riyadh Hub establishes itself as a global centerpiece, blending immersive experiences, sustainable design, and cultural reverence."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -3108,9 +3108,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=08a6b51a-bac4-43b2-9c91-343924065be7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The Dubai Metro Route Expo 2020 Station project reflects Dubai’s evolution through the concept Dubai + Time. Three thematic design options—Past Dubai, Now Dubai, and Future Dubai. The selected proposal, Future Dubai, envisions a cutting-edge, technology-driven Dubai, aligning with the emirate’s ambitions of becoming a global leader in innovation and connectivity.",
+        paragraph2: "The Past Dubai design referenced the city’s maritime heritage, drawing inspiration from the sea, trading, and iconic elements like dhows, pearls, and historical ports, such as Port Rashid and Jebel Ali. The station’s interiors incorporated wood features to evoke the structural elegance of traditional ships. The Now Dubai concept celebrated contemporary advancements symbolized by Abbas Bin Firnas, the invention of flight, aviation, and Dubai’s international airports. Its design embraced modern aesthetics, reflecting the city’s current identity as a global hub.",
+        paragraph3: "Ultimately, the Future Dubai design was chosen for its visionary outlook. It embodies the essence of Smart Dubai, leveraging advanced technologies, innovative transport systems, and Dubai’s 10x initiative to create a hyper-connected, data-driven metropolis. The station’s architecture highlights seamless connectivity and futuristic design, emphasizing Dubai’s position as a leader in technology and progress."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -3409,9 +3409,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=f212e6f1-7430-416e-be96-9bb5a40ce225&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Saadiyat Lagoons is a visionary masterplan project located on Saadiyat Island, Abu Dhabi, offering expansive waterfront views of the pristine lagoons. Positioned just 20 minutes from the city center, the development is a tranquil retreat from urban life, blending seamlessly with the island’s natural beauty. The project integrates residential and commercial elements while preserving the ecological and archaeological significance of the lagoon, creating a harmonious balance between modern living and nature.",
+        paragraph2: "The development is designed to offer a hybrid lifestyle, encouraging residents to connect with nature while enjoying unconventional activities. Saadiyat Lagoons features a greenbelt with diverse activity loops and strategically placed activation nodes that enhance community interaction. Key attractions include a skate park, farmer’s market, kayak hub, outdoor dining spaces, a food park, and other recreational areas, fostering a lifestyle that emphasizes exploration, relaxation, and fun.",
+        paragraph3: "By respecting the lagoon’s natural boundaries and enriching its surroundings, Saadiyat Lagoons positions itself as a gateway to nature. This unique masterplan redefines living by embracing sustainability and outdoor experiences, making it an ideal destination for those seeking a nature-focused, vibrant lifestyle in Abu Dhabi."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -3451,9 +3451,10 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=2c667e0e-3f10-4596-a5bf-af78f6158d94&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Dubai Creek Golf and Yacht Club’s masterplan spans three distinctive plots. Plot A introduces exclusive royal suite villas with waterfront views, Plot B showcases golf course townhouses, and Plot C offers low-rise marina apartments.",
+        paragraph2: "For the royal suites, three distinctive proposals are introduced. The first, “Boxes,” focuses on framing views through geometric volumes, creating bold forms that enhance both privacy and connection to the surroundings. The second, “Embedded,” integrates the villas into the natural terrain with sunken structures, infinity pools, and sloped green roofs that harmonize with the landscape. The third proposal, “Bridge,” elevates the villas with rooftop access via buggy routes, offering panoramic terraces and a floating architectural expression that maximizes the horizon.",
+        paragraph3: "The townhouses within the golf course provide a luxurious retreat with private putting greens, panoramic views, and lush green pathways. The first option focuses on creating central courtyards framed by linear walls, while the second integrates the structures into the landscape, offering a serene and almost hidden design.",
+        paragraph4: "The low-rise apartments near the marina prioritize open spaces, terraces, and scenic views. Designed with modular layouts, they create playful arrangements of private courtyards, sky gardens, and open terraces with views towards the marina. "
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -3578,9 +3579,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=c2e4ed93-a929-47f3-8ec8-f329e3578d48&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Venu Jeddah is a unique and dynamic hospitality concept designed to reflect the progressive and youthful character of Jeddah, one of the world's youngest cities, with 70% of its population aged 18 to 35. Tailored to its specific location, Venu Jeddah integrates demographic, cultural, and social nuances into its design and operations, setting it apart from similar properties in Dubai, London, or Hong Kong.",
+        paragraph2: "The project emphasizes functionality and guest-centric design, with interactive spaces like a multi-use reception area that doubles as retail, a coffee bar, or a meeting point. Meeting spaces include formal and informal variations, complemented by a 24-hour destination restaurant, signature dining options, and relaxation zones such as a library, informal retail, and lounges that blend seamlessly into a welcoming, homely atmosphere. Key amenities include a gender-separated spa and gym, a ballroom or wedding hall with an independent lobby and drop-off, valet and self-parking facilities, and a rooftop swimming pool with a terrace.",
+        paragraph3: "The hotel features 269 rooms, with a streamlined selection of room types, including twin, king, junior suites, and two-bedroom suites, ensuring efficiency and comfort. By balancing cultural sensitivity with contemporary design, Venu Jeddah creates a modern lifestyle destination tailored to its vibrant city setting."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -3702,9 +3703,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=3b98b299-8192-4b85-8b74-3e9d950ba6a9&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The Al Nawras Walk project aims to position Jeddah as a top global destination, fostering diversification in development, tourism, recreation, and infrastructure. This ambitious plan will enhance the city’s appeal and contribute to its growth, with the goal of establishing Jeddah as one of the world’s top 100 cities. By stimulating tourism, entertainment, and hospitality, the project will drive foreign direct investment and promote health and social well-being for residents and visitors alike.",
+        paragraph2: "The core concept of the Al Nawras Walk is to create a seamless connection between Jeddah and the Red Sea, forming a continuous ring that unites the city’s past and future. The vision is to transform Jeddah into the \"Bride of the Red Sea,\" a hub that links the city to the world, similar to iconic global locations like Miami Beach, Puerto Banus, Barcelona, and La Croisette.",
+        paragraph3: "Al Nawras Walk will be a unique leisure and touristic destination, offering outstanding attractions and recreational spaces that appeal to both locals and international visitors. This urban branding initiative will not only enhance Jeddah's identity but also establish it as a world-class coastal city that bridges the gap between tradition and modernity."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -4287,9 +4288,9 @@ const projects = [
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=340b92aa-947a-4e20-a693-5b60c31c2e3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Mayan Yas Marina, developed by Aldar, is a residential project on Yas Island, Abu Dhabi. Located adjacent to the Yas Links Golf Course, Yas Hotels Plaza, and South Beach, the development spans a 24,411 sqm plot. It consists of five contemporary buildings and exclusive beach houses, offering over 500 residential units, including studios and 1 to 4 bedroom apartments. Residents enjoy stunning views of the Yas Links course, the sea, and the mangrove skyline, making it a sought-after haven for families embracing the Yas Island lifestyle.",
+        paragraph2: "Shared amenities include multiple swimming pools, gymnasiums, and play areas. A pedestrian link bridge connects directly to the Yas Hotels Plaza, while the development is also close to the private South Beach club and iconic attractions such as Yas Marina Circuit, Yas Waterworld, Ferrari World, and Yas Mall. This strategic location enhances the convenience and appeal of living on Yas Island.",
+        paragraph3: "The project’s architecture integrates functional design with modern planning, featuring a central core for elevators and services, maximizing floor efficiency. With reception lobbies, back-of-house facilities, and a retail unit in Residential Block 2, Mayan offers both practicality and elegance in a luxurious residential community."
     },
     teamMembers: [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
@@ -4448,9 +4449,9 @@ const projects = [
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=695b0483-f259-4d2c-9242-31907a6a699f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Lulu Island is an exclusive masterplan for VIP village development off the Abu Dhabi coast, designed for privacy and luxury. Villas are divided into two zones: the Guest Area, featuring beachfront one- and three-bedroom villas and dune-shielded clusters, and the Host Area, with private principal villas.",
+        paragraph2: "Key hospitality elements include a clubhouse with a lobby, majlis, dining spaces, and rooftop terraces, positioned centrally in the guest area. A marina accommodates yachts up to 140m, with a nearby beach club offering a Tulum-inspired ambiance and shallow beaches for leisure. A private club for 100 guests adds exclusivity. The service area is carefully located to maintain privacy while ensuring efficient operations, with separate routes for guests and hosts.",
+        paragraph3: "The principal villas epitomize luxury and comfort, blending open-plan designs with Nurai Island-inspired layouts. Key features include rooftop access and expansive water views. Signature materials like stone are reserved for feature elements, reflecting sophistication. With a focus on functionality and elegance, Lulu Island is a premier luxury retreat in Abu Dhabi."
     },
     teamMembers: [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
@@ -4662,9 +4663,9 @@ const projects = [
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=e3ffb949-7b7f-44a4-9196-b1ec74a5525e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The Straff Village Design is a visionary community development focused on providing high-quality accommodation and amenities for NEOM and third-party staff. The village will feature residential units, outdoor and indoor amenities, retail spaces, a 3-star hotel, and education facilities, all designed to foster a vibrant and interconnected community.",
+        paragraph2: "Inspired by a hybrid artificial landscape, the project merges the natural and built environments, reflecting the evolving relationship between the two. Drawing on historical and futuristic references like Mohenjo Daro, Roman camps, and Mars Colony concepts, the design embraces an innovative approach that evolves into a self-sustaining entity.",
+        paragraph3: "Key design features include narrow streets for thermal comfort, pedestrian-friendly pathways to encourage movement, and multiple access points to create permeability and promote interaction. The village will provide a seamless living experience, combining functionality with a serene environment that supports both work and leisure."
     },
     teamMembers: [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
@@ -4869,9 +4870,9 @@ const projects = [
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5abd06a7-6e0a-4914-8594-4f2bbfa3314c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "Gemini Splendor, located in Mohammed bin Rashid City, Dubai, offers a modern take on luxury residential living. The development features two distinctive towers, 22 and 28 stories high, connected by an elegant podium, with a total gross floor area (GFA) of 18,100 square meters. With 134 thoughtfully designed units, the project includes a range of one- to four-bedroom apartments, and townhouses, all integrated with advanced smart home technology.",
+        paragraph2: "Drawing inspiration from natural elements, the design reflects the fluidity of water in the towers’ façade, while the podium echoes the soft contours of windblown sand dunes. This seamless blend of architecture and nature creates a distinctive visual identity. Inside, the interiors are crafted with a soothing palette of white and beige, enhancing the sense of calmness and sophistication.",
+        paragraph3: "Completed in 2021, Gemini Splendor is a defining addition to Dubai’s residential landscape. Situated in the heart of MBR City, the development provides residents with access to upscale leisure, retail, and entertainment amenities, establishing itself as a premier destination for contemporary urban living."
     },
     teamMembers: [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
@@ -4949,9 +4950,9 @@ const projects = [
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=d8c4d3e1-aeed-4117-911b-a442c3500f9e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "The Jebel Ali Village Mosque is a key part of the masterplan for the Jebel Ali Village development in Dubai. Located within both Phase 1 and Phase 2, the mosque is integrated into a community defined by the Hillside Apartments, a primarily residential area with community retail. The design aims to complement the peaceful, pedestrian-friendly character of the area, enhancing the hillside suburban atmosphere.",
+        paragraph2: "Strategically positioned along Sheikh Zayed Road near Jebel Ali Free Zone, the mosque benefits from excellent connectivity, with the Energy Metro Station nearby and convenient access to public transportation. The design envisions a serene and tranquil spiritual space within the urban growth corridor of southern Dubai, providing a contrast to the bustling city environment.",
+        paragraph3: "The mosque will serve as a central hub for the community, reinforcing the overall vision for Jebel Ali Village as a peaceful, well-connected, and vibrant area. The project is designed to offer both spiritual and architectural harmony, contributing to the development's long-term growth and cultural."
     },
     teamMembers: [
         "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
@@ -5189,33 +5190,23 @@ function openProjectModal(project) {
     document.getElementById('projectTypologyValue').textContent = project.typology || 'N/A';
     document.getElementById('teamMembers').textContent = project.teamMembers || 'Team members information not available';
 
-    // Set description paragraphs
-document.getElementById('descriptionParagraph1').textContent = project.description?.paragraph1 || 
-"The project's first conceptual framework emphasizes innovative design solutions that respond to both environmental and social contexts.";
+    // Handle description paragraphs - only show if content exists
+    const paragraphIds = ['descriptionParagraph1', 'descriptionParagraph2', 'descriptionParagraph3', 
+                         'descriptionParagraph4', 'descriptionParagraph5'];
+    
+    paragraphIds.forEach((id, index) => {
+        const paragraphElement = document.getElementById(id);
+        const paragraphContent = project.description?.[`paragraph${index + 1}`];
+        
+        if (paragraphContent) {
+            paragraphElement.textContent = paragraphContent;
+            paragraphElement.style.display = 'block';
+        } else {
+            paragraphElement.textContent = '';
+            paragraphElement.style.display = 'none';
+        }
+    });
 
-document.getElementById('descriptionParagraph2').textContent = project.description?.paragraph2 || 
-"Our approach integrates sustainable practices with modern functionality, resulting in spaces that are both environmentally conscious and aesthetically striking.";
-
-document.getElementById('descriptionParagraph3').textContent = project.description?.paragraph3 || 
-"The final outcome represents a harmonious blend of form and function, where each design element serves a purpose while contributing to the overall architectural narrative.";
-
-// Handle paragraph 4
-const paragraph4Element = document.getElementById('descriptionParagraph4');
-if (project.description?.paragraph4) {
-paragraph4Element.textContent = project.description.paragraph4;
-paragraph4Element.style.display = 'block';
-} else {
-paragraph4Element.style.display = 'none';
-}
-
-// Handle paragraph 5
-const paragraph5Element = document.getElementById('descriptionParagraph5');
-if (project.description?.paragraph5) {
-paragraph5Element.textContent = project.description.paragraph5;
-paragraph5Element.style.display = 'block';
-} else {
-paragraph5Element.style.display = 'none';
-}
     // Now set images (after text content is set)
     coverImage.src = project.coverImage;
     iconImage.src = project.imageUrl;
@@ -5262,13 +5253,13 @@ paragraph5Element.style.display = 'none';
     }
 
     // Modal close handlers
-const closeButton = modal.querySelector('.close-modal');
-closeButton.innerHTML = `
-    <svg width="40" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter">
-        <line x1="20" y1="6" x2="6" y2="20"></line>
-        <line x1="6" y1="6" x2="20" y2="20"></line>
-    </svg>
-`;
+    const closeButton = modal.querySelector('.close-modal');
+    closeButton.innerHTML = `
+        <svg width="40" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter">
+            <line x1="20" y1="6" x2="6" y2="20"></line>
+            <line x1="6" y1="6" x2="20" y2="20"></line>
+        </svg>
+    `;
     const homeButton = modal.querySelector('.home-modal');
     const oldKeydownHandler = modal.keydownHandler;
     if (oldKeydownHandler) {
