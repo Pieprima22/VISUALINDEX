@@ -5954,7 +5954,7 @@ function updateGrid(activeFilter) {
             } else if (programs[programIndex - 1] === 'RESIDENTIAL' || programs[programIndex - 1] === 'MASTERPLAN' || programs[programIndex - 1] === 'HOSPITALITY') {
                 programSection.style.margin = '0 -10px 0 -10px';
             } else {
-                programSection.style.margin = '0 -25px';
+                programSection.style.margin = '0 -20px';
             }
             
             const columnsContainer = document.createElement('div');
