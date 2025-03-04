@@ -5948,13 +5948,13 @@ function updateGrid(activeFilter) {
     
             // Add margins for RESIDENTIAL, MASTERPLAN, HOSPITALITY and their neighbors
             if (program === 'RESIDENTIAL' || program === 'MASTERPLAN' || program === 'HOSPITALITY') {
-                programSection.style.margin = '0 30px';
+                programSection.style.margin = '0 20px 0 20px';
             } else if (programs[programIndex + 1] === 'RESIDENTIAL' || programs[programIndex + 1] === 'MASTERPLAN' || programs[programIndex + 1] === 'HOSPITALITY') {
-                programSection.style.margin = '0 -10px 0 10px';
+                programSection.style.margin = '0 -12px 0 -6px';
             } else if (programs[programIndex - 1] === 'RESIDENTIAL' || programs[programIndex - 1] === 'MASTERPLAN' || programs[programIndex - 1] === 'HOSPITALITY') {
-                programSection.style.margin = '0 -8px 0 -5px';
+                programSection.style.margin = '0 -10px 0 -10px';
             } else {
-                programSection.style.margin = '0 -8px';
+                programSection.style.margin = '0 -25px';
             }
             
             const columnsContainer = document.createElement('div');
@@ -5986,9 +5986,9 @@ function updateGrid(activeFilter) {
                         // Move the PRESENT column more to the left for HOSPITALITY
                         epochColumn.style.margin = '0 55px '; // Reduced from 20px to 10px
                     } else if (epoch === 'PAST') {
-                        epochColumn.style.margin = '0 -5px 0 0';
+                        epochColumn.style.margin = '0 -8px 0 0';
                     } else if (epoch === 'FUTURE') {
-                        epochColumn.style.margin = '0 0 0 -40px';
+                        epochColumn.style.margin = '0 0 0 -45px';
                     }
                 }
     
