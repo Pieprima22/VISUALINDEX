@@ -5950,9 +5950,9 @@ function updateGrid(activeFilter) {
             if (program === 'RESIDENTIAL' || program === 'MASTERPLAN' || program === 'HOSPITALITY') {
                 programSection.style.margin = '0 20px 0 20px';
             } else if (programs[programIndex + 1] === 'RESIDENTIAL' || programs[programIndex + 1] === 'MASTERPLAN' || programs[programIndex + 1] === 'HOSPITALITY') {
-                programSection.style.margin = '0 -12px 0 -7px';
+                programSection.style.margin = '0 -10px 0 -8px';
             } else if (programs[programIndex - 1] === 'RESIDENTIAL' || programs[programIndex - 1] === 'MASTERPLAN' || programs[programIndex - 1] === 'HOSPITALITY') {
-                programSection.style.margin = '0 -10px 0 -10px';
+                programSection.style.margin = '0 -8px 0 -10px';
             } else {
                 programSection.style.margin = '0 -10px';
             }
