@@ -228,7 +228,7 @@ body {
     display: flex; /* Use flexbox for layout */
     flex-direction: row; /* Place items side by side */
     padding: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-right: 20px;
     width: 100%; /* Full width of the modal */
     height: 100%; /* Full height of the modal */

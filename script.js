@@ -412,10 +412,11 @@ const projects = [
         drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index%2F2.%20Hospitality%2F2B.%20Branded%20Hotel%20Apartment%2FDrawing&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiU0xTIFdPVyBIb3RlbCBBcGFydG1lbnQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
         threeDLink: 'https://aedasme.egnyte.com/navigate/file/12d2d573-3fcb-4322-ad93-23950fccdedf',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         tags: [
             'HIGH-RISE',
@@ -461,9 +462,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/e2c9f501-ef4c-46d0-810c-ce9b80d4f317',
         drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmFkaXNzb24gQmx1IEhvdGVsIEFwYXJ0bWVudCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=984f3406-3ecd-478b-9fde-d44a05f862c8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -507,10 +510,11 @@ const projects = [
         drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTE1NUyBIb3RlbCBFeHRlbnNpb24iXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/70fdb2b2-6644-4ae6-bf76-e624eade326e',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=a2b3206f-37d8-4589-939b-898362ec0dd7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -547,9 +551,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/navigate/file/611966b5-0420-4a5f-a598-089fc3c639a1',
         animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/8e8427d1-6334-423b-b3bb-8607792ca37b',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=f19ad5da-7a1a-4d22-b1a2-8908a227901e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -587,9 +593,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/8d372f36-ec5c-4a3d-a79a-282f999540d7',
         animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/3829cb85-701f-4bcc-9169-3c3156bb4576',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=d40b4f87-169f-4eb6-902d-f690580c0d3d&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -627,9 +635,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/4727b812-76b4-4c00-a7b1-37da20aa7bb3',
         animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/0c5484bf-8f57-424f-ae56-73b5ba40c3ff',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=96c8dca5-489c-443c-a04d-7c25760d3f19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -671,10 +681,11 @@ const projects = [
         drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiVHJvamVuYSBTa2kgVmlsbGFnZSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
         animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/48beb068-37f2-4471-92ad-a054f40823f8',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=d8827888-1bf6-48c1-b465-51c5be93ed4b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -712,8 +723,11 @@ const projects = [
         presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/e8c40ef4-3933-435c-a549-20c03210e9cb',
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/78984ef1-f128-4fc4-9ac3-efdce60f41a5',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=f9f1878c-9865-4a16-bc74-0f9035c8e155&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -753,9 +767,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/b07701f0-69b3-4cfe-bc95-561b5ab815ce',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUHJvamVjdCBFbGVwaGFudCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=ddd5539b-579d-4b8d-91b2-e6541c67739c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -793,10 +809,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/52147e24-8515-4105-85e4-f6bd67fbc7b5',
         animationLink: 'https://aedasme.egnyte.com/navigate/file/d9933f9c-2c79-47fc-92e3-e3436315c793',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=7721f355-e944-412b-be79-bc7b266e145a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -836,10 +853,11 @@ const projects = [
         drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSmViZWwgQWxpIFZpbGxhZ2UgUDIiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/7a25a4ad-6dae-4953-8e89-d6ec329b707b',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5b4a0885-a329-4369-a931-965bddb1bbfd&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -881,10 +899,11 @@ const projects = [
         drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index%2F2.%20Hospitality%2F2B.%20Branded%20Hotel%20Apartment%2FDrawing&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRW1hYXIgVmlkYSBIb3RlbCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRW1hYXIgVmlkYSBIb3RlbCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=cee7c481-d5fa-4cf2-a75b-fe9e231b0636&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -925,10 +944,11 @@ const projects = [
         drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR29sZiBWaWxsYXMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR29sZiBWaWxsYXMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=d908b598-0188-425b-bbbc-7d2d5f77ee8c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -967,8 +987,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/d52520ab-68f9-4baa-ba66-b3d2d30509ef',
         drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiU2lkcmEgSUlJIFZpbGxhcyJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
         linkImages: {
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=ac47b403-3504-4cc3-a411-e010e7bb192a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -1009,11 +1032,11 @@ const projects = [
         animationLink: 'https://aedasme.egnyte.com/navigate/file/0d056640-259d-4330-ad9a-6d3e9deeb795',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRU5PQyBGdXR1cmlzdGljIFJldGFpbCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=e055444a-c034-4a0d-95ed-67f2493dc019&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -1051,9 +1074,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/46738a81-a31a-4402-90a1-11532b0e6c17',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/4b4f49e8-2bd9-4389-afe0-bc328640ed62',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5584521c-ec60-4ed4-87c8-9cc35a05b9b7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1090,9 +1115,11 @@ const projects = [
         drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/a0308775-b9b7-463b-85a8-203d1c7f9daa',
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/07fdf512-10f9-4f8c-9c1d-1d17cf6b77c7',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=b2dee9cc-ad11-429d-9c95-e201f5eeb75d&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1130,10 +1157,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/924d9f8c-4c7d-495c-af15-6d77f105404a',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/8d94c17b-0f90-4fd6-aa12-3dfc9fdab299',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=852c1ef0-8b14-4346-bf0d-db4dc9b15fdb&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1176,10 +1204,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/c099f89c-2573-4fd1-83a8-6c4fb6c0f001',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSGFiaXRhcyBBbC1VbGEiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=cfd17305-1860-482c-b454-99db7c559ece&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1219,11 +1248,11 @@ const projects = [
         animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/70f396cf-5248-402c-a6a7-89ddce0c1b7b',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/5167fd71-351d-4ba1-8202-6ec8b40681e8',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=e1afb5b4-bd13-4729-a32b-c71cf8b4e028&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1261,10 +1290,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/2d8772ee-a401-4938-85eb-138f5259a6e3',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiREdEQSBXYWRpIFNhZmFyIE9iZXJvaSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=c0509431-0e28-40b7-aec0-6f8b987d0c43&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1302,10 +1332,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/11d9e1cf-3587-44ab-a9de-ab4a84838d0d',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiREdDTCBLaW5nIFNhbG1hbiBTcXVhcmUiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=92f00e77-e954-40db-a640-99420b608719&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1342,11 +1373,11 @@ const projects = [
         animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/a50c7014-1991-4400-8784-0571b2c1590d',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiVGhlIFBvaW50ZSBEaXN0cmljdCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=358e7509-9e7b-4e6a-80b6-b48888316ccc&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1387,10 +1418,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/f4d280e4-c184-4c9f-b028-f45f46d281df',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/2328a3f8-4bc1-48ee-8ef8-9fffe352cc78',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=3665acbe-b261-41ef-8d9f-93d8bd3d2f14&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1429,10 +1461,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/e7f1e7c1-0aee-4e7d-acc7-3db2aabbfcb0',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/10799131-7759-4a4e-bf98-423f5e83c27d',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=6a3c7c37-a695-4e7f-9fc9-03da8a0b1e67&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1468,8 +1501,11 @@ const projects = [
         presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/ce2e56d8-5b24-42f4-bb68-1b5bca525d14',
         visualLink: 'https://aedasme.egnyte.com/navigate/file/86c44e5e-4d7b-4291-9258-fa8262c64f03',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=79bc6026-a8b2-4c00-bbdc-fdd1a5bb822c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1506,10 +1542,11 @@ const projects = [
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/b81f1d77-78fa-45a6-83ce-16be9dde3567',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/eb64ec72-c18a-4197-bab7-e5f5e1ac0b77',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
-
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=f4db67c1-4697-4981-a5eb-4e5ddcfd36d6&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1548,11 +1585,11 @@ const projects = [
         animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/4dbb3b25-7afe-4186-a7c4-c56d483e743f',
         threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/68b04a2e-a039-4b5a-b645-0da2b1af8e04',
         linkImages: {
-            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+            presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+            animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         },
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=571c862e-242e-4844-9d01-8fccd175ec81&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         description: {
@@ -1586,16 +1623,17 @@ const projects = [
         epoch: 'PRESENT', 
        hoverImage: "./hover/HDV.png",
        presentationLink: 'https://aedasme.egnyte.com/navigate/file/023dc94d-7a99-46d0-be3b-7ccbe8721624',
-  
        visualLink: 'https://aedasme.egnyte.com/navigate/folder/70cf89b0-d8ee-4ab9-ab20-e39e363975d2',
        drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTW9kb24gSHVkYXlyaXlhdCBWaWxsYXMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
        threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index%2F1.%20Residential%2F1B.%20Villa%2FModel&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTW9kb24gSHVkYXlyaXlhdCBWaWxsYXMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
+      
        linkImages: {
-           presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-           visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-           drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-           threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
-        },
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    },
         // New fields for the description section
        descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=cdf6af92-6062-4c2f-bfd7-99eb3ed0636b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
        description: {
@@ -1635,12 +1673,13 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/navigate/file/f64b117c-fc58-4cb4-b9f0-ae48d1788fb3',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmVkIFBhbGFjZSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     threeDLink: 'https://aedasme.egnyte.com/navigate/file/ad484fce-ddba-4db1-be99-5f90673d77ce',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+   
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=83243eaf-9d1c-4e07-ab20-394f4700aea3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -1678,10 +1717,12 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/4dbb3b25-7afe-4186-a7c4-c56d483e743f',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/e30a6e1d-6f9b-43ae-bf39-31b7cb8af000',
      threeDLink: 'https://aedasme.egnyte.com/navigate/file/8d10af51-31ba-4efb-9673-363b4cb107b6',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+     linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=3dd3d0c8-9ab3-4834-ad0c-bce88ac1a95c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -1722,11 +1763,12 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/navigate/file/04c5a512-9193-4f1a-946b-ba02edb2f6d5',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUklYT1MgQnJhbmRlZCBSZXNpZGVuY2UiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
     threeDLink: 'https://aedasme.egnyte.com/navigate/file/a6ed3d3e-cb5b-473d-ac97-b4fee9262a84',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=adaa2678-ef6c-44b5-b29c-02c2930f0cc0&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -1764,10 +1806,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/647b4287-f475-4bc7-921c-90c1768d0bcd',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/ae7525ae-a7c0-4b13-94c8-5bb13f21213e',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/dd9b9175-5925-412f-9d7e-fe29485ff592',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=91d5b51a-6b2c-41a4-b921-ceee5dfbe981&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -1809,10 +1853,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/18f593fb-2503-4185-a82b-7422bc5ee327',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiV2FzbCBHYXRlIFBoYXNlIDQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/b041ef64-85ed-4a8e-88cd-3b7dc7a9a533',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=aebec6fe-12f6-4e8c-9bac-9ef7a4b9b62f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -1847,11 +1893,12 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/navigate/file/0cf8ba56-7d0f-4a7d-9651-aa9b4ada226f',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRmFsY29ucyBOZXN0IFNpeCBTZW5zZXMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
     threeDLink: 'https://aedasme.egnyte.com/navigate/file/6816614d-1bc0-4ff9-b0cd-3343a4d27c87',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=919217be-2578-47f7-a62c-31159a0dc24a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -1889,11 +1936,12 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/11860c71-7b8d-4a3d-abcc-8920d5a34057',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/11860c71-7b8d-4a3d-abcc-8920d5a34057 ',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSmVkZGFoIFJlbmFpc3NhbmNlIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=c2436821-b7bb-401a-9e5f-9dbbe81f9a99&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -1934,12 +1982,12 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index%2F2.%20Hospitality&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiREdEQSBDYXBlbGxhIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/1ba469d8-e138-4cf6-89f4-44eb8473707c',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/58aa2999-8e13-4b59-befd-ab35ac140fae',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=72abcc10-4ce2-4cc9-8353-16c052dca496&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -1981,13 +2029,13 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/navigate/file/9ac4fb2b-3f5a-4771-b415-390602bbb25c',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQ29yaW50aGlhIFJlc2lkZW5jZSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     threeDLink: 'https://aedasme.egnyte.com/navigate/file/12d2d573-3fcb-4322-ad93-23950fccdedf',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
-
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=819c35e6-b531-47c5-9e2a-88e64cba039e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -2028,11 +2076,12 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/24d0beeb-3be3-479f-a4bf-b69ef585975b?p=',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index%2F2.%20Hospitality&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiREdEQSBGb3VyIFNlYXNvbnMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/34651a21-3d42-412f-9659-df6ba953ebbd',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
 
     // New fields for the description section
@@ -2072,11 +2121,12 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/36e566aa-958f-4a60-8640-143f551f6246',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index%2F2.%20Hospitality&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiREdEQSBPcmllbnQgRXhwcmVzcyJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiREdEQSBPcmllbnQgRXhwcmVzcyJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
 
     // New fields for the description section
@@ -2116,13 +2166,13 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/65bd6317-2c4d-4833-8db5-5bb8e59c5b3b',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index%2F2.%20Hospitality%2F2A.%20Hotel%20%26%20Resort%2FDrawing&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRm91ciBTZWFzb25zIE9tYW4iXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/bd70a130-f23b-4760-97d0-de12a3594bc5',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
-
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=c7cdbe9b-8b8d-41c6-b07c-331ff82145a5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -2161,10 +2211,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/21cc6fee-e45d-4b38-ae98-8fb0ed555c46',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/438bcd94-6e52-4316-929d-28cfb6841ddb',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR09BIFdhZGkgVGF5eWliIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
 
     // New fields for the description section
@@ -2205,10 +2257,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/1e4d5a64-86c1-4b5d-9c55-66fa18b2088a',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/2144a03f-478c-41a3-9c0e-e5e5454c030d',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index%2F1.%20Residential%2F1A.%20Apartment%2FDrawing&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTUFGIENDTUkiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=cc5d2f93-1d6e-4040-ad94-dd60fe3cdc56&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -2245,12 +2299,12 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/navigate/folder/f4d44ad6-a5c3-4cac-9dab-20cc92141bc5',
     visualLink: 'https://aedasme.egnyte.com/navigate/folder/603d9b39-1ebe-46ed-aee5-7a699f9d74a2',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUElGIElubm92YXRpb24gSHViIERlc2lnbiJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=339a74ef-d20c-4867-b126-60e29ed07604&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -2287,9 +2341,12 @@ const projects = [
     hoverImage: "./hover/CUB.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/f07e96c3-6a0d-4d7b-b5c6-1229f881e726',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/6eaee40c-7e7d-45d0-ab01-dc5fc987e307',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=087b2be0-0132-44ea-ad7f-337cf38d9185&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -2329,12 +2386,12 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRW1hYXIgUGFyayBIZWlnaHRzIDMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/7320d5a8-4d73-49c9-af3b-6a0add675b95',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRW1hYXIgUGFyayBIZWlnaHRzIDMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=e263b3af-383d-4d4b-9dea-00b5c2eec16b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -2374,12 +2431,12 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR09BIEp1bmdsZSBDbHViIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/573ff954-6dcb-4b39-b2f7-70c66ae2c6c7',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRW1hYXIgUGFyayBIZWlnaHRzIDMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=e287670f-3f3c-4014-9e3e-12c8ad895b8d&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -2418,12 +2475,12 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/354b6b7b-2b28-429b-aa9a-714954c170b9',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/b3945c4a-fcee-4312-b2bc-4ca1675924b2',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRElGQyAyLjAiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=14afa883-e65d-4c44-a98f-308e5ed62ed7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -2462,11 +2519,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/43be5692-d056-4385-8c54-7324d70128c2',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/b6d11ec9-ad9e-4ec8-90ee-9d2eb2c78703',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/4db3de85-8158-474c-b115-b450e5edb0d5',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=45022c74-1852-4cb5-b41e-f7fece922258&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -2502,11 +2560,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/e086e834-5ed2-4da3-b2d5-9ff653ecf69c',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/4975f5d1-a679-4cc0-9ab8-0107eb1d97d3',
     threeDLink:'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTkVPTSBNb3VudGFpbiBNYW5zaW9uIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',    
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=2a6a7cba-64b1-441b-83f5-23ed60ee979f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -2545,12 +2604,12 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSHVkYXlyaXlhdCBSZXNpZGVuY2UgIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/2736a97e-c3d0-4b87-8e97-07052d54b990',
     threeDLink:'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSHVkYXlyaXlhdCBSZXNpZGVuY2UgIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',    
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=c40cd995-e254-4e3a-863c-08b9632bc0a1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -2586,11 +2645,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/58907a6d-bbdf-4aa6-a14a-c06ed48a74cc',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiVGhlIENvdmUgSHVkYXlyaXlhdCBJc2xhbmQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/94f74bdd-5f2f-4106-9695-89ac2fd75124',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=b177d7d6-394d-479e-a75c-2b792a51f14d&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -2628,12 +2688,12 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiU29iaGEgSG90ZWwgJiBSZXNpZGVuY2VzIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/1768dc9f-e98c-4da9-9f38-6353eb770fbc',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/01b80b81-c43a-4f24-8e48-be91fed57b7c',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=6f3d4bfb-f87e-4a14-9caa-430507cd567f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -2669,11 +2729,12 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/navigate/folder/887fec72-55a8-486b-bcdd-40ba2f8981df',
     visualLink: 'https://aedasme.egnyte.com/navigate/folder/65ab2a06-469a-4a8a-9b00-e64135af30ee',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiU0VEUkEgUk9TSE4iXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=02211050-138c-48ce-9db7-89a3c90f1426&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -2712,10 +2773,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/345891f5-5cbe-4103-928b-79c081a0b3b1',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/e3e1de5f-8e45-4739-a3f9-a609a531e57e',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiREdEQSBXZWxsIEhvdGVsIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=86279832-14d1-4bdd-a37c-148486c83db3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -2754,10 +2817,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/6afd0029-0421-401c-8626-0fe11706f310',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/a175a6f2-a923-42e7-9916-c4b7004dd8e2',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiREdJSSAxIEhvdGVsIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=23426662-37f8-4c7b-8d91-20db0df0b491&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -2795,11 +2860,12 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/navigate/file/2281ff71-09cf-460e-a553-b8b6b3abf7b7',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/9a5842ae-d914-4554-b93f-a1485d3f1e02',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTmV3IE11cmFiYmEiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=31f767db-c604-4fbf-a9ec-3772c46293ad&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -2842,11 +2908,12 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/navigate/file/2281ff71-09cf-460e-a553-b8b6b3abf7b7',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/b7471cee-1ff7-43b1-a3d9-1721f92183d9',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiVHJvamVuYSBTa2kgVmlsbGFnZSBSZXNpZGVudGlhbCBJRCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=140a80cb-6f77-453c-a215-8caeb9238c22&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -2882,10 +2949,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/5d77838d-5917-48d5-a23a-6511540384bb',
     animationLink: 'https://aedasme.egnyte.com/navigate/file/6c15b4d0-e574-46e1-bcf7-8304a59cc19b',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/63ee167b-10aa-4d01-9b5c-c4e1599db906',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=6670f076-f9a9-4fca-b0d2-e285ded67688&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -2926,11 +2995,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/81bb8eba-6740-467c-87be-6f5a8b9d1ad2',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRW1hYXIgU291dGggRGV2ZWxvcG1lbnQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/63ee167b-10aa-4d01-9b5c-c4e1599db906',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=662e848b-63ff-4dec-bdd0-75ca55cb2356&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -2967,12 +3037,12 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/b18fd439-6458-4be4-b8f1-69085ccab382',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/2faa07ac-42b4-4f51-bbe5-0df0997b8200',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQWwgU291ZGFoIE1hc3RlcnBsYW4iXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=c2a94b81-3921-4517-9eb5-f335831d88a4&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3012,12 +3082,12 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/3623a2e6-bce4-4174-b119-40ff7e643d16',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/c392e132-aa3e-48c5-92e9-dd19112ef871',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/c88af24d-4eab-4450-b96d-ee5a7ced7ab7',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=dd9f1797-9154-4692-9a76-23e3ab135324&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3053,11 +3123,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/61cdcdda-3771-41f1-a4b5-f5d33b09ff69',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Riyadh%20Hub/Visuals',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Riyadh%20Hub/Animation',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=cfd86f92-e033-4e4f-8cae-9fc27ff7b3f3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3100,12 +3171,12 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRHViYWkgTWV0cm8gUm91dGUgMjAyMCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Dubai%20Metro%20Route%202020/Visuals',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Dubai%20Metro%20Route%202020/Animation',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=08a6b51a-bac4-43b2-9c91-343924065be7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3147,11 +3218,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/f1605d1d-c729-41be-869d-f1e861b60fab',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSnVtZWlyYWggUmVzaWRlbmNlIGF0IE1hcmluYSBHYXRlIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/46a0481a-d320-419a-b3ba-59a59e11558d',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=eac62646-bb4c-4d5d-a4ee-923263504dcd&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3189,11 +3261,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/6dfdc22e-462d-49e2-8f2d-fc1ae644345e',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/851df5fa-2c14-45f4-bc87-c10ecaf21c50',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/5f1c10db-7746-4d3e-b965-ccabf2d2ffe7',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=2d481afb-cae4-48f5-a37c-1a1a651b92ee&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3234,11 +3307,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/50ad25bb-7a7a-4220-8e3d-09f43ee64e54',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/9169d171-c7ba-4b0e-b0dc-16769ba69960',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRElGQyBJbm5vdmF0aW9uIEh1YiBFYXN0Il19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',   
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=a097425f-a9f9-4a4d-b735-85613e8a6a64&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3276,11 +3350,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/7cb9f303-663c-4911-9e16-3a574bde901a',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/8b0bbc0b-5e65-4baf-8194-7c76bb273b0c',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiIE5FT00gQmF5IEx1eHVyeSBNYW5zaW9uIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',   
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=3e21712f-9578-4d9a-b456-fac8c51432fd&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3318,11 +3393,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/MBC%20Studio%20and%20Office%20(The%20Line)/Presentation',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/81bbe3b6-f38d-414b-afc2-45f420b3421b',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTUJDIFN0dWRpb3MgYW5kIE9mZmljZShUaGUgTGluZSkiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=7a91f4c0-ec71-4b29-abc4-92228504b281&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3360,11 +3436,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/29525476-c05a-4826-842c-79d0aaa7f5e4',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/158d8f0c-3f9c-4537-bb18-48f794b26b40',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTUJDIFN0dWRpb3MiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=dab978b1-c9f4-49ca-a7cb-7f594c93b302&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3403,12 +3480,12 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiU2FhZGl5YXQgTGFnb29ucyJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/c9fdb093-ce3b-45d7-adfc-12add503d59f',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiU2FhZGl5YXQgTGFnb29ucyJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=f212e6f1-7430-416e-be96-9bb5a40ce225&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3446,11 +3523,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/a0451099-1c92-44f6-a450-62ed171e4536',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/9ea61dfd-7b63-45b8-b5a6-08c529771aee',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRHViYWkgQ3JlZWsgR29sZiBhbmQgWWFjaHQgQ2x1YiBWaWxsYXMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=2c667e0e-3f10-4596-a5bf-af78f6158d94&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3488,11 +3566,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/2e38298d-e138-49c0-83a0-43f28a289f86',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/5bdfa98b-2051-4709-97fc-ea5e2559b172',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/82423224-832b-4bd6-8fb9-2f19be45f4fa',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=22cf505f-a35f-41de-9a6f-2028a0bff39f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3530,12 +3609,12 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRGlsbXVuaWEgTW9zcXVlIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/f35b621a-886b-46ff-ab7f-fcd86046524e',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRGlsbXVuaWEgTW9zcXVlIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=93a1d054-58f1-465d-b201-a00c8539ef66&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3574,12 +3653,12 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/dabb35ee-36b0-4b68-a076-eb6671581ead',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSnVtZWlyYWggVmVudSBIb3RlbCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSnVtZWlyYWggVmVudSBIb3RlbCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=c2e4ed93-a929-47f3-8ec8-f329e3578d48&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3614,12 +3693,12 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Systra%20Qiddiya%20LRT/Visuals',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Systra%20Qiddiya%20LRT/Animation',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiU3lzdHJhIFFpZGRpeWEgTFJUIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=4c5011ab-4d4a-42be-bdbb-e573b4af519a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3656,11 +3735,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/b3cd25ba-ed96-4805-9fb2-88c769a3868e',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/e05bf180-fc8d-4604-9d37-7b148a8897c3?p=',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/334d1edb-92b5-4fe8-896d-6b703c35c120',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=3b734eed-6268-4d49-b93c-5df97051e9bc&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3698,12 +3778,12 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/6237bed4-5e6d-4593-a0ab-6e97b446df9b',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/9fbd8463-c2da-49ed-a472-747b7fc496ca',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQWwgTmF3cmFzIFdhbGsgIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=3b98b299-8192-4b85-8b74-3e9d950ba6a9&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
@@ -3738,13 +3818,13 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/2eba256a-db29-461a-ad82-d629246de60f',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/8b42f0d4-a70e-4f2a-b9e9-bb8d7fd911df',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQWwtSmFuYWRyaXlhaCBDdWx0dXJhbCBGZXN0aXZhbCBEaXN0cmljdCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuU0tQIl19XQ%3D%3D',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
-    // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=91518162-be66-411e-a590-ecdc7f38df66&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
         paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
@@ -3778,13 +3858,13 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/25447286-50d3-4fb9-adac-a989531c7ab6',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRGlsbXVuaWEgTUlYIDI0LTI1Il19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/f5b830da-13dd-45e9-b48b-7224eb1e70a2',
-    linkImages : {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
-    // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=08109844-2273-4608-898a-f33a9a3049fd&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
         paragraph1: "Situated on the northeast shores of Muharraq Island, Dilmunia at Bahrain is a visionary master-planned development that champions health, wellness, and an enriched lifestyle. This 125-hectare reclaimed island blends residential, hospitality, leisure, and commercial facilities with wellness-focused amenities, creating a balanced, active environment for residents and visitors alike.",
@@ -3821,10 +3901,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/a761bd44-f190-430c-a9cb-7796b9edcf62',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRDMgT2ZmaWNlIEJvdWxldmFyZCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuU0tQIl19XQ%3D%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=e3498bb5-5b4a-4e6d-8b94-efd6f4bfd973&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -3863,10 +3944,11 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRGlyaXlhaCBHYXRlIFBlbmluc3VsYSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRGlyaXlhaCBHYXRlIFBlbmluc3VsYSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=6465a8ca-8918-4f77-bcbc-5c59f19e403c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -3905,10 +3987,11 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/c1d32354-dbc7-4954-863a-15f8fd7ccba5',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQWJ1IERoYWJpIENvcm5pY2hlIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=fb9953a9-5d8b-4d29-9c35-84c47bb783ac&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -3948,10 +4031,11 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/7332ec19-eabd-49e8-abe2-9ca9a2b2e75e',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQmF0ZWxjbyBIUSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=0a9a81c4-0d3c-4931-acd4-8992e5d2ba4e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -3990,10 +4074,11 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/76d5b709-7beb-48dc-b901-4f2fbb14881f',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiU2hhd2thIEZhcm0iXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=72ed31b1-4e40-42c6-b191-bc0b3a97de48&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4031,10 +4116,11 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/2bec38f8-91bc-4a64-9e63-d5f0d242f0ae',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUnVhIEFsLUhhcmFtIDIuMCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=a1f897a9-3737-4568-b77a-02f35c3bc91c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4073,10 +4159,11 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/2bec38f8-91bc-4a64-9e63-d5f0d242f0ae',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUnVhIEFsLUhhcmFtIDIuMCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=a1f897a9-3737-4568-b77a-02f35c3bc91c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4114,11 +4201,11 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQWJkdWwgTGF0aWYgSmFtZWVsIENIUSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/c8d30fa2-c980-4a77-b958-efd1672556ce',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=549e81c0-b2ca-49e8-90d2-07dd1240418c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4155,11 +4242,11 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/navigate/folder/7a524739-b84b-4244-a02c-b0ce94d58fa8',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmV0YWlsIE1hbGwgTXVsdGFuIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=b2eaadb7-e81e-4cbf-8955-bb370617a0ab&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4198,11 +4285,11 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTU9ET04gU2Nob29sIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     threeDLink: 'https://aedasme.egnyte.com/navigate/file/90ffd3ab-5edb-450a-a9ac-72ccbb2bd9ef',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=b15fe66f-8eee-47c2-9d06-76aed0f28fbb&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4240,9 +4327,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/d82489a8-21f9-49c5-a9a4-eda45dd15fd2',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTkVPTSBTaW5kYWxhaCBJc2xhbmQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',        
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=173e6adb-78cf-41e2-a1eb-53e1da2a037f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4286,11 +4375,11 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Mayan%20Yas%20Marina/Animation',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTkVPTSBTaW5kYWxhaCBJc2xhbmQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=340b92aa-947a-4e20-a693-5b60c31c2e3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4328,10 +4417,11 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/93d77b50-8dc6-49a0-ad4b-c0ac4dfd79c8',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/87e3eaef-6248-414f-9b6e-2dd0e7f9aa07',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=b48e1472-42a4-456a-8699-1e0b875e5c34&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4366,9 +4456,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/navigate/file/a6266285-ddbb-4cd8-a196-70991b1fedb5',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmFzIEVsIEhla21hIENsaWZmIEhvdGVsIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=73d2108b-912d-4344-99a5-685b7f2d05c5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4407,10 +4499,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/navigate/file/8600e63f-d19d-498b-a471-df4bbfc4b28d',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmFzIEVsIEhla21hIEVhc3QgQmVhY2ggSG90ZWwiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=a53decf7-2af1-491f-8e80-d2c5dc5f0141&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4448,10 +4541,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/c382bb53-1493-4e40-83fe-466fd068b0ba',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTW9kb24gTHVsdSBJc2xhbmQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=695b0483-f259-4d2c-9242-31907a6a699f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4490,10 +4584,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/361c41c0-979e-464b-99df-8b305b6f446e',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmFzIEVsIEhFa21hIEFsIFFhc3IgUmVzb3J0Il19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=7d33493f-0611-414e-a706-184120741d3d&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4535,10 +4630,11 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/navigate/file/54cfd122-a01d-4543-9182-80b89470bb3f',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQnVzaW5lc3MgQmF5IExhbmRtYXJrIFdhdGVyZnJvbnQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=86575fce-5356-4418-b5be-09f28753424f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4575,10 +4671,11 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/6aa69b0e-f391-4793-854d-8628272a38ed',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/fe4fc02c-f7de-4bf5-9ac6-84ab0c633a74',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=391bf692-79d7-4ad0-a32d-7a917edccc69&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4616,11 +4713,11 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/c9abd43c-0612-492d-bf0b-5864ba193506',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index%2F1.%20Residential%2F1D.%20Mansion%2FModel&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR09BIE1hbnNpb25zIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=2698f583-8780-4da2-b05f-5251aac04313&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4661,11 +4758,11 @@ const projects = [
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/722486ba-f7e0-4d2a-9ab5-940ce13a08ae',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR09BIFN0YWZmIFZpbGxhZ2UiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=02f7a926-55fc-429b-969c-6365bdc51f59&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=e3ffb949-7b7f-44a4-9196-b1ec74a5525e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4703,10 +4800,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Ras%20El%20Hekma/Visuals/Ras%20El%20Hekma%20Algarve%20%26%20West%20Coast%20Canals',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiUmFzIEVsIEhla21hIFdlc3QgQ29hc3QgQ2FuYWxzIiwiUmFzIEVsIEhla21hIEFsZ2FydmUiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=f0df7a1e-392f-42d5-9b98-c632ff945b04&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4745,10 +4843,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/f1c62b3c-086e-4523-ae20-29496cd5543c',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiS2hvciBTYWFkaXlhdCBUaGVhdGVyIERpc3RyaWN0IE1hcmluYSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuU0tQIl19XQ%3D%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5916c642-f968-4ed2-af7b-e2e0c440103a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4784,10 +4883,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/navigate/folder/26a27d8d-60db-4dec-9464-905f71aa8cb4',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiS2hvciBTYWFkaXlhdCBUaGVhdGVyIERpc3RyaWN0Il19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=61ad3900-0b9b-4eed-aec9-c7836786c393&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4823,10 +4923,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/navigate/folder/ef452a7d-612c-4f8e-9161-6daa9bd48cf4',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiS2hvciBBbCBTYWFkaXlhdCBNYXN0ZXJwbGFuIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=3daebd38-1b72-47a1-82be-d5d12ba72060&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4869,10 +4970,11 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR2VtaW5pIFNwbGVuZG9yIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5EV0ciXX1d',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR2VtaW5pIFNwbGVuZG9yIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImZpbHRlIHR5cGUiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIi5TS1AiXX1d',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5abd06a7-6e0a-4914-8594-4f2bbfa3314c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4908,10 +5010,12 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/47400822-05c8-4865-924f-4f2267ce9a8a',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/45f64f88-fc96-4cc8-93e2-a7da3ff65a45',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=08cbefc0-afe4-4abf-91dc-0f057352cfdd&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4949,10 +5053,11 @@ const projects = [
     visualLink: 'https://aedasme.egnyte.com/navigate/file/b0b808f0-87ee-466a-830b-e99784d91873',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSkFWIFBoYXNlIDIgIE1vc3F1ZSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJkYXRhIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIzRCJdfV0%3D',
     linkImages: {
-        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=f339273d-0467-474d-a996-4e8b7360dc3e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=d349d403-6b9e-474d-a14a-e224b80bd9e8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=d235bc93-b53a-4741-9b80-56a46fdc50f2&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
-        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=73b9cc45-a7c6-422e-aa36-01b3744bb3f1&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true'
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=d8c4d3e1-aeed-4117-911b-a442c3500f9e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
@@ -4969,8 +5074,94 @@ const projects = [
         "https://aedasme.egnyte.com/opendocument.do?entryId=57ca443f-425a-4d8d-9975-5c1cb3441262&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
         "https://aedasme.egnyte.com/opendocument.do?entryId=100ecf67-a41d-48dc-a8e8-c29a2dfaf320&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
     ]
-}
+},
+{
+    id: 110, 
+    title: 'ANANTARA RESORT AND BRANDED RESIDENCES',  
+    abbr: 'ATR', 
+    image: "./ICON/ATR.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=685faf5b-63d4-4fb2-a044-de75a80b2081&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=301ff21b-8ca0-4180-8726-c47f303fbb94&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2024,
+    client: "DGCL",
+    program: 'HOSPITALITY', 
+    typology: 'HOSPITALITY', 
+    location: 'KSA, SAUDI ARABIA',
+    scale: 'L', 
+    epoch: 'PAST', 
+    hoverImage: "./hover/ATR.png",
+    presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/963bcbfd-a51a-45d1-81eb-174053b6b203',
+    visualLink: 'https://aedasme.egnyte.com/navigate/file/798a0734-0888-4d92-87d0-e85cbce1292b',
+    threeDLink: 'https://aedasme.egnyte.com/navigate/file/e004b110-d68d-4bd0-b2d5-84a55217fdef',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=d92b2fb2-b9bc-4418-afc2-bf99b742259c&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "The Jebel Ali Village Mosque is a key part of the masterplan for the Jebel Ali Village development in Dubai. Located within both Phase 1 and Phase 2, the mosque is integrated into a community defined by the Hillside Apartments, a primarily residential area with community retail. The design aims to complement the peaceful, pedestrian-friendly character of the area, enhancing the hillside suburban atmosphere.",
+        paragraph2: "Strategically positioned along Sheikh Zayed Road near Jebel Ali Free Zone, the mosque benefits from excellent connectivity, with the Energy Metro Station nearby and convenient access to public transportation. The design envisions a serene and tranquil spiritual space within the urban growth corridor of southern Dubai, providing a contrast to the bustling city environment.",
+        paragraph3: "The mosque will serve as a central hub for the community, reinforcing the overall vision for Jebel Ali Village as a peaceful, well-connected, and vibrant area. The project is designed to offer both spiritual and architectural harmony, contributing to the development's long-term growth and cultural."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=41649468-007e-4ace-a4e0-e1e1fe27b473&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=44492eb3-d097-43c0-9811-7f2e6aad761a&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=2416c044-9c86-41e4-86af-d4a1e2f61935&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=51c84c5b-044c-4e69-8538-8657f875a685&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
+{
+    id: 111, 
+    title: 'SYSTRA QIDDIYA GS',  
+    abbr: 'QGS', 
+    image: "./ICON/QGS.svg",
+    tags: [
+        'GONDOLA'
+    ],
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=7922cbe2-ed83-4d26-8974-da8b079f9e68&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=703a8bbf-b59c-4388-bca2-3ab194e82266&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2024,
+    client: "QIDDIYA",
+    program: 'TRANSPORTATION', 
+    typology: 'TRANSPORTATION', 
+    location: 'KSA, SAUDI ARABIA',
+    scale: 'M', 
+    epoch: 'FUTURE', 
+    hoverImage: "./hover/QGS.png",
+    presentationLink: 'https://aedasme.egnyte.com/navigate/file/d0aa15f1-d42c-4301-86b6-76f58bbd005b',
+    visualLink: 'https://aedasme.egnyte.com/navigate/folder/d192a610-0a50-40a3-a688-577f0aa0dc08',
+    animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/28c1a870-4681-4ce3-b7cb-0d94f9168151',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
 
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=e474985e-cf81-4c21-92ba-dc065879db8f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "The Jebel Ali Village Mosque is a key part of the masterplan for the Jebel Ali Village development in Dubai. Located within both Phase 1 and Phase 2, the mosque is integrated into a community defined by the Hillside Apartments, a primarily residential area with community retail. The design aims to complement the peaceful, pedestrian-friendly character of the area, enhancing the hillside suburban atmosphere.",
+        paragraph2: "Strategically positioned along Sheikh Zayed Road near Jebel Ali Free Zone, the mosque benefits from excellent connectivity, with the Energy Metro Station nearby and convenient access to public transportation. The design envisions a serene and tranquil spiritual space within the urban growth corridor of southern Dubai, providing a contrast to the bustling city environment.",
+        paragraph3: "The mosque will serve as a central hub for the community, reinforcing the overall vision for Jebel Ali Village as a peaceful, well-connected, and vibrant area. The project is designed to offer both spiritual and architectural harmony, contributing to the development's long-term growth and cultural."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=9f06b168-5aa7-4d72-aa7f-5198725a7e81&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=9f44f408-6942-4717-91ce-62653501b798&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=92020011-c413-4f0b-bd2e-941eaf715804&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=47983eca-2d02-4898-8137-17c45db5a265&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=fe7745f9-f9de-49d5-af89-013a244dfe19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
 
 ];
 
@@ -5755,13 +5946,13 @@ function updateGrid(activeFilter) {
             programSection.style.flexDirection = 'column';
             programSection.style.alignItems = 'center';
     
-            // Add margins for RESIDENTIAL, MASTERPLAN and their neighbors
-            if (program === 'RESIDENTIAL' || program === 'MASTERPLAN') {
-                programSection.style.margin = '0 -10px';
-            } else if (programs[programIndex + 1] === 'RESIDENTIAL' || programs[programIndex + 1] === 'MASTERPLAN') {
-                programSection.style.margin = '0 20px 0 -5px';
-            } else if (programs[programIndex - 1] === 'RESIDENTIAL' || programs[programIndex - 1] === 'MASTERPLAN') {
-                programSection.style.margin = '0 -8px 0 20px';
+            // Add margins for RESIDENTIAL, MASTERPLAN, HOSPITALITY and their neighbors
+            if (program === 'RESIDENTIAL' || program === 'MASTERPLAN' || program === 'HOSPITALITY') {
+                programSection.style.margin = '0 30px';
+            } else if (programs[programIndex + 1] === 'RESIDENTIAL' || programs[programIndex + 1] === 'MASTERPLAN' || programs[programIndex + 1] === 'HOSPITALITY') {
+                programSection.style.margin = '0 -10px 0 10px';
+            } else if (programs[programIndex - 1] === 'RESIDENTIAL' || programs[programIndex - 1] === 'MASTERPLAN' || programs[programIndex - 1] === 'HOSPITALITY') {
+                programSection.style.margin = '0 -8px 0 -5px';
             } else {
                 programSection.style.margin = '0 -8px';
             }
@@ -5781,8 +5972,8 @@ function updateGrid(activeFilter) {
                 epochColumn.className = 'epoch-column';
                 epochColumn.style.width = `${epochColumnWidth - 10}px`;
     
-                // Add margin based on position for both RESIDENTIAL and MASTERPLAN
-                if (program === 'RESIDENTIAL' || program === 'MASTERPLAN') {
+                // Add margin based on position for RESIDENTIAL, MASTERPLAN, and HOSPITALITY
+                if (program === 'RESIDENTIAL' || program === 'MASTERPLAN' || program === 'HOSPITALITY') {
                     if (epoch === 'PRESENT') {
                         epochColumn.style.margin = '0 20px';
                     } else if (epoch === 'PAST') {
@@ -5833,7 +6024,50 @@ function updateGrid(activeFilter) {
                     }
     
                     epochColumn.appendChild(twoColumnsContainer);
-                } else {
+                } 
+                // Special handling for HOSPITALITY program in PAST epoch
+                else if (program === 'HOSPITALITY' && epoch === 'PAST') {
+                    const twoColumnsContainer = document.createElement('div');
+                    twoColumnsContainer.style.display = 'flex';
+                    twoColumnsContainer.style.justifyContent = 'center';
+                    twoColumnsContainer.style.gap = '43px';  // Same gap as for RESIDENTIAL/MASTERPLAN
+                    twoColumnsContainer.style.width = '100%';
+                    twoColumnsContainer.style.marginBottom = '0.6rem';
+    
+                    const columns = [];
+                    for (let i = 0; i < 2; i++) {
+                        const column = document.createElement('div');
+                        column.style.width = `calc(50% - 16px)`;  // Same width as for RESIDENTIAL/MASTERPLAN
+                        column.style.display = 'flex';
+                        column.style.flexDirection = 'column-reverse';
+                        column.style.gap = '7px';
+                        columns.push(column);
+                        twoColumnsContainer.appendChild(column);
+                    }
+    
+                    const filteredProjects = projects.filter(
+                        project => project.program === program && project.epoch === epoch
+                    );
+    
+                    // First column gets max 11 projects
+                    const firstColumnCount = Math.min(filteredProjects.length, 11);
+                    const remainingProjects = filteredProjects.length - firstColumnCount;
+    
+                    // Add projects to first column (up to 11)
+                    for (let i = 0; i < firstColumnCount; i++) {
+                        const projectIcon = createProjectIcon(filteredProjects[i], activeFilter);
+                        columns[0].appendChild(projectIcon);
+                    }
+    
+                    // Add remaining projects to second column
+                    for (let i = 0; i < remainingProjects; i++) {
+                        const projectIcon = createProjectIcon(filteredProjects[firstColumnCount + i], activeFilter);
+                        columns[1].appendChild(projectIcon);
+                    }
+    
+                    epochColumn.appendChild(twoColumnsContainer);
+                } 
+                else {
                     const projectStack = document.createElement('div');
                     projectStack.className = 'project-stack';
                     projectStack.style.display = 'flex';
@@ -5858,7 +6092,14 @@ function updateGrid(activeFilter) {
             const programHeader = document.createElement('div');
             programHeader.className = 'header program-header';
             programHeader.textContent = program;
-            programHeader.style.width = `${epochColumnWidth * 3 + 32}px`;
+            
+            // Adjust width for HOSPITALITY to account for extra column
+            if (program === 'HOSPITALITY') {
+                programHeader.style.width = `${epochColumnWidth * 4 + 32}px`;  // Width for 4 columns
+            } else {
+                programHeader.style.width = `${epochColumnWidth * 3 + 32}px`;  // Width for 3 columns
+            }
+            
             programHeader.style.textAlign = 'center';
     
             programSection.appendChild(columnsContainer);
@@ -6220,7 +6461,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Updated suggestions to include both tags and clients
     const suggestions = {
-        tags: ["HIGH-RISE", "AWARDED", "INTERIOR", "BUILT", "BAY POINT"],
+        tags: ["HIGH-RISE", "AWARDED", "INTERIOR", "BUILT", "BAY POINT", "GONDOLA"],
         clients: ["WOW INVEST. LIMITED", "AL REEM REAL ESTATE DEVELOPMENT EST", "WASL", "TECOM GROUP","DGCL","MODON","BOUTIQUE GROUP","PIF","MODON PROPERTIES","MBC",
             "EAST & WEST PROPERTIES","UNITED DEVELOPMENT CO.","ROSHN","NEOM","MAJID AL FUTTAIM PROPERTIES","NEW MURABBA","DIFC","ALDAR",
             "ENOC","BEYON","PRIVATE","EMAAR PROPERTIES","OMRAN GROUP","NAKHEEL","ROYAL COMMISSION FOR AL-ULA","ELLINGTON", "AL REEM REAL ESTATE DEVELOPMENT EST", 
