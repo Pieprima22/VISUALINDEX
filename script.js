@@ -5975,7 +5975,7 @@ function updateGrid(activeFilter) {
                 // Add margin based on position for RESIDENTIAL, MASTERPLAN, and HOSPITALITY
                 if (program === 'RESIDENTIAL' || program === 'MASTERPLAN') {
                     if (epoch === 'PRESENT') {
-                        epochColumn.style.margin = '0 20px';
+                        epochColumn.style.margin = '0 22px';
                     } else if (epoch === 'PAST') {
                         epochColumn.style.margin = '0 -5px 0 0';
                     } else if (epoch === 'FUTURE') {
