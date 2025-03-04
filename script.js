@@ -5973,13 +5973,22 @@ function updateGrid(activeFilter) {
                 epochColumn.style.width = `${epochColumnWidth - 10}px`;
     
                 // Add margin based on position for RESIDENTIAL, MASTERPLAN, and HOSPITALITY
-                if (program === 'RESIDENTIAL' || program === 'MASTERPLAN' || program === 'HOSPITALITY') {
+                if (program === 'RESIDENTIAL' || program === 'MASTERPLAN') {
                     if (epoch === 'PRESENT') {
                         epochColumn.style.margin = '0 20px';
                     } else if (epoch === 'PAST') {
                         epochColumn.style.margin = '0 -5px 0 0';
                     } else if (epoch === 'FUTURE') {
                         epochColumn.style.margin = '0 0 0 27px';
+                    }
+                } else if (program === 'HOSPITALITY') {
+                    if (epoch === 'PRESENT') {
+                        // Move the PRESENT column more to the left for HOSPITALITY
+                        epochColumn.style.margin = '0 55px '; // Reduced from 20px to 10px
+                    } else if (epoch === 'PAST') {
+                        epochColumn.style.margin = '0 -5px 0 0';
+                    } else if (epoch === 'FUTURE') {
+                        epochColumn.style.margin = '0 0 0 -40px';
                     }
                 }
     
@@ -6093,9 +6102,9 @@ function updateGrid(activeFilter) {
             programHeader.className = 'header program-header';
             programHeader.textContent = program;
             
-            // Adjust width for HOSPITALITY to account for extra column
+            // Adjust width for HOSPITALITY to account for modified column positioning
             if (program === 'HOSPITALITY') {
-                programHeader.style.width = `${epochColumnWidth * 4 + 32}px`;  // Width for 4 columns
+                programHeader.style.width = `${epochColumnWidth * 3 + 20}px`;  // Slightly reduced width
             } else {
                 programHeader.style.width = `${epochColumnWidth * 3 + 32}px`;  // Width for 3 columns
             }
