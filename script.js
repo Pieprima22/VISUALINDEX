@@ -5948,9 +5948,9 @@ function updateGrid(activeFilter) {
     
             // Add margins for RESIDENTIAL, MASTERPLAN, HOSPITALITY and their neighbors
             if (program === 'RESIDENTIAL' || program === 'MASTERPLAN' || program === 'HOSPITALITY') {
-                programSection.style.margin = '0 20px 0 20px';
+                programSection.style.margin = '0 21px 0 21px';
             } else if (programs[programIndex + 1] === 'RESIDENTIAL' || programs[programIndex + 1] === 'MASTERPLAN' || programs[programIndex + 1] === 'HOSPITALITY') {
-                programSection.style.margin = '0 -10px 0 -8px';
+                programSection.style.margin = '0 -10px 0 -7px';
             } else if (programs[programIndex - 1] === 'RESIDENTIAL' || programs[programIndex - 1] === 'MASTERPLAN' || programs[programIndex - 1] === 'HOSPITALITY') {
                 programSection.style.margin = '0 -8px 0 -10px';
             } else {
