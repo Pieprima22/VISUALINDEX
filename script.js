@@ -5163,6 +5163,49 @@ const projects = [
     ]
 },
 
+{
+    id: 112, 
+    title: 'GIDORI',  
+    abbr: 'GID', 
+    image: "./ICON/QGS.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=234ea2f9-b7d1-4506-b21f-90a63fc6355d&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=ee8a8235-3302-485d-b2f9-9fc8fcfc0c11&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2021,
+    client: "NEOM",
+    program: 'MASTERPLAN', 
+    typology: 'MASTERPLAN', 
+    location: 'KSA, SAUDI ARABIA',
+    scale: 'XL', 
+    epoch: 'FUTURE', 
+    hoverImage: "./hover/GID.png",
+    presentationLink: 'https://aedasme.egnyte.com/navigate/folder/6ff345ab-e26f-4af9-892d-cda90454c984',
+    visualLink: 'https://aedasme.egnyte.com/navigate/folder/4cf3fbe0-f921-4911-a7ed-10e2073571c7',
+    animationLink: 'https://aedasme.egnyte.com/navigate/folder/cb82bbea-d386-4985-9900-4e728b2159cb',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=097d23e2-b23b-48d9-b3a6-58787c731c6e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "The Jebel Ali Village Mosque is a key part of the masterplan for the Jebel Ali Village development in Dubai. Located within both Phase 1 and Phase 2, the mosque is integrated into a community defined by the Hillside Apartments, a primarily residential area with community retail. The design aims to complement the peaceful, pedestrian-friendly character of the area, enhancing the hillside suburban atmosphere.",
+        paragraph2: "Strategically positioned along Sheikh Zayed Road near Jebel Ali Free Zone, the mosque benefits from excellent connectivity, with the Energy Metro Station nearby and convenient access to public transportation. The design envisions a serene and tranquil spiritual space within the urban growth corridor of southern Dubai, providing a contrast to the bustling city environment.",
+        paragraph3: "The mosque will serve as a central hub for the community, reinforcing the overall vision for Jebel Ali Village as a peaceful, well-connected, and vibrant area. The project is designed to offer both spiritual and architectural harmony, contributing to the development's long-term growth and cultural."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=41692ce6-ba86-4e59-bb2c-a19e4ad522d5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=4cff0c87-dba4-47b9-b4ba-874d29b5b7fe&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=5071a805-5b98-4273-a4fd-8cc5bc450ff7&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=b470aa64-c838-4dfb-828f-aaf9e55d1cd5&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
+
 ];
 
 const filterConfigs = {
@@ -5948,13 +5991,13 @@ function updateGrid(activeFilter) {
     
             // Add margins for RESIDENTIAL, MASTERPLAN, HOSPITALITY and their neighbors
             if (program === 'RESIDENTIAL' || program === 'MASTERPLAN' || program === 'HOSPITALITY') {
-                programSection.style.margin = '0 21px 0 21px';
+                programSection.style.margin = '0 40px 0 50px';
             } else if (programs[programIndex + 1] === 'RESIDENTIAL' || programs[programIndex + 1] === 'MASTERPLAN' || programs[programIndex + 1] === 'HOSPITALITY') {
-                programSection.style.margin = '0 -10px 0 -7px';
+                programSection.style.margin = '0 -35px 0 -10px';
             } else if (programs[programIndex - 1] === 'RESIDENTIAL' || programs[programIndex - 1] === 'MASTERPLAN' || programs[programIndex - 1] === 'HOSPITALITY') {
-                programSection.style.margin = '0 -8px 0 -10px';
+                programSection.style.margin = '0 -2px 0 -25px';
             } else {
-                programSection.style.margin = '0 -10px';
+                programSection.style.margin = '0 -60px 0 60px';
             }
             
             const columnsContainer = document.createElement('div');
@@ -5979,7 +6022,7 @@ function updateGrid(activeFilter) {
                     } else if (epoch === 'PAST') {
                         epochColumn.style.margin = '0 -5px 0 0';
                     } else if (epoch === 'FUTURE') {
-                        epochColumn.style.margin = '0 0 0 27px';
+                        epochColumn.style.margin = '0 0 0 30px'; // Increased from 27px to 45px for more space
                     }
                 } else if (program === 'HOSPITALITY') {
                     if (epoch === 'PRESENT') {
@@ -6075,7 +6118,49 @@ function updateGrid(activeFilter) {
                     }
     
                     epochColumn.appendChild(twoColumnsContainer);
-                } 
+                }
+                // Special handling for MASTERPLAN program in FUTURE epoch 
+                else if (program === 'MASTERPLAN' && epoch === 'FUTURE') {
+                    const twoColumnsContainer = document.createElement('div');
+                    twoColumnsContainer.style.display = 'flex';
+                    twoColumnsContainer.style.justifyContent = 'center';
+                    twoColumnsContainer.style.gap = '43px';  // Same gap as other two-column layouts
+                    twoColumnsContainer.style.width = '100%';
+                    twoColumnsContainer.style.marginBottom = '0.6rem';
+                
+                    const columns = [];
+                    for (let i = 0; i < 2; i++) {
+                        const column = document.createElement('div');
+                        column.style.width = `calc(50% - 16px)`;
+                        column.style.display = 'flex';
+                        column.style.flexDirection = 'column-reverse';
+                        column.style.gap = '7px';
+                        columns.push(column);
+                        twoColumnsContainer.appendChild(column);
+                    }
+                
+                    const filteredProjects = projects.filter(
+                        project => project.program === program && project.epoch === epoch
+                    );
+                
+                    // Same distribution logic as for PRESENT epoch
+                    const totalProjects = filteredProjects.length;
+                    const firstColumnCount = Math.ceil(totalProjects * 0.6); // 60% to first column
+                    const secondColumnCount = totalProjects - firstColumnCount;
+                
+                    // Distribute projects to columns
+                    for (let i = 0; i < firstColumnCount; i++) {
+                        const projectIcon = createProjectIcon(filteredProjects[i], activeFilter);
+                        columns[0].appendChild(projectIcon);
+                    }
+                
+                    for (let i = 0; i < secondColumnCount; i++) {
+                        const projectIcon = createProjectIcon(filteredProjects[firstColumnCount + i], activeFilter);
+                        columns[1].appendChild(projectIcon);
+                    }
+                
+                    epochColumn.appendChild(twoColumnsContainer);
+                }
                 else {
                     const projectStack = document.createElement('div');
                     projectStack.className = 'project-stack';
