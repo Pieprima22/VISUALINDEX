@@ -5181,6 +5181,7 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/navigate/folder/6ff345ab-e26f-4af9-892d-cda90454c984',
     visualLink: 'https://aedasme.egnyte.com/navigate/folder/4cf3fbe0-f921-4911-a7ed-10e2073571c7',
     animationLink: 'https://aedasme.egnyte.com/navigate/folder/cb82bbea-d386-4985-9900-4e728b2159cb',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR2lkb3JpIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
