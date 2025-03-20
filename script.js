@@ -5207,6 +5207,50 @@ const projects = [
     ]
 },
 
+{
+    id: 113, 
+    title: 'GHAF WOODS',  
+    abbr: 'GAF', 
+    image: "./ICON/GAF.svg",
+    coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=4cc8d029-a95d-464f-9a31-af74790a4bef&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=2451ba8d-f392-4dcc-9f0c-3d09dbb470c0&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+    year: 2024,
+    client: "MAF",
+    program: 'RESIDENTIAL', 
+    typology: 'RESIDENTIAL', 
+    location: 'KSA, SAUDI ARABIA',
+    scale: 'L', 
+    epoch: 'PRESENT', 
+    hoverImage: "./hover/GAF.png",
+    presentationLink: 'https://aedasme.egnyte.com/navigate/file/968dd2c7-dac7-43ac-862d-00e9de4f39a4',
+    visualLink: 'https://aedasme.egnyte.com/navigate/file/de89b49f-f86f-48fd-8b65-4d58f44f2f7d',
+    drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTUFGIEdoYWYgV29vZHMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRHJhd2luZyJdfV0%3D',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTUFGIEdoYWYgV29vZHMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX1d',
+    linkImages: {
+        presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
+        animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+        threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+
+    },
+    descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=0af74c9a-0fe7-4407-a0c8-60df279638fb&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
+    description: {
+        paragraph1: "Ghaf Woods envisions a multifamily residential community centered around a vibrant forest. Designed to promote holistic living, the development integrates nature, wellness, and sensory experiences into every aspect of its layout. The heart of the masterplan features a Wellness Hub, which acts as both a physical and conceptual focal point of the community. Surrounding the hub, a green loop connects various spaces, offering residents an immersive path through the forest and reinforcing the project’s emphasis on health and tranquility.",
+        paragraph2: "The layout is further enriched by integrated community clusters, which offer a variety of residential units ranging from 1-3 bedroom apartments to spacious 3-4 bedroom duplexes. These clusters foster a sense of connection among residents while maintaining a diverse offering of living options. The design incorporates forest pathways that weave through the community, creating a sense of harmony with nature while providing access to various amenities.",
+        paragraph3: "Key to the project’s design is its commitment to sustainability. The use of open-to-sky features helps optimize natural light and air circulation, reducing energy consumption and enhancing the comfort of living spaces. In addition to wellness amenities like gyms, infinity pools, and family-oriented areas, Ghaf Woods promotes a lifestyle that encourages physical, mental, and emotional well-being. By combining nature with modern living, the project offers a truly transformative residential experience."
+    },
+    teamMembers: [
+        "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
+    ],
+    galleryImages: [    
+        "https://aedasme.egnyte.com/opendocument.do?entryId=3a9683d2-8221-4059-8e6c-f87fa79a620c&forceDownload=false&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=e1940b56-5126-4546-bbfe-69eb1b2584b3&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=1d8aa371-7caf-443b-84b6-0c5293ab8315&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=d9d785c8-6a80-4872-9620-ffbae67ae319&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true",
+        "https://aedasme.egnyte.com/opendocument.do?entryId=2fa3cd38-9748-48ad-99ed-36c45d77c7ef&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true"
+    ]
+},
 ];
 
 const filterConfigs = {
@@ -6060,20 +6104,38 @@ function updateGrid(activeFilter) {
                         project => project.program === program && project.epoch === epoch
                     );
     
-                    // New distribution logic for uneven columns
-                    const totalProjects = filteredProjects.length;
-                    const firstColumnCount = Math.ceil(totalProjects * 0.6); // 60% to first column
-                    const secondColumnCount = totalProjects - firstColumnCount;
-    
-                    // Distribute projects to columns
-                    for (let i = 0; i < firstColumnCount; i++) {
-                        const projectIcon = createProjectIcon(filteredProjects[i], activeFilter);
-                        columns[0].appendChild(projectIcon);
-                    }
-    
-                    for (let i = 0; i < secondColumnCount; i++) {
-                        const projectIcon = createProjectIcon(filteredProjects[firstColumnCount + i], activeFilter);
-                        columns[1].appendChild(projectIcon);
+                    // Special limit for RESIDENTIAL program in PRESENT epoch
+                    if (program === 'RESIDENTIAL') {
+                        // Limit first column to maximum 10 projects
+                        const firstColumnCount = Math.min(10, filteredProjects.length);
+                        const secondColumnCount = filteredProjects.length - firstColumnCount;
+                        
+                        // Distribute projects to columns
+                        for (let i = 0; i < firstColumnCount; i++) {
+                            const projectIcon = createProjectIcon(filteredProjects[i], activeFilter);
+                            columns[0].appendChild(projectIcon);
+                        }
+                        
+                        for (let i = 0; i < secondColumnCount; i++) {
+                            const projectIcon = createProjectIcon(filteredProjects[firstColumnCount + i], activeFilter);
+                            columns[1].appendChild(projectIcon);
+                        }
+                    } else {
+                        // Original distribution logic for MASTERPLAN
+                        const totalProjects = filteredProjects.length;
+                        const firstColumnCount = Math.ceil(totalProjects * 0.6); // 60% to first column
+                        const secondColumnCount = totalProjects - firstColumnCount;
+                        
+                        // Distribute projects to columns
+                        for (let i = 0; i < firstColumnCount; i++) {
+                            const projectIcon = createProjectIcon(filteredProjects[i], activeFilter);
+                            columns[0].appendChild(projectIcon);
+                        }
+                        
+                        for (let i = 0; i < secondColumnCount; i++) {
+                            const projectIcon = createProjectIcon(filteredProjects[firstColumnCount + i], activeFilter);
+                            columns[1].appendChild(projectIcon);
+                        }
                     }
     
                     epochColumn.appendChild(twoColumnsContainer);
