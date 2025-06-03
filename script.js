@@ -722,6 +722,7 @@ const projects = [
         epoch: 'PRESENT', 
         presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/e8c40ef4-3933-435c-a549-20c03210e9cb',
         visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/78984ef1-f128-4fc4-9ac3-efdce60f41a5',
+        threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/6.%20Masterplan/Model?p',
         linkImages: {
             presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
             drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -1067,7 +1068,7 @@ const projects = [
         client: 'MODON',
         program: 'OTHERS',
         typology: 'MEDICAL STREET',  
-        location: 'ABU DHABI',
+        location: 'ABU DHABI, UAE',
         scale: 'L', 
         epoch: 'PRESENT', 
         presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/8780aa5a-153f-4b80-be30-dc467cf560df',
@@ -1532,7 +1533,7 @@ const projects = [
         coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=7314d9ce-1601-4450-b5f0-f28fd6c0d0c9&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',    
         imageUrl: 'https://aedasme.egnyte.com/opendocument.do?entryId=4759f11d-61cb-4783-85fd-9beb7dba005f&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         year: 2024, 
-        client: 'DIFC',
+        client: 'DGCL',
         program: 'OTHERS', 
         typology: 'CONFERENCE CENTER',  
         location: 'KSA, SAUDI ARABIA',
@@ -1577,7 +1578,7 @@ const projects = [
         client: 'WASL',
         program: 'OTHERS', 
         typology: 'STADIUM',  
-        location: 'DUABI, UAE',
+        location: 'DUBAI, UAE',
         scale: 'M', 
         epoch: 'FUTURE', 
         presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/d2203605-d0fc-4640-bcc5-a3a0d7212aed',
@@ -1714,7 +1715,6 @@ const projects = [
     epoch: 'PAST', 
     hoverImage: "./hover/MBC.png",
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/2641789c-4173-4bc1-938e-2a240a4b5e73',
-    animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/4dbb3b25-7afe-4186-a7c4-c56d483e743f',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/e30a6e1d-6f9b-43ae-bf39-31b7cb8af000',
      threeDLink: 'https://aedasme.egnyte.com/navigate/file/8d10af51-31ba-4efb-9673-363b4cb107b6',
      linkImages: {
@@ -1934,7 +1934,7 @@ const projects = [
     hoverImage: "./hover/JED.png",
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/3310a680-8728-48f4-b680-45f4b0c45493',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/11860c71-7b8d-4a3d-abcc-8920d5a34057',
-    visualLink: 'https://aedasme.egnyte.com/navigate/file/11860c71-7b8d-4a3d-abcc-8920d5a34057 ',
+    visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/4b90f719-c8fb-480a-8fdf-793da30264dd',
     threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiSmVkZGFoIFJlbmFpc3NhbmNlIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -2028,7 +2028,7 @@ const projects = [
     presentationLink: 'https://aedasme.egnyte.com/navigate/file/b470d37d-7309-4711-a6d6-a4ec54c61dfd',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/9ac4fb2b-3f5a-4771-b415-390602bbb25c',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiQ29yaW50aGlhIFJlc2lkZW5jZSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
-    threeDLink: 'https://aedasme.egnyte.com/navigate/file/12d2d573-3fcb-4322-ad93-23950fccdedf',
+    threeDLink: 'https://aedasme.egnyte.com/navigate/file/800c79b4-5d73-4215-b63c-110597354778',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -2351,9 +2351,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=087b2be0-0132-44ea-ad7f-337cf38d9185&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "NEOM The Cube is a groundbreaking architectural project that embodies futuristic luxury in a bold and iconic design. With dimensions of 100x100x100 meters, The Cube offers a truly immersive experience, housing 100 five-star hotel rooms, 100 luxury apartments, destination restaurants, luxury retail spaces, entertainment venues, bars, lounges, and an academy. Located in a dramatic mountain setting next to an ocean, the project seamlessly integrates opulence and cutting-edge design within the breathtaking natural surroundings.",
+        paragraph2: "Three proposed options explore how The Cube interacts with the landscape. Option 1 embeds the structure into the mountain, minimizing terrain alteration, while a 100-berth marina is positioned parallel to the cliff with minimal floating add-ons. Option 1B builds upon this concept, introducing an offset to allow more light to the rear of The Cube. Option 2 takes a bold approach, suspending The Cube above an artificial canal carved through the mountain, with the marina arranged in a straight line for visual continuity.",
+        paragraph3: "The design aims to create an architectural icon that balances innovation and environmental sensitivity. By exploring diverse spatial configurations and four distinctive architectural languages, The Cube promises a luxurious, visionary destination that redefines hospitality and lifestyle within NEOM's development."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -2428,9 +2428,8 @@ const projects = [
     epoch: 'FUTURE', 
     hoverImage: "./hover/JGC.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/505c2c34-a1d0-4741-9dbe-49e1f057482f',
-    drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR09BIEp1bmdsZSBDbHViIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/573ff954-6dcb-4b39-b2f7-70c66ae2c6c7',
-    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRW1hYXIgUGFyayBIZWlnaHRzIDMiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
+    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiR09BIEp1bmdsZSBDbHViIl19LHsibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6ImRhdGEiLCJvcGVyYXRvciI6IklOIiwidmFsdWVzIjpbIjNEIl19XQ%3D%3D',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -2905,7 +2904,6 @@ const projects = [
     ],
     hoverImage: "./hover/SKI_id.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/9ef52fcd-281b-440d-9f92-268e93f0ccd6',
-    animationLink: 'https://aedasme.egnyte.com/navigate/file/2281ff71-09cf-460e-a553-b8b6b3abf7b7',
     visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/folder/b7471cee-1ff7-43b1-a3d9-1721f92183d9',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiVHJvamVuYSBTa2kgVmlsbGFnZSBSZXNpZGVudGlhbCBJRCJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     linkImages: {
@@ -2918,7 +2916,7 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=140a80cb-6f77-453c-a215-8caeb9238c22&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "he interior design of NEOM's Ski Village in Saudi Arabia reflects a seamless fusion of organic luxury and futuristic sophistication. The style is inspired by the natural contours of the surrounding mountainous landscape, evident in the fluid, sculptural forms of the ceiling and wall elements. Earth-toned materials like sandstone, marble, and warm woods create an inviting, grounded atmosphere while maintaining a modern edge.",
+        paragraph1: "The interior design of NEOM's Ski Village in Saudi Arabia reflects a seamless fusion of organic luxury and futuristic sophistication. The style is inspired by the natural contours of the surrounding mountainous landscape, evident in the fluid, sculptural forms of the ceiling and wall elements. Earth-toned materials like sandstone, marble, and warm woods create an inviting, grounded atmosphere while maintaining a modern edge.",
         paragraph2: "The space exudes elegance through its interplay of textures, with smooth, polished surfaces contrasted against layered, striated forms. Furniture pieces are minimalist yet plush, offering comfort while complementing the organic aesthetic. Large, panoramic windows connect the interiors to the breathtaking natural surroundings, further enhancing the space’s harmonious design.",
         paragraph3: "Soft ambient lighting accentuates the curves and details of the architecture, adding warmth and depth. This interior embodies a futuristic take on alpine luxury, blending innovation with a deep respect for the region’s natural beauty."
 
@@ -2994,7 +2992,7 @@ const projects = [
     hoverImage: "./hover/ESD.png",
     presentationLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/81bb8eba-6740-467c-87be-6f5a8b9d1ad2',
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiRW1hYXIgU291dGggRGV2ZWxvcG1lbnQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLkRXRyJdfV0%3D',
-    visualLink: 'https://aedasme.egnyte.com/navigate/file/63ee167b-10aa-4d01-9b5c-c4e1599db906',
+    visualLink: 'https://aedasme.egnyte.com/app/index.do#storage/file/5532087e-a8c1-4a99-b744-686fd4c9d72e',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -3446,9 +3444,9 @@ const projects = [
     // New fields for the description section
     descriptionImage : 'https://aedasme.egnyte.com/opendocument.do?entryId=dab978b1-c9f4-49ca-a7cb-7f594c93b302&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "Nabr is a new type of consumer-first housing company. Founded by Roni Bahar, Bjarke Ingels, and Nick Chim - combining their experience in real estate, architecture, and technology, respectively - Nabr is the result of a shared vision for an improved way of urban living, defined by quality, sustainability, and attainability.",
-        paragraph2: "Nabr uses technology and productization to increase the production of apartments available for sale in major cities, starting with SOFA One in San Jose which is co-designed by BIG and slated to break ground in late 2022.",
-        paragraph3: "Located at 98 E San Salvador, residents will be at the heart of SOFA, downtown San Jose's arts district, in close proximity to dining and local entertainment. The development is roughly a mile from Diridon Caltrain Station, one block from San Jose State University, and centrally located near all major tech employers, offering residents abundant access to commuting options."
+        paragraph1: "MBC Studios, located in Riyadh, Saudi Arabia, is strategically positioned near key landmarks such as Diriyah Oasis Amusement Center, At-Turaif District, Wadi Hanifa, and the Recreation Center. The proposed site, adjacent to a public park and with direct access from main roads, spans a comprehensive program of 40,000 sqm for offices, 10,000 sqm for studios, 4,000 sqm for workshops, and facilities for catering and welfare. The masterplan envisions a world-class media hub, seamlessly integrating functionality with a strong cultural and modern identity.",
+        paragraph2: "Two distinct massing options were explored: Modern, and Heritage + Modern. The Modern option features a sleek, ring-shaped design with linear studio boxes, creating two central campus zones. This concept includes a panoramic wrap screen, office bridges linking the studios, and a connection to the adjacent park, emphasizing innovation and connectivity.",
+        paragraph3: "The Heritage + Modern option combines Al-Turaif's heritage-inspired design with contemporary studio structures. Four studio blocks are arranged diagonally across the site, surrounded by smaller office buildings that mimic traditional urban layouts. This approach blends Riyadh’s cultural legacy with cutting-edge functionality, offering a unique fusion of tradition and innovation. Both designs position MBC Studios as a landmark media hub within Riyadh's evolving creative landscape."
     },
     teamMembers: "AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF, AFSDFADSFAFD, BOB SMITH, ADRIAN SMITH, BOB SMITH, SKI VILLAGE, AFDAFDSFA, AFSDFADFSAF, AFDAFDSFA, AFSDFADFSAF",
 
@@ -3472,7 +3470,7 @@ const projects = [
     client: "MODON",
     program: 'MASTERPLAN', 
     typology: 'MASTERPLAN', 
-    location: 'ABU DHABI',
+    location: 'ABU DHABI, UAE',
     scale: 'XL', 
     epoch: 'PRESENT', 
     hoverImage: "./hover/SAL.png",
@@ -3728,7 +3726,7 @@ const projects = [
     client: "MODON",
     program: 'HOSPITALITY', 
     typology: 'HOSPITALITY', 
-    location: 'ABU DHABI',
+    location: 'ABU DHABI,UAE',
     scale: 'M', 
     epoch: 'PRESENT', 
     hoverImage: "./hover/4SH.png",
@@ -3978,7 +3976,7 @@ const projects = [
     client: "MODON PROPERTIES",
     program: 'OTHERS', 
     typology: 'RETAIL / F&B', 
-    location: 'ABI DHABI',
+    location: 'ABU DHABI',
     scale: 'S', 
     epoch: 'FUTURE', 
     hoverImage: "./hover/ADC.png",
@@ -4065,7 +4063,7 @@ const projects = [
     client: "PRIVATE",
     program: 'RESIDENTIAL', 
     typology: 'RESIDENTIAL', 
-    location: 'DUBAI, UAE',
+    location: 'RAK, UAE',
     scale: 'S', 
     epoch: 'PRESENT', 
     hoverImage: "./hover/FRM.png",
@@ -4362,7 +4360,7 @@ const projects = [
     client: "ALDAR",
     program: 'RESIDENTIAL', 
     typology: 'RESIDENTIAL', 
-    location: 'ABU DHABI',
+    location: 'ABU DHABI, UAE',
     scale: 'M', 
     epoch: 'PRESENT', 
     tags: [
@@ -4373,7 +4371,6 @@ const projects = [
     drawingLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=file&location=%2FShared%2FDesign%20Index&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTWF5YW4gWWFzIE1hcmluYSJdfSx7Im5hbWVzcGFjZSI6ImxpYnJhcnkgcmVzb3VyY2UiLCJrZXkiOiJmaWx0ZSB0eXBlIiwib3BlcmF0b3IiOiJJTiIsInZhbHVlcyI6WyIuRFdHIl19XQ%3D%3D',
     visualLink: 'https://aedasme.egnyte.com/navigate/file/2afc97f3-8e20-416d-be51-68a827842167',
     animationLink: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/7.%20Project%20Media/Mayan%20Yas%20Marina/Animation',
-    threeDLink: 'https://aedasme.egnyte.com/app/index.do#storage/search/?type=all&location=&metadata=W3sibmFtZXNwYWNlIjoibGlicmFyeSByZXNvdXJjZSIsImtleSI6InByb2plY3QgbmFtZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiTkVPTSBTaW5kYWxhaCBJc2xhbmQiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZGF0YSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiM0QiXX0seyJuYW1lc3BhY2UiOiJsaWJyYXJ5IHJlc291cmNlIiwia2V5IjoiZmlsdGUgdHlwZSIsIm9wZXJhdG9yIjoiSU4iLCJ2YWx1ZXMiOlsiLlNLUCJdfV0%3D',
     linkImages: {
         presentation: 'https://aedasme.egnyte.com/opendocument.do?entryId=19cefd79-b795-4c38-aaaf-32abac12de53&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
         drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
@@ -4410,7 +4407,7 @@ const projects = [
     client: "AL NAHDA REAL ESTATE TR. CO. LLC",
     program: 'RESIDENTIAL', 
     typology: 'RESIDENTIAL', 
-    location: 'SHARJAH',
+    location: 'SHARJAH, UAE',
     scale: 'M', 
     epoch: 'PRESENT', 
     hoverImage: "./hover/SAH.png",
@@ -4533,7 +4530,7 @@ const projects = [
     client: "MODON",
     program: 'MASTERPLAN', 
     typology: 'MASTERPLAN', 
-    location: 'ABU DHABI',
+    location: 'ABU DHABI, UAE',
     scale: 'L', 
     epoch: 'PAST', 
     hoverImage: "./hover/LUL.png",
@@ -4664,7 +4661,7 @@ const projects = [
     client: "FISHERMAN'S COVE HOTEL LIMITED",
     program: 'MASTERPLAN', 
     typology: 'MASTERPLAN', 
-    location: 'ABU DHABI',
+    location: 'ABU DHABI, UAE',
     scale: 'L', 
     epoch: 'PRESENT', 
     hoverImage: "./hover/WMZ.png",
@@ -4766,7 +4763,7 @@ const projects = [
     },
     descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=e3ffb949-7b7f-44a4-9196-b1ec74a5525e&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true', 
     description: {
-        paragraph1: "The Straff Village Design is a visionary community development focused on providing high-quality accommodation and amenities for NEOM and third-party staff. The village will feature residential units, outdoor and indoor amenities, retail spaces, a 3-star hotel, and education facilities, all designed to foster a vibrant and interconnected community.",
+        paragraph1: "The Staff Village Design is a visionary community development focused on providing high-quality accommodation and amenities for NEOM and third-party staff. The village will feature residential units, outdoor and indoor amenities, retail spaces, a 3-star hotel, and education facilities, all designed to foster a vibrant and interconnected community.",
         paragraph2: "Inspired by a hybrid artificial landscape, the project merges the natural and built environments, reflecting the evolving relationship between the two. Drawing on historical and futuristic references like Mohenjo Daro, Roman camps, and Mars Colony concepts, the design embraces an innovative approach that evolves into a self-sustaining entity.",
         paragraph3: "Key design features include narrow streets for thermal comfort, pedestrian-friendly pathways to encourage movement, and multiple access points to create permeability and promote interaction. The village will provide a seamless living experience, combining functionality with a serene environment that supports both work and leisure."
     },
@@ -4835,7 +4832,7 @@ const projects = [
     client: "MODON",
     program: 'MASTERPLAN', 
     typology: 'MASTERPLAN', 
-    location: 'ABU DHABI',
+    location: 'ABU DHABI, UAE',
     scale: 'L', 
     epoch: 'FUTURE', 
     hoverImage: "./hover/KTM.png",
@@ -4876,7 +4873,7 @@ const projects = [
     client: "MODON",
     program: 'MASTERPLAN', 
     typology: 'MASTERPLAN', 
-    location: 'ABU DHABI',
+    location: 'ABU DHABI,UAE',
     scale: 'L', 
     epoch: 'FUTURE', 
     hoverImage: "./hover/KTD.png",
@@ -4915,7 +4912,7 @@ const projects = [
     client: "MODON",
     program: 'MASTERPLAN', 
     typology: 'MASTERPLAN', 
-    location: 'ABU DHABI',
+    location: 'ABU DHABI, UAE',
     scale: 'XL', 
     epoch: 'PAST', 
     hoverImage: "./hover/KSM.png",
@@ -5218,7 +5215,7 @@ const projects = [
     client: "MAF",
     program: 'RESIDENTIAL', 
     typology: 'RESIDENTIAL', 
-    location: 'KSA, SAUDI ARABIA',
+    location: 'DUBAI, UAE',
     scale: 'L', 
     epoch: 'PRESENT', 
     hoverImage: "./hover/GAF.png",
