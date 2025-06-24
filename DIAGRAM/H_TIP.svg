@@ -1,26 +1,19 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
   <defs>
     <style>
-      .cls-1, .cls-4 {
-        fill: #fff;
-      }
-
-      .cls-1, .cls-3 {
-        stroke: #000;
+      .cls-1 {
+        stroke: #fff;
         stroke-width: 3px;
       }
 
-      .cls-2, .cls-4 {
-        font-size: 20.01px;
+      .cls-2 {
+        font-size: 20px;
+        fill: #fff;
         font-family: AkkuratStd-Bold, AkkuratStd;
         font-weight: 700;
       }
     </style>
   </defs>
-  <circle class="cls-1" cx="1086.45" cy="776.24" r="68.5"/>
-  <circle class="cls-1" cx="1086.45" cy="776.24" r="68.5"/>
-  <text class="cls-2" transform="translate(1052.63 771.18)">TIPS &amp; <tspan x="0" y="24.01">TRICKS</tspan></text>
-  <circle class="cls-1" cx="1086.45" cy="776.24" r="68.5"/>
-  <circle class="cls-3" cx="1086.45" cy="776.24" r="68.5"/>
-  <text class="cls-4" transform="translate(1052.63 771.18)">TIPS &amp; <tspan x="0" y="24.01">TRICKS</tspan></text>
+  <circle class="cls-1" cx="1117.8" cy="749.5" r="68.5"/>
+  <text class="cls-2" transform="translate(1086.15 744.6)">TIPS &amp;<tspan x="0" y="24">TRICKS</tspan></text>
 </svg>

@@ -8,13 +8,12 @@
       }
 
       .cls-2 {
-        font-size: 20.01px;
+        font-size: 20px;
         font-family: AkkuratStd-Bold, AkkuratStd;
         font-weight: 700;
       }
     </style>
   </defs>
-  <circle class="cls-1" cx="1086.45" cy="776.24" r="68.5"/>
-  <circle class="cls-1" cx="1086.45" cy="776.24" r="68.5"/>
-  <text class="cls-2" transform="translate(1052.63 771.18)">TIPS &amp; <tspan x="0" y="24.01">TRICKS</tspan></text>
+  <circle class="cls-1" cx="1117.8" cy="749.5" r="68.5"/>
+  <text class="cls-2" transform="translate(1086.15 744.6)">TIPS &amp;<tspan x="0" y="24">TRICKS</tspan></text>
 </svg>

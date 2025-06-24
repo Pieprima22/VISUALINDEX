@@ -1025,7 +1025,7 @@ body {
 
 .image-SO .default-image,
 .image-SO .hover-image {
-    clip-path: inset(37.5% 26.5% 52% 67.5%);
+    clip-path: inset(33.8% 30.8% 53% 61.5%);
 }
 
 .image-REP .default-image,
@@ -1054,12 +1054,12 @@ body {
 
 .image-TOP .default-image,
 .image-TOP .hover-image {
-    clip-path: inset(54.5%  26.5% 35.5% 7.5%);
+    clip-path: inset(51% 30.8% 35.5% 61.5%);
 
 }
 .image-TIP .default-image,
 .image-TIP .hover-image {
-    clip-path: inset(65.5%  39.5% 21.5% 52.8%);
+    clip-path: inset(62.5% 38% 24% 54.5%);
 
 }
 
