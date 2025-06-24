@@ -5470,7 +5470,6 @@ function openProjectModal(project) {
     document.getElementById('projectDate').textContent = project.year || 'N/A';
     document.getElementById('projectClientValue').textContent = project.client || 'N/A';
     document.getElementById('projectTypologyValue').textContent = project.typology || 'N/A';
-    document.getElementById('teamMembers').textContent = project.teamMembers || 'Team members information not available';
 
     // Handle description paragraphs - only show if content exists
     const paragraphIds = ['descriptionParagraph1', 'descriptionParagraph2', 'descriptionParagraph3', 
