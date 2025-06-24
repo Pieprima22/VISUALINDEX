@@ -2848,7 +2848,7 @@ const projects = [
     coverImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=5bc8943e-f6b4-417e-ac5c-33c658ef5199&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     imageUrl : 'https://aedasme.egnyte.com/opendocument.do?entryId=4d2b83c9-0c69-41d5-86f6-e7717f4d49f8&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
     year: 2024, 
-    client: ' NEW MURABBA',
+    client: 'NEW MURABBA',
     program: 'MASTERPLAN', 
     typology: 'MASTERPLAN', 
     location: 'KSA, SAUDI ARABIA',
@@ -6652,87 +6652,88 @@ document.addEventListener("DOMContentLoaded", function () {
         projectElements.set(projectId, icon);
     });
 
-    function updateSearchResults(query) {
-        searchContent.innerHTML = "";
-        searchContent.style.display = query ? "block" : "none";
-        
-        if (!query) {
-            currentSearchResults.clear();
-            showAllProjects();
+function updateSearchResults(query) {
+    searchContent.innerHTML = "";
+    searchContent.style.display = query ? "block" : "none";
+    
+    if (!query) {
+        currentSearchResults.clear();
+        showAllProjects();
+        return;
+    }
+
+    const displayedResults = new Set();
+    currentSearchResults.clear();
+
+    // Add tag suggestions
+    const matchingTags = suggestions.tags.filter(tag => 
+        tag.toLowerCase().includes(query.toLowerCase()) && 
+        !displayedResults.has(`tag-${tag}`) // Use unique key for tags
+    );
+
+    matchingTags.forEach(tag => {
+        displayedResults.add(`tag-${tag}`); // Use unique key
+        const result = createSearchResult(null, tag, 'tag');
+        searchContent.appendChild(result);
+    });
+
+    // Add client suggestions
+    const matchingClients = suggestions.clients.filter(client => 
+        client.toLowerCase().includes(query.toLowerCase()) && 
+        !displayedResults.has(`client-${client}`) // Use unique key for clients
+    );
+
+    matchingClients.forEach(client => {
+        displayedResults.add(`client-${client}`); // Use unique key
+        const result = createSearchResult(null, client, 'client');
+        searchContent.appendChild(result);
+    });
+
+    // Project search logic
+    const startsWithQuery = [];
+    const containsQuery = [];
+    const otherMatches = [];
+    
+    projects.forEach(project => {
+        const projectTitle = project.title.toLowerCase();
+        const queryLower = query.toLowerCase();
+        const hasMatchingTag = project.tags && project.tags.some(tag => 
+            tag.toLowerCase().includes(queryLower)
+        );
+        const hasMatchingClient = project.client && 
+            project.client.toLowerCase().includes(queryLower);
+
+        // Changed this line to use unique key for projects
+        if (displayedResults.has(`project-${project.title}`)) {
             return;
         }
 
-        const displayedResults = new Set();
-        currentSearchResults.clear();
+        if (projectTitle.startsWith(queryLower)) {
+            startsWithQuery.push(project);
+        } else if (projectTitle.includes(queryLower)) {
+            containsQuery.push(project);
+        } else if (
+            project.typology?.toLowerCase().includes(queryLower) ||
+            project.program?.toLowerCase().includes(queryLower) ||
+            project.location?.toLowerCase().includes(queryLower) ||
+            hasMatchingTag ||
+            hasMatchingClient
+        ) {
+            otherMatches.push(project);
+        }
+    });
 
-        // Add tag suggestions
-        const matchingTags = suggestions.tags.filter(tag => 
-            tag.toLowerCase().includes(query.toLowerCase()) && 
-            !displayedResults.has(tag)
-        );
-
-        matchingTags.forEach(tag => {
-            displayedResults.add(tag);
-            const result = createSearchResult(null, tag, 'tag');
+    [...startsWithQuery, ...containsQuery, ...otherMatches].forEach(project => {
+        currentSearchResults.add(project);
+        if (!displayedResults.has(`project-${project.title}`)) { // Use unique key
+            displayedResults.add(`project-${project.title}`); // Use unique key
+            const result = createSearchResult(project);
             searchContent.appendChild(result);
-        });
+        }
+    });
 
-        // Add client suggestions
-        const matchingClients = suggestions.clients.filter(client => 
-            client.toLowerCase().includes(query.toLowerCase()) && 
-            !displayedResults.has(client)
-        );
-
-        matchingClients.forEach(client => {
-            displayedResults.add(client);
-            const result = createSearchResult(null, client, 'client');
-            searchContent.appendChild(result);
-        });
-
-        // Project search logic
-        const startsWithQuery = [];
-        const containsQuery = [];
-        const otherMatches = [];
-        
-        projects.forEach(project => {
-            const projectTitle = project.title.toLowerCase();
-            const queryLower = query.toLowerCase();
-            const hasMatchingTag = project.tags && project.tags.some(tag => 
-                tag.toLowerCase().includes(queryLower)
-            );
-            const hasMatchingClient = project.client && 
-                project.client.toLowerCase().includes(queryLower);
-
-            if (displayedResults.has(project.title)) {
-                return;
-            }
-
-            if (projectTitle.startsWith(queryLower)) {
-                startsWithQuery.push(project);
-            } else if (projectTitle.includes(queryLower)) {
-                containsQuery.push(project);
-            } else if (
-                project.typology?.toLowerCase().includes(queryLower) ||
-                project.program?.toLowerCase().includes(queryLower) ||
-                project.location?.toLowerCase().includes(queryLower) ||
-                hasMatchingTag ||
-                hasMatchingClient
-            ) {
-                otherMatches.push(project);
-            }
-        });
-
-        [...startsWithQuery, ...containsQuery, ...otherMatches].forEach(project => {
-            currentSearchResults.add(project);
-            if (!displayedResults.has(project.title)) {
-                displayedResults.add(project.title);
-                const result = createSearchResult(project);
-                searchContent.appendChild(result);
-            }
-        });
-
-        updateVisibilityBasedOnCurrentFilter();
-    }
+    updateVisibilityBasedOnCurrentFilter();
+}
 
     function createSearchResult(project, keyword = null, type = null) {
         const result = document.createElement("div");
