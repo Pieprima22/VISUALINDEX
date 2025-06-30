@@ -728,7 +728,7 @@ const projects = [
             drawing: 'https://aedasme.egnyte.com/opendocument.do?entryId=a98b211e-97c1-4a00-9921-90f2bd2bbf25&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
             visual: 'https://aedasme.egnyte.com/opendocument.do?entryId=5053e5c6-b76e-4b61-b568-7af0a166dc19&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',  
             animation: 'https://aedasme.egnyte.com/opendocument.do?entryId=c67d2c30-7997-4588-aa0f-7914291fc511&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
-            threeD: 'https://aedasme.egnyte.com/opendocument.do?entryId=96ff9ef9-c556-444c-8ae8-207546f3b95b&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
+            threeD: 'https://aedasme.egnyte.com/app/index.do#storage/files/1/Shared/Design%20Index/6.%20Masterplan/Model?p',
         },
         // New fields for the description section
         descriptionImage: 'https://aedasme.egnyte.com/opendocument.do?entryId=f9f1878c-9865-4a16-bc74-0f9035c8e155&forceDownload=false&thumbNail=true&w=1200&h=1200&type=proportional&preview=true&prefetch=true',
